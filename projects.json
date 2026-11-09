@@ -1,8 +1,8 @@
 {
   "source_user": "jpeckenpaugh",
-  "count": 48,
-  "live_count": 36,
-  "featured_count": 34,
+  "count": 56,
+  "live_count": 44,
+  "featured_count": 40,
   "category_order": [
     "Games",
     "AI/ML Experiments",
@@ -66,8 +66,8 @@
       "updated_at": "2026-10-18T11:17:40Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 145,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 259,
       "live_final_url": "https://aom.livive.net/",
       "live_error": null
     },
@@ -131,9 +131,69 @@
       "updated_at": "2026-10-18T11:17:41Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 137,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 362,
       "live_final_url": "https://chk.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "chs-livive-net",
+      "repo": "chs-livive-net",
+      "display_title": "Classic Chess & WebGPU AI Arena",
+      "tagline": "Play instant alpha-beta Minimax, challenge in-browser WebGPU LLM personas with live banter, spectate AI-vs-AI Arena matches, or pass and play locally.",
+      "short_description": "A full FIDE-rules chess client with four match modes: instant Minimax, in-browser WebLLM opponents, AI-vs-AI spectator arena, and local pass-and-play.",
+      "long_description": "Classic Chess pairs a responsive 8x8 board and complete FIDE rules - castling, en passant, promotion, 50-move draw, check and checkmate - with four ways to play. Jump into instant alpha-beta Minimax at three depths, load a local WebGPU model for in-character banter and move selection, watch two AI personas battle in the Arena, or hand the board back and forth in local pass-and-play. Move history, evaluation, and board flipping are built in; the standalone client is a single static index.html with no build step.",
+      "tags": [
+        "ai",
+        "chess",
+        "games",
+        "minimax",
+        "pass-and-play",
+        "webgpu",
+        "webllm"
+      ],
+      "tech": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "WebLLM",
+        "WebGPU"
+      ],
+      "category": "Games",
+      "live_url": "https://chs.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/chs-livive-net",
+      "has_live_demo": true,
+      "featured": true,
+      "status": "active",
+      "confidence": "high",
+      "notes": "Custom domain chs.livive.net from CNAME (HTTP 200). The standalone client is a single index.html; the README also documents embedding into the wasm-fb appliance window manager. No runtime build step.",
+      "demos": [
+        {
+          "label": "Play Chess",
+          "url": "https://chs.livive.net/"
+        }
+      ],
+      "how_to_play": [
+        {
+          "title": "Choose a match mode",
+          "body": "Pick Player vs Minimax, Player vs WebLLM, AI vs AI Arena, or Local Pass & Play from the mode selector."
+        },
+        {
+          "title": "Play or spectate",
+          "body": "Move pieces on the board; in WebLLM mode load a local model and watch streaming banter, or choose two personas in the Arena."
+        },
+        {
+          "title": "Use the board tools",
+          "body": "Start a New Game, flip the board, and follow evaluation and move history in the side panel."
+        }
+      ],
+      "thumb": "thumbnails/chs-livive-net.webp",
+      "updated_at": "2026-11-02T06:55:09Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 141,
+      "live_final_url": "https://chs.livive.net/",
       "live_error": null
     },
     {
@@ -193,8 +253,8 @@
       "updated_at": "2026-10-18T11:17:43Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 142,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 262,
       "live_final_url": "https://euchre.livive.net/",
       "live_error": null
     },
@@ -252,9 +312,67 @@
       "updated_at": "2026-10-18T11:17:44Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 124,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 177,
       "live_final_url": "https://gp.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "gm-livive-net",
+      "repo": "gm-livive-net",
+      "display_title": "Gem Miner",
+      "tagline": "A 3D geode-claim minesweeper: excavate the shell of a giant crystal geode, read face-local scanner numbers, and stake every gem before the pick gives out.",
+      "short_description": "A first-person 3D minesweeper played on the 488-voxel surface of a 10x10x10 cube, with face-local scanner numbers, chording, pick integrity, and a whole-cube finale.",
+      "long_description": "Gem Miner turns Minesweeper into a geode survey. The board is the 488-cell outer shell of a 10x10x10 cube: 428 basalt cells hide 60 gems, and scanner numbers describe the face you are viewing. Rotate the geode, excavate rock, right-click to stake suspected gems, and chord satisfied numbers to clear the rest of a face. Cracks cost pick integrity, staked gems auto-extract, and clearing all six faces reveals the mother lode. Built in Godot 4.7 with procedural geometry and a WebAssembly web export; no imported art assets.",
+      "tags": [
+        "3d",
+        "godot",
+        "minesweeper",
+        "puzzle",
+        "voxel",
+        "web-game"
+      ],
+      "tech": [
+        "Godot 4.7",
+        "GDScript",
+        "WebAssembly",
+        "WebGL"
+      ],
+      "category": "Games",
+      "live_url": "https://gm.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/gm-livive-net",
+      "has_live_demo": true,
+      "featured": true,
+      "status": "active",
+      "confidence": "high",
+      "notes": "Live at gm.livive.net (HTTP 200); the repo has no CNAME file, so the custom domain is configured in GitHub Pages settings. No license file detected. Author-documented gaps: no free-orbit camera, audio, or mobile-specific UI. Godot web export; thumbnail capture may need a longer WebGL settle.",
+      "demos": [
+        {
+          "label": "Play Gem Miner",
+          "url": "https://gm.livive.net/"
+        }
+      ],
+      "how_to_play": [
+        {
+          "title": "Read the face-local scanner",
+          "body": "Rotate the geode 90 degrees with arrow keys or WASD; numbers count gems around the viewed face, including shared edges and corners."
+        },
+        {
+          "title": "Excavate and stake",
+          "body": "Left-click rock to dig; left-clicking a gem cracks it, costs one pick integrity, and auto-stakes it. Right-click unrevealed cells to stake or unstake, and right-click a satisfied number to chord."
+        },
+        {
+          "title": "Clear all six faces",
+          "body": "Manage Easy/Medium/Hard pick integrity, use the cube-net survey panel, and clear every face to reveal the mother lode."
+        }
+      ],
+      "thumb": "thumbnails/gm-livive-net.webp",
+      "updated_at": "2026-10-27T08:05:16Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 169,
+      "live_final_url": "https://gm.livive.net/",
       "live_error": null
     },
     {
@@ -325,8 +443,8 @@
       "updated_at": "2026-10-18T11:17:46Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 136,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 227,
       "live_final_url": "https://lk.livive.net/",
       "live_error": null
     },
@@ -390,8 +508,8 @@
       "updated_at": "2026-10-18T11:17:47Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 189,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 252,
       "live_final_url": "https://lunar.livive.net/",
       "live_error": null
     },
@@ -452,8 +570,8 @@
       "updated_at": "2026-10-18T11:17:48Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 288,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 178,
       "live_final_url": "https://mines.livive.net/",
       "live_error": null
     },
@@ -514,9 +632,70 @@
       "updated_at": "2026-10-18T11:17:50Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 205,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 186,
       "live_final_url": "https://p2p-ttt.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "pp-livive-net",
+      "repo": "pp-livive-net",
+      "display_title": "Play Park",
+      "tagline": "A tiny 64x64 voxel playground: make a character, fill the park with neighbours and companions, and wander through mini-games and glider flights.",
+      "short_description": "A browser playground with a seeded 64x64 park, local DiceBear Voxel characters, companion pets, inventory, mini-games, minimap, and localStorage saves.",
+      "long_description": "Play Park is a small open-ended world rather than a single game. A seeded 64x64 tile park holds grass, paths, sand, ponds, flowers, and a crowd of wandering neighbours. Create a voxel character locally with DiceBear, then explore with WASD/arrows or click-to-pathfind. Each character carries a backpack with starter items: throw a ball for a companion to fetch, unfurl a giant Tic-Tac-Toe mat on the tiles, equip glider wings to cross water, or try the park's other activities. Companions, homes, goals, friends, stats, sound, and voice options live in a five-tab HUD; progress saves to localStorage. Plain HTML/CSS/ES modules, with no build step to serve.",
+      "tags": [
+        "canvas",
+        "character-creator",
+        "dicebear",
+        "open-world",
+        "sandbox",
+        "voxel",
+        "web-game"
+      ],
+      "tech": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "ES Modules",
+        "Canvas 2D",
+        "DiceBear"
+      ],
+      "category": "Games",
+      "live_url": "https://pp.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/pp-livive-net",
+      "has_live_demo": true,
+      "featured": true,
+      "status": "active",
+      "confidence": "high",
+      "notes": "Custom domain pp.livive.net from CNAME (HTTP 200). 64x64 seeded park with vendored DiceBear Voxel Art; avatar generation makes no runtime network requests. Repo is about 9.8 MB (assets/vendor). Thumbnail starts on the character-creator/setup view, which is intentional.",
+      "demos": [
+        {
+          "label": "Enter Play Park",
+          "url": "https://pp.livive.net/"
+        }
+      ],
+      "how_to_play": [
+        {
+          "title": "Make a character",
+          "body": "Pick a seed and customise hair, outfit, glasses, beard, skin, and clothing colours; choose a companion style or pet."
+        },
+        {
+          "title": "Explore the park",
+          "body": "Walk with WASD/arrows or click a tile to pathfind. Press Enter to open the HUD and manage backpack, companions, goals, friends, and stats."
+        },
+        {
+          "title": "Try the activities",
+          "body": "Throw the ball for Fetch, unroll the Tic-Tac-Toe mat, or equip glider wings and click a water tile to fly."
+        }
+      ],
+      "thumb": "thumbnails/pp-livive-net.webp",
+      "updated_at": "2026-11-03T02:39:35Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 89,
+      "live_final_url": "https://pp.livive.net/",
       "live_error": null
     },
     {
@@ -578,8 +757,8 @@
       "updated_at": "2026-10-18T11:17:51Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 98,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 173,
       "live_final_url": "https://t-sweep.livive.net/",
       "live_error": null
     },
@@ -635,9 +814,68 @@
       "updated_at": "2026-10-18T11:17:53Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 189,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 200,
       "live_final_url": "https://v-ttt.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "cc-livive-net",
+      "repo": "cc-livive-net",
+      "display_title": "Colour Cube",
+      "tagline": "A deterministic no_std Rust colour-cube environment with a WASM browser demo, RL action masks, and Thistlethwaite/Kociemba solvers.",
+      "short_description": "An 18-move 3x3x3 colour-cube state machine for RL and solver research, with cubie/facelet encodings, seeded scrambles, action masks, and two solvers - shared by CLI, native library, and WASM demo.",
+      "long_description": "cc-livive-net is a deterministic, dependency-free 3x3x3 colour-cube environment built for reinforcement learning and solver work. The core crate is no_std and exposes an 18-move API, cubie and facelet encodings, seeded uniform scrambles, canonical action masks, observations, and replay-verified Thistlethwaite and Kociemba solvers. The same Rust core backs the native library, CLI, and a browser demo compiled to WebAssembly; there is no second JavaScript cube implementation. The demo lets you scramble, solve, step through the solution, inspect live cubie/coordinate state, and run conformance checks. User-facing copy says 'colour cube' for trademark reasons.",
+      "tags": [
+        "colour-cube",
+        "reinforcement-learning",
+        "rust",
+        "solvers",
+        "state-machine",
+        "wasm"
+      ],
+      "tech": [
+        "Rust",
+        "WebAssembly",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "category": "AI/ML Experiments",
+      "live_url": "https://cc.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/cc-livive-net",
+      "has_live_demo": true,
+      "featured": true,
+      "status": "active",
+      "confidence": "high",
+      "notes": "Custom domain cc.livive.net from CNAME (HTTP 200). Rust core is no_std and shared by lib/CLI/WASM. Core milestones M0-M5 are done; the optional optimal oracle (M6) is partial. User-facing copy deliberately says 'colour cube' rather than the trademarked cube name.",
+      "demos": [
+        {
+          "label": "Open Colour Cube",
+          "url": "https://cc.livive.net/"
+        }
+      ],
+      "how_to_play": [
+        {
+          "title": "Scramble and solve",
+          "body": "Click Scramble, then Solve; choose a solver and watch the move sequence play back on the cube and unfolded net."
+        },
+        {
+          "title": "Inspect the state",
+          "body": "Use the Live state tab for cubie/coordinate arrays and the Rust types tab for the encoded observation and action-mask shapes."
+        },
+        {
+          "title": "Step through and verify",
+          "body": "Use the move list, play speed, reset, apply-sequence, copy-solution, and conformance checks to replay the result."
+        }
+      ],
+      "thumb": "thumbnails/cc-livive-net.webp",
+      "updated_at": "2026-10-25T04:25:01Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 97,
+      "live_final_url": "https://cc.livive.net/",
       "live_error": null
     },
     {
@@ -697,8 +935,8 @@
       "updated_at": "2026-10-29T02:48:52Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 207,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 170,
       "live_final_url": "https://rag.livive.net/",
       "live_error": null
     },
@@ -756,8 +994,8 @@
       "updated_at": "2026-10-18T11:24:51Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 82,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 265,
       "live_final_url": "https://seekdepth.net/",
       "live_error": null
     },
@@ -822,8 +1060,8 @@
       "updated_at": "2026-10-20T21:54:51Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 135,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 276,
       "live_final_url": "https://trot.livive.net/",
       "live_error": null
     },
@@ -886,8 +1124,8 @@
       "updated_at": "2026-10-24T07:12:08Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 143,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 224,
       "live_final_url": "https://mines-sm.livive.net/",
       "live_error": null
     },
@@ -928,8 +1166,8 @@
       "updated_at": "2026-10-18T11:25:01Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 157,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 195,
       "live_final_url": "https://seekdepth.org/",
       "live_error": null
     },
@@ -1104,6 +1342,65 @@
       "live_error": null
     },
     {
+      "key": "ckpe-livive-net",
+      "repo": "ckpe-livive-net",
+      "display_title": "CKPE - Constrained Kinematic Pose Estimator",
+      "tagline": "An inspectable browser studio for compiled human kinematics: 109 pose/sign sequences, Canvas overlays, frame scrubbing, and velocity-bound validation.",
+      "short_description": "A zero-dependency SPA that compiles studio keyframes into a deterministic kinematic instruction set and lets you inspect 109 learned/authored pose sequences with overlay modes and per-frame velocity readouts.",
+      "long_description": "CKPE (Constrained Kinematic Pose Estimator) is the visible surface of a Level 1 kinematic foundation. Expressive human motion is compiled from studio keyframes into a Domain Instruction Set (DIS); the browser runtime executes that grammar with vanilla forward kinematics and Canvas 2D, with no ML dependencies in production. The index view offers instant search and filters across 109 sequences (100 learned from native signers, 9 authored specifications), grouped by cranial, thoracic, and neutral space. Detail views align a live 2D projection against source keyframes, toggle Rig Only / 50% Overlay / Sample Only, scrub frame by frame, and report joint angles plus velocity deltas against the 12-degrees-per-frame 'no bamfing' bound. A speech view and provenance notes complete the studio.",
+      "tags": [
+        "animation",
+        "canvas",
+        "kinematics",
+        "pose-estimation",
+        "sign-language",
+        "vanilla-js"
+      ],
+      "tech": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "ES Modules",
+        "Canvas 2D"
+      ],
+      "category": "Computer Vision",
+      "live_url": "https://ckpe.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/ckpe-livive-net",
+      "has_live_demo": true,
+      "featured": true,
+      "status": "prototype",
+      "confidence": "high",
+      "notes": "Custom domain ckpe.livive.net from CNAME (HTTP 200). The live UI badges itself v1 alpha. Runtime is deterministic forward kinematics in Canvas 2D with zero production ML dependencies; build-time search/RL is not shipped in the SPA. Repo is about 33.8 MB.",
+      "demos": [
+        {
+          "label": "Open CKPE",
+          "url": "https://ckpe.livive.net/"
+        }
+      ],
+      "how_to_play": [
+        {
+          "title": "Browse the sequence index",
+          "body": "Search by name, body region, movement, or handshape; filter All/Compiled ASL/Calibration and cranial/thoracic/neutral space."
+        },
+        {
+          "title": "Open a detail view",
+          "body": "Compare the live canvas against source keyframes, switch Rig Only / 50% Overlay / Sample Only, and use corner views."
+        },
+        {
+          "title": "Scrub the motion",
+          "body": "Drag the frame slider or use play/step controls; read joint angles, velocity deltas, phase tracks, and the silhouette-fit reward badge."
+        }
+      ],
+      "thumb": "thumbnails/ckpe-livive-net.webp",
+      "updated_at": "2026-10-23T07:01:46Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 90,
+      "live_final_url": "https://ckpe.livive.net/",
+      "live_error": null
+    },
+    {
       "key": "fourcast-livive-net",
       "repo": "fourcast-livive-net",
       "display_title": "fourcast · Four Visual Paradigms",
@@ -1166,8 +1463,8 @@
       "updated_at": "2026-10-20T21:54:53Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 89,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 175,
       "live_final_url": "https://fourcast.livive.net/",
       "live_error": null
     },
@@ -1234,8 +1531,8 @@
       "updated_at": "2026-10-20T21:54:55Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 61,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 181,
       "live_final_url": "https://ocr.livive.net/",
       "live_error": null
     },
@@ -1299,8 +1596,8 @@
       "updated_at": "2026-10-21T05:24:03Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 106,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 200,
       "live_final_url": "https://chtbx.livive.net/",
       "live_error": null
     },
@@ -1361,8 +1658,8 @@
       "updated_at": "2026-10-18T11:37:21Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 106,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 186,
       "live_final_url": "https://hebrew.livive.net/",
       "live_error": null
     },
@@ -1425,9 +1722,69 @@
       "updated_at": "2026-11-09T08:07:14Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 49,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 166,
       "live_final_url": "https://hindi.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "kor-livive-net",
+      "repo": "kor-livive-net",
+      "display_title": "Korean Language Buddy",
+      "tagline": "Calm, situational Korean practice with interactive dialogue scenarios, polite etiquette feedback, and audio pronunciation.",
+      "short_description": "A learner-profile Korean tutor with ten themed lessons, branching dialogue scenarios, flashcards, quizzes, a word bank, and browser speech playback.",
+      "long_description": "Korean Language Buddy is a zero-build browser tutor for situational Korean. Learners create a profile, work through ten themed lessons, and practice each scene as a short dialogue: read or hear the Korean line, reveal phonetics and English, choose a culturally appropriate reply, and get etiquette feedback. Every lesson links to flashcards, a five-question quiz, and a searchable word bank; stars and per-learner progress persist locally. Audio uses the browser speech APIs, and all content ships as static HTML/CSS/JS with no server or install.",
+      "tags": [
+        "education",
+        "flashcards",
+        "korean",
+        "language-learning",
+        "quiz",
+        "speech-synthesis",
+        "vanilla-js"
+      ],
+      "tech": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "JSON",
+        "Browser Speech Synthesis"
+      ],
+      "category": "Language Tools",
+      "live_url": "https://kor.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/kor-livive-net",
+      "has_live_demo": true,
+      "featured": true,
+      "status": "active",
+      "confidence": "high",
+      "notes": "Custom domain kor.livive.net from CNAME (HTTP 200). The repo README is still the stale two-line 'kb-livive-net' stub; catalog copy is authored from the live UI. The repo also carries a nested pp-livive-net submodule, so initialize top-level submodules non-recursively.",
+      "demos": [
+        {
+          "label": "Start Learning",
+          "url": "https://kor.livive.net/"
+        }
+      ],
+      "how_to_play": [
+        {
+          "title": "Create a learner profile",
+          "body": "Choose an avatar and name, or use Quick Start as Guest. Progress and stars are tracked per learner on the device."
+        },
+        {
+          "title": "Work through a dialogue",
+          "body": "Pick a lesson, read or hear the Korean line, reveal phonetics and English, and choose the polite response to earn stars."
+        },
+        {
+          "title": "Reinforce with cards and quiz",
+          "body": "Open flashcards, take the five-question quiz, or browse the word bank; audio buttons replay pronunciation."
+        }
+      ],
+      "thumb": "thumbnails/kor-livive-net.webp",
+      "updated_at": "2026-11-09T09:13:49Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 255,
+      "live_final_url": "https://kor.livive.net/",
       "live_error": null
     },
     {
@@ -1486,8 +1843,8 @@
       "updated_at": "2026-10-20T01:50:11Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 91,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 170,
       "live_final_url": "https://nexttext.livive.net/",
       "live_error": null
     },
@@ -1552,8 +1909,8 @@
       "updated_at": "2026-10-20T21:54:59Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 170,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 180,
       "live_final_url": "https://yds.livive.net/",
       "live_error": null
     },
@@ -1708,8 +2065,8 @@
       "updated_at": "2026-10-18T11:34:31Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 97,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 269,
       "live_final_url": "https://snow-cuad.livive.net/",
       "live_error": null
     },
@@ -1758,8 +2115,8 @@
       "updated_at": "2026-10-20T09:45:55Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 72,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 182,
       "live_final_url": "https://compliance.livive.net/",
       "live_error": null
     },
@@ -1824,9 +2181,105 @@
       "updated_at": "2026-10-23T13:15:10Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 258,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 237,
       "live_final_url": "https://sprites.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "mo-lab-livive-net",
+      "repo": "mo-lab-livive-net",
+      "display_title": "ModelOps Lab",
+      "tagline": "A self-hosted reference implementation of the full MLOps lifecycle - dataset to training, registry, serving, monitoring, drift, retraining, and rollback.",
+      "short_description": "A reproducible Python/MLflow/PostgreSQL lab that moves a model through versioned data, training, promotion gates, FastAPI serving, drift detection, retraining, and rollback.",
+      "long_description": "ModelOps Lab is a working reference for the operational path around a model, not the model itself. It starts with a seeded synthetic dataset generator and schema-validated, fingerprintable artifacts; trains a deterministic scikit-learn pipeline that records a complete MLflow run; applies a policy-checked promotion gate with a transactional PostgreSQL active-model pointer; and serves predictions through FastAPI with Prometheus metrics and prediction-event logging. From there it replays labeled traffic to compare data and performance drift, generates JSON/HTML drift reports, and closes the loop by training and evaluating a retraining candidate without auto-promoting it. Docker Compose wires PostgreSQL, MLflow, and the API together; the static lifecycle page documents the whole path.",
+      "tags": [
+        "data-versioning",
+        "docker",
+        "drift-detection",
+        "fastapi",
+        "mlflow",
+        "mlops",
+        "postgresql",
+        "python"
+      ],
+      "tech": [
+        "Python 3.12",
+        "FastAPI",
+        "MLflow",
+        "PostgreSQL",
+        "scikit-learn",
+        "Docker Compose",
+        "Prometheus",
+        "SQLAlchemy"
+      ],
+      "category": "Dev Tools",
+      "live_url": "https://mo-lab.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/mo-lab-livive-net",
+      "has_live_demo": true,
+      "featured": false,
+      "status": "active",
+      "confidence": "high",
+      "notes": "Custom domain mo-lab.livive.net from CNAME (HTTP 200). Live site is the generated static lifecycle/status page, not an interactive API. No license file detected. The full loop requires Python 3.12, uv, Docker Compose, PostgreSQL, and MLflow.",
+      "demos": [
+        {
+          "label": "Read the Lifecycle",
+          "url": "https://mo-lab.livive.net/"
+        }
+      ],
+      "thumb": "thumbnails/mo-lab-livive-net.webp",
+      "updated_at": "2026-10-24T16:35:12Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 91,
+      "live_final_url": "https://mo-lab.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "snap-cite-livive-net",
+      "repo": "snap-cite-livive-net",
+      "display_title": "Snap Cite",
+      "tagline": "Offline, reproducible grounding reports for explicit Roblox/Luau API claims - a pinned snapshot, a deterministic finding, and a self-contained citation.",
+      "short_description": "A Python grounding-report generator that pins a frozen API snapshot, checks explicit presence claims against a versioned touchstone, and emits reproducible green/yellow/red citations with an offline replay.",
+      "long_description": "Snap Cite is a citation generator for explicit claims about Roblox/Luau API presence under agentic authorship. Each report pins a frozen API snapshot and a versioned touchstone, records a deterministic finding, and emits a self-contained report with a manifest, evidence, and a reproducible replay path. Findings are marked green (valid), yellow (caution), or red (stopped); the CLI builds and replays offline against bundled snapshot/source/schema/rubric, and PDF/HTML output is produced with ReportLab. The project is development staging, not freeze-qualified: the public demo uses a locally authored miniature snapshot and is not official Roblox API evidence or a mined agent failure. Green presence does not qualify a merge or release.",
+      "tags": [
+        "citation",
+        "grounding",
+        "luau",
+        "provenance",
+        "python",
+        "reproducibility",
+        "roblox"
+      ],
+      "tech": [
+        "Python",
+        "jsonschema",
+        "ReportLab",
+        "Pillow",
+        "HTML/CSS"
+      ],
+      "category": "Dev Tools",
+      "live_url": "https://sc.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/snap-cite-livive-net",
+      "has_live_demo": true,
+      "featured": false,
+      "status": "prototype",
+      "confidence": "high",
+      "notes": "Live at sc.livive.net (CNAME) as a static evidence demo; HTTP 200. The repo itself has no web application - the demo is a static report page. README explicitly marks this as development staging, not freeze qualified; copy must not imply official Roblox API evidence or a merge gate. Key remains snap-cite-livive-net while the live domain is sc.livive.net.",
+      "demos": [
+        {
+          "label": "Read Evidence Demo",
+          "url": "https://sc.livive.net/"
+        }
+      ],
+      "thumb": "thumbnails/snap-cite-livive-net.webp",
+      "updated_at": "2026-10-22T02:53:36Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 101,
+      "live_final_url": "https://sc.livive.net/",
       "live_error": null
     },
     {
@@ -2005,8 +2458,8 @@
       "updated_at": "2026-11-09T08:07:14Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 85,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 207,
       "live_final_url": "https://tc.livive.net/",
       "live_error": null
     },
@@ -2066,8 +2519,8 @@
       "updated_at": "2026-10-18T13:36:48Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 118,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 182,
       "live_final_url": "https://wasm.livive.net/",
       "live_error": null
     },
@@ -2263,8 +2716,8 @@
       "updated_at": "2026-11-09T08:13:06Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 159,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 195,
       "live_final_url": "https://c3pa.livive.net/",
       "live_error": null
     },
@@ -2338,8 +2791,8 @@
       "updated_at": "2026-10-18T11:29:48Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 149,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 168,
       "live_final_url": "https://ch.livive.net/",
       "live_error": null
     },
@@ -2403,8 +2856,8 @@
       "updated_at": "2026-10-20T09:49:53Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 71,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 171,
       "live_final_url": "https://driver.livive.net/",
       "live_error": null
     },
@@ -2470,8 +2923,8 @@
       "updated_at": "2026-10-18T11:29:50Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 97,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 183,
       "live_final_url": "https://ea.livive.net/",
       "live_error": null
     },
@@ -2530,8 +2983,8 @@
       "updated_at": "2026-10-18T11:30:03Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 66,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 187,
       "live_final_url": "https://fountain.livive.net/",
       "live_error": null
     },
@@ -2607,8 +3060,8 @@
       "updated_at": "2026-10-20T17:46:43Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 13,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 90,
       "live_final_url": "https://oblique.livive.net/",
       "live_error": null
     },
@@ -2668,8 +3121,8 @@
       "updated_at": "2026-10-18T11:29:53Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 138,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 192,
       "live_final_url": "https://motion.livive.net/",
       "live_error": null
     },
@@ -2733,8 +3186,8 @@
       "updated_at": "2026-11-09T08:13:01Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 142,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 177,
       "live_final_url": "https://vid.livive.net/",
       "live_error": null
     },
@@ -2808,8 +3261,8 @@
       "updated_at": "2026-10-18T11:31:56Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:48:09Z",
-      "live_latency_ms": 109,
+      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_latency_ms": 188,
       "live_final_url": "https://tech.livive.net/",
       "live_error": null
     }
@@ -2871,8 +3324,8 @@
           "updated_at": "2026-10-18T11:17:40Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 145,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 259,
           "live_final_url": "https://aom.livive.net/",
           "live_error": null
         },
@@ -2936,9 +3389,69 @@
           "updated_at": "2026-10-18T11:17:41Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 137,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 362,
           "live_final_url": "https://chk.livive.net/",
+          "live_error": null
+        },
+        {
+          "key": "chs-livive-net",
+          "repo": "chs-livive-net",
+          "display_title": "Classic Chess & WebGPU AI Arena",
+          "tagline": "Play instant alpha-beta Minimax, challenge in-browser WebGPU LLM personas with live banter, spectate AI-vs-AI Arena matches, or pass and play locally.",
+          "short_description": "A full FIDE-rules chess client with four match modes: instant Minimax, in-browser WebLLM opponents, AI-vs-AI spectator arena, and local pass-and-play.",
+          "long_description": "Classic Chess pairs a responsive 8x8 board and complete FIDE rules - castling, en passant, promotion, 50-move draw, check and checkmate - with four ways to play. Jump into instant alpha-beta Minimax at three depths, load a local WebGPU model for in-character banter and move selection, watch two AI personas battle in the Arena, or hand the board back and forth in local pass-and-play. Move history, evaluation, and board flipping are built in; the standalone client is a single static index.html with no build step.",
+          "tags": [
+            "ai",
+            "chess",
+            "games",
+            "minimax",
+            "pass-and-play",
+            "webgpu",
+            "webllm"
+          ],
+          "tech": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "WebLLM",
+            "WebGPU"
+          ],
+          "category": "Games",
+          "live_url": "https://chs.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/chs-livive-net",
+          "has_live_demo": true,
+          "featured": true,
+          "status": "active",
+          "confidence": "high",
+          "notes": "Custom domain chs.livive.net from CNAME (HTTP 200). The standalone client is a single index.html; the README also documents embedding into the wasm-fb appliance window manager. No runtime build step.",
+          "demos": [
+            {
+              "label": "Play Chess",
+              "url": "https://chs.livive.net/"
+            }
+          ],
+          "how_to_play": [
+            {
+              "title": "Choose a match mode",
+              "body": "Pick Player vs Minimax, Player vs WebLLM, AI vs AI Arena, or Local Pass & Play from the mode selector."
+            },
+            {
+              "title": "Play or spectate",
+              "body": "Move pieces on the board; in WebLLM mode load a local model and watch streaming banter, or choose two personas in the Arena."
+            },
+            {
+              "title": "Use the board tools",
+              "body": "Start a New Game, flip the board, and follow evaluation and move history in the side panel."
+            }
+          ],
+          "thumb": "thumbnails/chs-livive-net.webp",
+          "updated_at": "2026-11-02T06:55:09Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 141,
+          "live_final_url": "https://chs.livive.net/",
           "live_error": null
         },
         {
@@ -2998,8 +3511,8 @@
           "updated_at": "2026-10-18T11:17:43Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 142,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 262,
           "live_final_url": "https://euchre.livive.net/",
           "live_error": null
         },
@@ -3057,9 +3570,67 @@
           "updated_at": "2026-10-18T11:17:44Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 124,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 177,
           "live_final_url": "https://gp.livive.net/",
+          "live_error": null
+        },
+        {
+          "key": "gm-livive-net",
+          "repo": "gm-livive-net",
+          "display_title": "Gem Miner",
+          "tagline": "A 3D geode-claim minesweeper: excavate the shell of a giant crystal geode, read face-local scanner numbers, and stake every gem before the pick gives out.",
+          "short_description": "A first-person 3D minesweeper played on the 488-voxel surface of a 10x10x10 cube, with face-local scanner numbers, chording, pick integrity, and a whole-cube finale.",
+          "long_description": "Gem Miner turns Minesweeper into a geode survey. The board is the 488-cell outer shell of a 10x10x10 cube: 428 basalt cells hide 60 gems, and scanner numbers describe the face you are viewing. Rotate the geode, excavate rock, right-click to stake suspected gems, and chord satisfied numbers to clear the rest of a face. Cracks cost pick integrity, staked gems auto-extract, and clearing all six faces reveals the mother lode. Built in Godot 4.7 with procedural geometry and a WebAssembly web export; no imported art assets.",
+          "tags": [
+            "3d",
+            "godot",
+            "minesweeper",
+            "puzzle",
+            "voxel",
+            "web-game"
+          ],
+          "tech": [
+            "Godot 4.7",
+            "GDScript",
+            "WebAssembly",
+            "WebGL"
+          ],
+          "category": "Games",
+          "live_url": "https://gm.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/gm-livive-net",
+          "has_live_demo": true,
+          "featured": true,
+          "status": "active",
+          "confidence": "high",
+          "notes": "Live at gm.livive.net (HTTP 200); the repo has no CNAME file, so the custom domain is configured in GitHub Pages settings. No license file detected. Author-documented gaps: no free-orbit camera, audio, or mobile-specific UI. Godot web export; thumbnail capture may need a longer WebGL settle.",
+          "demos": [
+            {
+              "label": "Play Gem Miner",
+              "url": "https://gm.livive.net/"
+            }
+          ],
+          "how_to_play": [
+            {
+              "title": "Read the face-local scanner",
+              "body": "Rotate the geode 90 degrees with arrow keys or WASD; numbers count gems around the viewed face, including shared edges and corners."
+            },
+            {
+              "title": "Excavate and stake",
+              "body": "Left-click rock to dig; left-clicking a gem cracks it, costs one pick integrity, and auto-stakes it. Right-click unrevealed cells to stake or unstake, and right-click a satisfied number to chord."
+            },
+            {
+              "title": "Clear all six faces",
+              "body": "Manage Easy/Medium/Hard pick integrity, use the cube-net survey panel, and clear every face to reveal the mother lode."
+            }
+          ],
+          "thumb": "thumbnails/gm-livive-net.webp",
+          "updated_at": "2026-10-27T08:05:16Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 169,
+          "live_final_url": "https://gm.livive.net/",
           "live_error": null
         },
         {
@@ -3130,8 +3701,8 @@
           "updated_at": "2026-10-18T11:17:46Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 136,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 227,
           "live_final_url": "https://lk.livive.net/",
           "live_error": null
         },
@@ -3195,8 +3766,8 @@
           "updated_at": "2026-10-18T11:17:47Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 189,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 252,
           "live_final_url": "https://lunar.livive.net/",
           "live_error": null
         },
@@ -3257,8 +3828,8 @@
           "updated_at": "2026-10-18T11:17:48Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 288,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 178,
           "live_final_url": "https://mines.livive.net/",
           "live_error": null
         },
@@ -3319,9 +3890,70 @@
           "updated_at": "2026-10-18T11:17:50Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 205,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 186,
           "live_final_url": "https://p2p-ttt.livive.net/",
+          "live_error": null
+        },
+        {
+          "key": "pp-livive-net",
+          "repo": "pp-livive-net",
+          "display_title": "Play Park",
+          "tagline": "A tiny 64x64 voxel playground: make a character, fill the park with neighbours and companions, and wander through mini-games and glider flights.",
+          "short_description": "A browser playground with a seeded 64x64 park, local DiceBear Voxel characters, companion pets, inventory, mini-games, minimap, and localStorage saves.",
+          "long_description": "Play Park is a small open-ended world rather than a single game. A seeded 64x64 tile park holds grass, paths, sand, ponds, flowers, and a crowd of wandering neighbours. Create a voxel character locally with DiceBear, then explore with WASD/arrows or click-to-pathfind. Each character carries a backpack with starter items: throw a ball for a companion to fetch, unfurl a giant Tic-Tac-Toe mat on the tiles, equip glider wings to cross water, or try the park's other activities. Companions, homes, goals, friends, stats, sound, and voice options live in a five-tab HUD; progress saves to localStorage. Plain HTML/CSS/ES modules, with no build step to serve.",
+          "tags": [
+            "canvas",
+            "character-creator",
+            "dicebear",
+            "open-world",
+            "sandbox",
+            "voxel",
+            "web-game"
+          ],
+          "tech": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "ES Modules",
+            "Canvas 2D",
+            "DiceBear"
+          ],
+          "category": "Games",
+          "live_url": "https://pp.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/pp-livive-net",
+          "has_live_demo": true,
+          "featured": true,
+          "status": "active",
+          "confidence": "high",
+          "notes": "Custom domain pp.livive.net from CNAME (HTTP 200). 64x64 seeded park with vendored DiceBear Voxel Art; avatar generation makes no runtime network requests. Repo is about 9.8 MB (assets/vendor). Thumbnail starts on the character-creator/setup view, which is intentional.",
+          "demos": [
+            {
+              "label": "Enter Play Park",
+              "url": "https://pp.livive.net/"
+            }
+          ],
+          "how_to_play": [
+            {
+              "title": "Make a character",
+              "body": "Pick a seed and customise hair, outfit, glasses, beard, skin, and clothing colours; choose a companion style or pet."
+            },
+            {
+              "title": "Explore the park",
+              "body": "Walk with WASD/arrows or click a tile to pathfind. Press Enter to open the HUD and manage backpack, companions, goals, friends, and stats."
+            },
+            {
+              "title": "Try the activities",
+              "body": "Throw the ball for Fetch, unroll the Tic-Tac-Toe mat, or equip glider wings and click a water tile to fly."
+            }
+          ],
+          "thumb": "thumbnails/pp-livive-net.webp",
+          "updated_at": "2026-11-03T02:39:35Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 89,
+          "live_final_url": "https://pp.livive.net/",
           "live_error": null
         },
         {
@@ -3383,8 +4015,8 @@
           "updated_at": "2026-10-18T11:17:51Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 98,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 173,
           "live_final_url": "https://t-sweep.livive.net/",
           "live_error": null
         },
@@ -3440,8 +4072,8 @@
           "updated_at": "2026-10-18T11:17:53Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 189,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 200,
           "live_final_url": "https://v-ttt.livive.net/",
           "live_error": null
         }
@@ -3450,6 +4082,65 @@
     {
       "category": "AI/ML Experiments",
       "projects": [
+        {
+          "key": "cc-livive-net",
+          "repo": "cc-livive-net",
+          "display_title": "Colour Cube",
+          "tagline": "A deterministic no_std Rust colour-cube environment with a WASM browser demo, RL action masks, and Thistlethwaite/Kociemba solvers.",
+          "short_description": "An 18-move 3x3x3 colour-cube state machine for RL and solver research, with cubie/facelet encodings, seeded scrambles, action masks, and two solvers - shared by CLI, native library, and WASM demo.",
+          "long_description": "cc-livive-net is a deterministic, dependency-free 3x3x3 colour-cube environment built for reinforcement learning and solver work. The core crate is no_std and exposes an 18-move API, cubie and facelet encodings, seeded uniform scrambles, canonical action masks, observations, and replay-verified Thistlethwaite and Kociemba solvers. The same Rust core backs the native library, CLI, and a browser demo compiled to WebAssembly; there is no second JavaScript cube implementation. The demo lets you scramble, solve, step through the solution, inspect live cubie/coordinate state, and run conformance checks. User-facing copy says 'colour cube' for trademark reasons.",
+          "tags": [
+            "colour-cube",
+            "reinforcement-learning",
+            "rust",
+            "solvers",
+            "state-machine",
+            "wasm"
+          ],
+          "tech": [
+            "Rust",
+            "WebAssembly",
+            "JavaScript",
+            "HTML5",
+            "CSS3"
+          ],
+          "category": "AI/ML Experiments",
+          "live_url": "https://cc.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/cc-livive-net",
+          "has_live_demo": true,
+          "featured": true,
+          "status": "active",
+          "confidence": "high",
+          "notes": "Custom domain cc.livive.net from CNAME (HTTP 200). Rust core is no_std and shared by lib/CLI/WASM. Core milestones M0-M5 are done; the optional optimal oracle (M6) is partial. User-facing copy deliberately says 'colour cube' rather than the trademarked cube name.",
+          "demos": [
+            {
+              "label": "Open Colour Cube",
+              "url": "https://cc.livive.net/"
+            }
+          ],
+          "how_to_play": [
+            {
+              "title": "Scramble and solve",
+              "body": "Click Scramble, then Solve; choose a solver and watch the move sequence play back on the cube and unfolded net."
+            },
+            {
+              "title": "Inspect the state",
+              "body": "Use the Live state tab for cubie/coordinate arrays and the Rust types tab for the encoded observation and action-mask shapes."
+            },
+            {
+              "title": "Step through and verify",
+              "body": "Use the move list, play speed, reset, apply-sequence, copy-solution, and conformance checks to replay the result."
+            }
+          ],
+          "thumb": "thumbnails/cc-livive-net.webp",
+          "updated_at": "2026-10-25T04:25:01Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 97,
+          "live_final_url": "https://cc.livive.net/",
+          "live_error": null
+        },
         {
           "key": "rag-poc",
           "repo": "rag-poc",
@@ -3507,8 +4198,8 @@
           "updated_at": "2026-10-29T02:48:52Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 207,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 170,
           "live_final_url": "https://rag.livive.net/",
           "live_error": null
         },
@@ -3566,8 +4257,8 @@
           "updated_at": "2026-10-18T11:24:51Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 82,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 265,
           "live_final_url": "https://seekdepth.net/",
           "live_error": null
         },
@@ -3632,8 +4323,8 @@
           "updated_at": "2026-10-20T21:54:51Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 135,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 276,
           "live_final_url": "https://trot.livive.net/",
           "live_error": null
         },
@@ -3696,8 +4387,8 @@
           "updated_at": "2026-10-24T07:12:08Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 143,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 224,
           "live_final_url": "https://mines-sm.livive.net/",
           "live_error": null
         },
@@ -3738,8 +4429,8 @@
           "updated_at": "2026-10-18T11:25:01Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 157,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 195,
           "live_final_url": "https://seekdepth.org/",
           "live_error": null
         },
@@ -3919,6 +4610,65 @@
       "category": "Computer Vision",
       "projects": [
         {
+          "key": "ckpe-livive-net",
+          "repo": "ckpe-livive-net",
+          "display_title": "CKPE - Constrained Kinematic Pose Estimator",
+          "tagline": "An inspectable browser studio for compiled human kinematics: 109 pose/sign sequences, Canvas overlays, frame scrubbing, and velocity-bound validation.",
+          "short_description": "A zero-dependency SPA that compiles studio keyframes into a deterministic kinematic instruction set and lets you inspect 109 learned/authored pose sequences with overlay modes and per-frame velocity readouts.",
+          "long_description": "CKPE (Constrained Kinematic Pose Estimator) is the visible surface of a Level 1 kinematic foundation. Expressive human motion is compiled from studio keyframes into a Domain Instruction Set (DIS); the browser runtime executes that grammar with vanilla forward kinematics and Canvas 2D, with no ML dependencies in production. The index view offers instant search and filters across 109 sequences (100 learned from native signers, 9 authored specifications), grouped by cranial, thoracic, and neutral space. Detail views align a live 2D projection against source keyframes, toggle Rig Only / 50% Overlay / Sample Only, scrub frame by frame, and report joint angles plus velocity deltas against the 12-degrees-per-frame 'no bamfing' bound. A speech view and provenance notes complete the studio.",
+          "tags": [
+            "animation",
+            "canvas",
+            "kinematics",
+            "pose-estimation",
+            "sign-language",
+            "vanilla-js"
+          ],
+          "tech": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "ES Modules",
+            "Canvas 2D"
+          ],
+          "category": "Computer Vision",
+          "live_url": "https://ckpe.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/ckpe-livive-net",
+          "has_live_demo": true,
+          "featured": true,
+          "status": "prototype",
+          "confidence": "high",
+          "notes": "Custom domain ckpe.livive.net from CNAME (HTTP 200). The live UI badges itself v1 alpha. Runtime is deterministic forward kinematics in Canvas 2D with zero production ML dependencies; build-time search/RL is not shipped in the SPA. Repo is about 33.8 MB.",
+          "demos": [
+            {
+              "label": "Open CKPE",
+              "url": "https://ckpe.livive.net/"
+            }
+          ],
+          "how_to_play": [
+            {
+              "title": "Browse the sequence index",
+              "body": "Search by name, body region, movement, or handshape; filter All/Compiled ASL/Calibration and cranial/thoracic/neutral space."
+            },
+            {
+              "title": "Open a detail view",
+              "body": "Compare the live canvas against source keyframes, switch Rig Only / 50% Overlay / Sample Only, and use corner views."
+            },
+            {
+              "title": "Scrub the motion",
+              "body": "Drag the frame slider or use play/step controls; read joint angles, velocity deltas, phase tracks, and the silhouette-fit reward badge."
+            }
+          ],
+          "thumb": "thumbnails/ckpe-livive-net.webp",
+          "updated_at": "2026-10-23T07:01:46Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 90,
+          "live_final_url": "https://ckpe.livive.net/",
+          "live_error": null
+        },
+        {
           "key": "fourcast-livive-net",
           "repo": "fourcast-livive-net",
           "display_title": "fourcast · Four Visual Paradigms",
@@ -3981,8 +4731,8 @@
           "updated_at": "2026-10-20T21:54:53Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 89,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 175,
           "live_final_url": "https://fourcast.livive.net/",
           "live_error": null
         },
@@ -4049,8 +4799,8 @@
           "updated_at": "2026-10-20T21:54:55Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 61,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 181,
           "live_final_url": "https://ocr.livive.net/",
           "live_error": null
         }
@@ -4119,8 +4869,8 @@
           "updated_at": "2026-10-21T05:24:03Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 106,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 200,
           "live_final_url": "https://chtbx.livive.net/",
           "live_error": null
         },
@@ -4181,8 +4931,8 @@
           "updated_at": "2026-10-18T11:37:21Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 106,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 186,
           "live_final_url": "https://hebrew.livive.net/",
           "live_error": null
         },
@@ -4245,9 +4995,69 @@
           "updated_at": "2026-11-09T08:07:14Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 49,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 166,
           "live_final_url": "https://hindi.livive.net/",
+          "live_error": null
+        },
+        {
+          "key": "kor-livive-net",
+          "repo": "kor-livive-net",
+          "display_title": "Korean Language Buddy",
+          "tagline": "Calm, situational Korean practice with interactive dialogue scenarios, polite etiquette feedback, and audio pronunciation.",
+          "short_description": "A learner-profile Korean tutor with ten themed lessons, branching dialogue scenarios, flashcards, quizzes, a word bank, and browser speech playback.",
+          "long_description": "Korean Language Buddy is a zero-build browser tutor for situational Korean. Learners create a profile, work through ten themed lessons, and practice each scene as a short dialogue: read or hear the Korean line, reveal phonetics and English, choose a culturally appropriate reply, and get etiquette feedback. Every lesson links to flashcards, a five-question quiz, and a searchable word bank; stars and per-learner progress persist locally. Audio uses the browser speech APIs, and all content ships as static HTML/CSS/JS with no server or install.",
+          "tags": [
+            "education",
+            "flashcards",
+            "korean",
+            "language-learning",
+            "quiz",
+            "speech-synthesis",
+            "vanilla-js"
+          ],
+          "tech": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "JSON",
+            "Browser Speech Synthesis"
+          ],
+          "category": "Language Tools",
+          "live_url": "https://kor.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/kor-livive-net",
+          "has_live_demo": true,
+          "featured": true,
+          "status": "active",
+          "confidence": "high",
+          "notes": "Custom domain kor.livive.net from CNAME (HTTP 200). The repo README is still the stale two-line 'kb-livive-net' stub; catalog copy is authored from the live UI. The repo also carries a nested pp-livive-net submodule, so initialize top-level submodules non-recursively.",
+          "demos": [
+            {
+              "label": "Start Learning",
+              "url": "https://kor.livive.net/"
+            }
+          ],
+          "how_to_play": [
+            {
+              "title": "Create a learner profile",
+              "body": "Choose an avatar and name, or use Quick Start as Guest. Progress and stars are tracked per learner on the device."
+            },
+            {
+              "title": "Work through a dialogue",
+              "body": "Pick a lesson, read or hear the Korean line, reveal phonetics and English, and choose the polite response to earn stars."
+            },
+            {
+              "title": "Reinforce with cards and quiz",
+              "body": "Open flashcards, take the five-question quiz, or browse the word bank; audio buttons replay pronunciation."
+            }
+          ],
+          "thumb": "thumbnails/kor-livive-net.webp",
+          "updated_at": "2026-11-09T09:13:49Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 255,
+          "live_final_url": "https://kor.livive.net/",
           "live_error": null
         },
         {
@@ -4306,8 +5116,8 @@
           "updated_at": "2026-10-20T01:50:11Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 91,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 170,
           "live_final_url": "https://nexttext.livive.net/",
           "live_error": null
         },
@@ -4372,8 +5182,8 @@
           "updated_at": "2026-10-20T21:54:59Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 170,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 180,
           "live_final_url": "https://yds.livive.net/",
           "live_error": null
         },
@@ -4533,8 +5343,8 @@
           "updated_at": "2026-10-18T11:34:31Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 97,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 269,
           "live_final_url": "https://snow-cuad.livive.net/",
           "live_error": null
         },
@@ -4583,8 +5393,8 @@
           "updated_at": "2026-10-20T09:45:55Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 72,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 182,
           "live_final_url": "https://compliance.livive.net/",
           "live_error": null
         },
@@ -4649,9 +5459,105 @@
           "updated_at": "2026-10-23T13:15:10Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 258,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 237,
           "live_final_url": "https://sprites.livive.net/",
+          "live_error": null
+        },
+        {
+          "key": "mo-lab-livive-net",
+          "repo": "mo-lab-livive-net",
+          "display_title": "ModelOps Lab",
+          "tagline": "A self-hosted reference implementation of the full MLOps lifecycle - dataset to training, registry, serving, monitoring, drift, retraining, and rollback.",
+          "short_description": "A reproducible Python/MLflow/PostgreSQL lab that moves a model through versioned data, training, promotion gates, FastAPI serving, drift detection, retraining, and rollback.",
+          "long_description": "ModelOps Lab is a working reference for the operational path around a model, not the model itself. It starts with a seeded synthetic dataset generator and schema-validated, fingerprintable artifacts; trains a deterministic scikit-learn pipeline that records a complete MLflow run; applies a policy-checked promotion gate with a transactional PostgreSQL active-model pointer; and serves predictions through FastAPI with Prometheus metrics and prediction-event logging. From there it replays labeled traffic to compare data and performance drift, generates JSON/HTML drift reports, and closes the loop by training and evaluating a retraining candidate without auto-promoting it. Docker Compose wires PostgreSQL, MLflow, and the API together; the static lifecycle page documents the whole path.",
+          "tags": [
+            "data-versioning",
+            "docker",
+            "drift-detection",
+            "fastapi",
+            "mlflow",
+            "mlops",
+            "postgresql",
+            "python"
+          ],
+          "tech": [
+            "Python 3.12",
+            "FastAPI",
+            "MLflow",
+            "PostgreSQL",
+            "scikit-learn",
+            "Docker Compose",
+            "Prometheus",
+            "SQLAlchemy"
+          ],
+          "category": "Dev Tools",
+          "live_url": "https://mo-lab.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/mo-lab-livive-net",
+          "has_live_demo": true,
+          "featured": false,
+          "status": "active",
+          "confidence": "high",
+          "notes": "Custom domain mo-lab.livive.net from CNAME (HTTP 200). Live site is the generated static lifecycle/status page, not an interactive API. No license file detected. The full loop requires Python 3.12, uv, Docker Compose, PostgreSQL, and MLflow.",
+          "demos": [
+            {
+              "label": "Read the Lifecycle",
+              "url": "https://mo-lab.livive.net/"
+            }
+          ],
+          "thumb": "thumbnails/mo-lab-livive-net.webp",
+          "updated_at": "2026-10-24T16:35:12Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 91,
+          "live_final_url": "https://mo-lab.livive.net/",
+          "live_error": null
+        },
+        {
+          "key": "snap-cite-livive-net",
+          "repo": "snap-cite-livive-net",
+          "display_title": "Snap Cite",
+          "tagline": "Offline, reproducible grounding reports for explicit Roblox/Luau API claims - a pinned snapshot, a deterministic finding, and a self-contained citation.",
+          "short_description": "A Python grounding-report generator that pins a frozen API snapshot, checks explicit presence claims against a versioned touchstone, and emits reproducible green/yellow/red citations with an offline replay.",
+          "long_description": "Snap Cite is a citation generator for explicit claims about Roblox/Luau API presence under agentic authorship. Each report pins a frozen API snapshot and a versioned touchstone, records a deterministic finding, and emits a self-contained report with a manifest, evidence, and a reproducible replay path. Findings are marked green (valid), yellow (caution), or red (stopped); the CLI builds and replays offline against bundled snapshot/source/schema/rubric, and PDF/HTML output is produced with ReportLab. The project is development staging, not freeze-qualified: the public demo uses a locally authored miniature snapshot and is not official Roblox API evidence or a mined agent failure. Green presence does not qualify a merge or release.",
+          "tags": [
+            "citation",
+            "grounding",
+            "luau",
+            "provenance",
+            "python",
+            "reproducibility",
+            "roblox"
+          ],
+          "tech": [
+            "Python",
+            "jsonschema",
+            "ReportLab",
+            "Pillow",
+            "HTML/CSS"
+          ],
+          "category": "Dev Tools",
+          "live_url": "https://sc.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/snap-cite-livive-net",
+          "has_live_demo": true,
+          "featured": false,
+          "status": "prototype",
+          "confidence": "high",
+          "notes": "Live at sc.livive.net (CNAME) as a static evidence demo; HTTP 200. The repo itself has no web application - the demo is a static report page. README explicitly marks this as development staging, not freeze qualified; copy must not imply official Roblox API evidence or a merge gate. Key remains snap-cite-livive-net while the live domain is sc.livive.net.",
+          "demos": [
+            {
+              "label": "Read Evidence Demo",
+              "url": "https://sc.livive.net/"
+            }
+          ],
+          "thumb": "thumbnails/snap-cite-livive-net.webp",
+          "updated_at": "2026-10-22T02:53:36Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 101,
+          "live_final_url": "https://sc.livive.net/",
           "live_error": null
         },
         {
@@ -4835,8 +5741,8 @@
           "updated_at": "2026-11-09T08:07:14Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 85,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 207,
           "live_final_url": "https://tc.livive.net/",
           "live_error": null
         },
@@ -4896,8 +5802,8 @@
           "updated_at": "2026-10-18T13:36:48Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 118,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 182,
           "live_final_url": "https://wasm.livive.net/",
           "live_error": null
         },
@@ -5098,8 +6004,8 @@
           "updated_at": "2026-11-09T08:13:06Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 159,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 195,
           "live_final_url": "https://c3pa.livive.net/",
           "live_error": null
         },
@@ -5173,8 +6079,8 @@
           "updated_at": "2026-10-18T11:29:48Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 149,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 168,
           "live_final_url": "https://ch.livive.net/",
           "live_error": null
         },
@@ -5238,8 +6144,8 @@
           "updated_at": "2026-10-20T09:49:53Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 71,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 171,
           "live_final_url": "https://driver.livive.net/",
           "live_error": null
         },
@@ -5305,8 +6211,8 @@
           "updated_at": "2026-10-18T11:29:50Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 97,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 183,
           "live_final_url": "https://ea.livive.net/",
           "live_error": null
         },
@@ -5365,8 +6271,8 @@
           "updated_at": "2026-10-18T11:30:03Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 66,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 187,
           "live_final_url": "https://fountain.livive.net/",
           "live_error": null
         },
@@ -5442,8 +6348,8 @@
           "updated_at": "2026-10-20T17:46:43Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 13,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 90,
           "live_final_url": "https://oblique.livive.net/",
           "live_error": null
         },
@@ -5503,8 +6409,8 @@
           "updated_at": "2026-10-18T11:29:53Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 138,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 192,
           "live_final_url": "https://motion.livive.net/",
           "live_error": null
         },
@@ -5568,8 +6474,8 @@
           "updated_at": "2026-11-09T08:13:01Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 142,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 177,
           "live_final_url": "https://vid.livive.net/",
           "live_error": null
         },
@@ -5643,8 +6549,8 @@
           "updated_at": "2026-10-18T11:31:56Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:48:09Z",
-          "live_latency_ms": 109,
+          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_latency_ms": 188,
           "live_final_url": "https://tech.livive.net/",
           "live_error": null
         }
@@ -5652,10 +6558,10 @@
     }
   ],
   "health": {
-    "checked_at": "2026-11-09T08:48:09Z",
+    "checked_at": "2026-11-09T09:23:48Z",
     "status": "ok",
-    "live_total": 36,
-    "live_ok": 36,
+    "live_total": 44,
+    "live_ok": 44,
     "live_down": 0,
     "down_keys": []
   }
