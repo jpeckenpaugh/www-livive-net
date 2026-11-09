@@ -133,6 +133,12 @@
     <priority>0.6</priority>
   </url>
   <url>
+    <loc>https://www.livive.net/p/chtbx-livive-net/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
     <loc>https://www.livive.net/p/hebrew-language-tutor/</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
@@ -169,13 +175,13 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.livive.net/p/snow-compliance-demo/</loc>
+    <loc>https://www.livive.net/p/snow-cuad/</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://www.livive.net/p/snow-cuad/</loc>
+    <loc>https://www.livive.net/p/snow-compliance-demo/</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -206,6 +212,12 @@
   </url>
   <url>
     <loc>https://www.livive.net/p/tc-livive-org/</loc>
+    <lastmod>2026-11-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://www.livive.net/p/wasm-livive-net/</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -278,18 +290,6 @@
   </url>
   <url>
     <loc>https://www.livive.net/p/tech-livive-net/</loc>
-    <lastmod>2026-11-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.livive.net/p/wasm-livive-net/</loc>
-    <lastmod>2026-11-09</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://www.livive.net/p/chtbx-livive-net/</loc>
     <lastmod>2026-11-09</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>

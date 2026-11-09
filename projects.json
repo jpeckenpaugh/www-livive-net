@@ -48,14 +48,6 @@
           "url": "https://aom.livive.net/?fb=high"
         }
       ],
-      "thumb": "thumbnails/aom.webp",
-      "updated_at": "2026-10-18T11:17:40Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 272,
-      "live_final_url": "https://aom.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🍄 1. Awaken & Gather Lumens",
@@ -69,7 +61,15 @@
           "title": "⚙️ 3. Manage Economy & Auto-Guide",
           "body": "Click resource icons in the bottom stone dock to slide up the 3D Item Inspection Drawer and track multi-resource stockpiles. Press Enter or Esc to toggle Options, switch Framebuffer modes, or enable Auto-Guide for autonomous mycelial exploration."
         }
-      ]
+      ],
+      "thumb": "thumbnails/aom.webp",
+      "updated_at": "2026-10-18T11:17:40Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 145,
+      "live_final_url": "https://aom.livive.net/",
+      "live_error": null
     },
     {
       "key": "chk-livive-net",
@@ -113,14 +113,6 @@
           "url": "https://chk.livive.net/godot/"
         }
       ],
-      "thumb": "thumbnails/chk-livive-net.webp",
-      "updated_at": "2026-10-18T11:17:41Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 233,
-      "live_final_url": "https://chk.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "♟️ 1. Pick Your Match Mode",
@@ -134,7 +126,15 @@
           "title": "🧠 3. Live Banter, Prompt Inspector & 3D Mode",
           "body": "Watch in-character taunts stream in the Arena Live Banter feed, click Debug or LLM in the top bar to inspect raw prompts and WebGPU token throughput, or click Play 3D to switch to the Godot 4 3D board."
         }
-      ]
+      ],
+      "thumb": "thumbnails/chk-livive-net.webp",
+      "updated_at": "2026-10-18T11:17:41Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 137,
+      "live_final_url": "https://chk.livive.net/",
+      "live_error": null
     },
     {
       "key": "EuchreGame",
@@ -175,14 +175,6 @@
       "status": "active",
       "confidence": "high",
       "notes": "Custom domain euchre.livive.net from CNAME; GitHub Pages serves the Pyodide browser sandbox at https://euchre.livive.net/ (HTTP 200). The bundled html/vendor/pyodide/package.json belongs to the vendored Pyodide runtime, not this project. No license declared.",
-      "thumb": "thumbnails/EuchreGame.webp",
-      "updated_at": "2026-10-18T11:17:43Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 245,
-      "live_final_url": "https://euchre.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🃏 1. Seeded Pyodide Match & Step Controls",
@@ -196,7 +188,15 @@
           "title": "🏭 3. In-Browser Gemma & Synthetic Data Factory",
           "body": "Switch Play Mode from Random to Local Gemma AI to test client-side LLM card play, or run the repository's Python factory/ pipeline to distill validated teacher trajectories into JSONL training sets."
         }
-      ]
+      ],
+      "thumb": "thumbnails/EuchreGame.webp",
+      "updated_at": "2026-10-18T11:17:43Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 142,
+      "live_final_url": "https://euchre.livive.net/",
+      "live_error": null
     },
     {
       "key": "game-pending",
@@ -234,14 +234,6 @@
       "status": "prototype",
       "confidence": "high",
       "notes": "Published to GitHub Pages at https://jpeckenpaugh.github.io/game-pending/ (HTTP 200); previously repo-only. Described as a gaming prototype designed to be extended via AI/ML tooling. Also runs locally via python3 -m http.server 8000 -d html or docker-compose.",
-      "thumb": "thumbnails/game-pending.webp",
-      "updated_at": "2026-10-18T11:17:44Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 236,
-      "live_final_url": "https://gp.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🎯 The Objective",
@@ -255,7 +247,15 @@
           "title": "⚡ 'G' Key Sandbox Mode",
           "body": "Press G anytime while playing to open the Power-Up Picker on demand. Keep pressing G inside the picker to auto-grant and reroll unlimited Tier-10 power-ups immediately!"
         }
-      ]
+      ],
+      "thumb": "thumbnails/game-pending.webp",
+      "updated_at": "2026-10-18T11:17:44Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 124,
+      "live_final_url": "https://gp.livive.net/",
+      "live_error": null
     },
     {
       "key": "lokarta",
@@ -307,14 +307,6 @@
       "status": "active development",
       "confidence": "high",
       "notes": "Four-repo lineage of one game. lokarta (Python, created 2026-01-26) is the original local terminal/BBS-style ASCII RPG proof of concept, no GitHub Pages, no live demo. lokarta-v2 (TypeScript browser edition, created 2026-09-08) splits a Vite frontend from a FastAPI+SQLite backend and has a live GitHub Pages demo. lokarta-v3 (JavaScript, created 2026-09-27) drops the backend for a fully client-side edition using Web Workers/IndexedDB/Web Audio, adding vocations and a tower ascent. lokarta-v4 (JavaScript, created 2026-10-06, pushed 2026-10-11) is the primary repo: the largest and most complete (528 files, ~16.9 MB, most recent commits), with an overworld, quest chain, NPCs, and expanded sprite/data catalogs. All of v2/v3/v4 have Pages enabled and probed HTTP 200; v4's probe redirected to the custom domain https://lk.livive.net/, used as the best working live URL. Repos have no license and 0 stars.",
-      "thumb": "thumbnails/lokarta.webp",
-      "updated_at": "2026-10-18T11:17:46Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 200,
-      "live_final_url": "https://lk.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🕯️ 1. Choose Vocation & Draft Fate Grants",
@@ -328,7 +320,15 @@
           "title": "🛡️ 3. Companion Recruitment & Party Hot-Swap",
           "body": "Clear tower boss floors to unlock new vocations into your active party. Press A or S anytime to switch which hero you control directly while your companions fight autonomously alongside you."
         }
-      ]
+      ],
+      "thumb": "thumbnails/lokarta.webp",
+      "updated_at": "2026-10-18T11:17:46Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 136,
+      "live_final_url": "https://lk.livive.net/",
+      "live_error": null
     },
     {
       "key": "rl-livive-net",
@@ -372,14 +372,6 @@
           "url": "https://lunar.livive.net/"
         }
       ],
-      "thumb": "thumbnails/rl-livive-net.webp",
-      "updated_at": "2026-10-18T11:17:47Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 232,
-      "live_final_url": "https://lunar.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🚀 1. Solo Flight, Co-Piloting & AI Pilot",
@@ -393,7 +385,15 @@
           "title": "🏆 3. 4-Pilot Tournament & House Rules Hazards",
           "body": "Select MULTIPLAYER to launch 1v1 Versus, 2v2 Co-Op Doubles, or the 4-Pilot Cup across 10 seeded rounds—and toggle House Rules hazards like Sensor Fault, Thruster Fault, Wind Gusts, and High Gravity."
         }
-      ]
+      ],
+      "thumb": "thumbnails/rl-livive-net.webp",
+      "updated_at": "2026-10-18T11:17:47Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 189,
+      "live_final_url": "https://lunar.livive.net/",
+      "live_error": null
     },
     {
       "key": "mines-livive-net",
@@ -434,14 +434,6 @@
       "status": "active",
       "confidence": "high",
       "notes": "Repo mines-livive-net uses the GitHub Pages legacy build from main (`/`) with CNAME mines.livive.net. Live probe returns HTTP 200, title 'mines.livive.net — RL Minesweeper arcade cabinet'. The v2 manifest (version 2) ships nine ONNX checkpoints documented in docs/checkpoints.md and the in-app MODELS tab. Built by the Paperclip team across AIA-10 through AIA-19; deterministic boards support a `?seed=` query string.",
-      "thumb": "thumbnails/mines-livive-net.webp",
-      "updated_at": "2026-10-18T11:17:48Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 238,
-      "live_final_url": "https://mines.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "💣 1. PLAY & RACE Modes (Human vs. Seed)",
@@ -455,7 +447,15 @@
           "title": "⚡ 3. CONCURRENT 9-Model Lockstep Arena",
           "body": "Open the CONCURRENT tab and click START ALL to watch all 9 neural checkpoints (DQN, PPO, ConvResNet, and Teacher-Distilled policies) solve the exact same board simultaneously."
         }
-      ]
+      ],
+      "thumb": "thumbnails/mines-livive-net.webp",
+      "updated_at": "2026-10-18T11:17:48Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 288,
+      "live_final_url": "https://mines.livive.net/",
+      "live_error": null
     },
     {
       "key": "p2p-ttt",
@@ -496,14 +496,6 @@
           "url": "https://p2p-ttt.livive.net/"
         }
       ],
-      "thumb": "thumbnails/p2p-ttt.webp",
-      "updated_at": "2026-10-18T11:17:50Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 221,
-      "live_final_url": "https://p2p-ttt.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "📲 1. Create Invite & QR Code (Host)",
@@ -517,7 +509,15 @@
           "title": "🗄️ 3. Live P2P Series & OPFS SQLite History",
           "body": "Play live with zero server in the middle! Click Rematch? after any game to alternate starting turns across the series, or click any match under Completed matches to inspect the local WASM SQLite move log."
         }
-      ]
+      ],
+      "thumb": "thumbnails/p2p-ttt.webp",
+      "updated_at": "2026-10-18T11:17:50Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 205,
+      "live_final_url": "https://p2p-ttt.livive.net/",
+      "live_error": null
     },
     {
       "key": "threat-sweep",
@@ -560,14 +560,6 @@
           "url": "https://t-sweep.livive.net/"
         }
       ],
-      "thumb": "thumbnails/threat-sweep.webp",
-      "updated_at": "2026-10-18T11:17:51Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 208,
-      "live_final_url": "https://t-sweep.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "📡 1. SCAN to Probe Signal Strength",
@@ -581,7 +573,15 @@
           "title": "✅ 3. CLEAR Safe Sectors to Secure the Node",
           "body": "Switch to ＋ CLEAR and tap verified safe sectors until all clean nodes are secured to complete the operation and unlock the next mission in the campaign queue."
         }
-      ]
+      ],
+      "thumb": "thumbnails/threat-sweep.webp",
+      "updated_at": "2026-10-18T11:17:51Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 98,
+      "live_final_url": "https://t-sweep.livive.net/",
+      "live_error": null
     },
     {
       "key": "vibe-tic-tac-toe",
@@ -617,14 +617,6 @@
       "status": "prototype",
       "confidence": "high",
       "notes": "Published to GitHub Pages at https://jpeckenpaugh.github.io/vibe-tic-tac-toe/ (HTTP 200); previously repo-only. run.sh still launches a local Python HTTP server. README reports the project was built in one OpenCode session with DeepSeek V4 Flash.",
-      "thumb": "thumbnails/vibe-tic-tac-toe.webp",
-      "updated_at": "2026-10-18T11:17:53Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 178,
-      "live_final_url": "https://v-ttt.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🕹️ How to Play (Right Hand vs. Left Hand)",
@@ -638,7 +630,15 @@
           "title": "🧪 Act I of the Tic-Tac-Toe Trilogy",
           "body": "Holding the game rules constant isolates three radically different software architectures: Act I (Vibe TTT: $0.15 client-side DOM baseline), Act II (Fast TTT: zero-frontend curl + ASCII server), and Act III (P2P TTT: zero-backend WebRTC + WASM SQLite)."
         }
-      ]
+      ],
+      "thumb": "thumbnails/vibe-tic-tac-toe.webp",
+      "updated_at": "2026-10-18T11:17:53Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 189,
+      "live_final_url": "https://v-ttt.livive.net/",
+      "live_error": null
     },
     {
       "key": "rag-poc",
@@ -679,14 +679,6 @@
           "url": "https://rag.livive.net/"
         }
       ],
-      "thumb": "thumbnails/rag-poc.webp",
-      "updated_at": "2026-10-29T02:48:52Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 193,
-      "live_final_url": "https://rag.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🔍 1. Interactive Corpus & Benchmark Evaluation",
@@ -700,7 +692,15 @@
           "title": "📄 3. Grounded PDF Viewer & Guardrail Abstention",
           "body": "Click any grounded citation badge (e.g., NU-OPS-002) to inspect chunk metadata and jump directly to the exact source page in the built-in PDF viewer. Verify that out-of-scope clinical queries safely trigger strict guardrail abstentions."
         }
-      ]
+      ],
+      "thumb": "thumbnails/rag-poc.webp",
+      "updated_at": "2026-10-29T02:48:52Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 207,
+      "live_final_url": "https://rag.livive.net/",
+      "live_error": null
     },
     {
       "key": "sm3",
@@ -738,14 +738,6 @@
           "url": "https://seekdepth.net/"
         }
       ],
-      "thumb": "thumbnails/sm3.webp",
-      "updated_at": "2026-10-18T11:24:51Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 187,
-      "live_final_url": "https://seekdepth.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🦢 1. Metalevel Archetype Alignment",
@@ -759,7 +751,15 @@
           "title": "🖥️ 3. Operator Telemetry Dashboard",
           "body": "Launch the local FastAPI operator dashboard (./start.sh or uvicorn) on port 8001 to monitor real-time phase runs, inspect agent dispatch prompts and completions, and verify file contract diffs."
         }
-      ]
+      ],
+      "thumb": "thumbnails/sm3.webp",
+      "updated_at": "2026-10-18T11:24:51Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 82,
+      "live_final_url": "https://seekdepth.net/",
+      "live_error": null
     },
     {
       "key": "trot-livive-net",
@@ -822,8 +822,8 @@
       "updated_at": "2026-10-20T21:54:51Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 199,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 135,
       "live_final_url": "https://trot.livive.net/",
       "live_error": null
     },
@@ -886,8 +886,8 @@
       "updated_at": "2026-10-24T07:12:08Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 151,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 143,
       "live_final_url": "https://mines-sm.livive.net/",
       "live_error": null
     },
@@ -928,8 +928,8 @@
       "updated_at": "2026-10-18T11:25:01Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 589,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 157,
       "live_final_url": "https://seekdepth.org/",
       "live_error": null
     },
@@ -1166,8 +1166,8 @@
       "updated_at": "2026-10-20T21:54:53Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 220,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 89,
       "live_final_url": "https://fourcast.livive.net/",
       "live_error": null
     },
@@ -1234,9 +1234,74 @@
       "updated_at": "2026-10-20T21:54:55Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 175,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 61,
       "live_final_url": "https://ocr.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "chtbx-livive-net",
+      "repo": "chtbx-livive-net",
+      "display_title": "Chatterbox · Voice-Clone Studio",
+      "tagline": "Zero-shot neural voice cloning workbench for speech synthesis and web audio deployment.",
+      "short_description": "A zero-shot voice-cloning pipeline built on Chatterbox TTS to clone voice prints from short reference audio and batch synthesize normalized web MP3s.",
+      "long_description": "Chatterbox Voice-Clone Studio (chtbx-livive-net) is a reproducible pipeline and workbench for zero-shot neural voice cloning powered by resemble-ai's Chatterbox TTS architecture. Taking a clean 10-second reference recording, the system conditions neural generative diffusion speech models on Apple Silicon MPS or CUDA to clone expressiveness, cadence, and timbre. A batch synthesis runner processes phrase manifests, applies active RMS speech-level normalization (-25 dBFS with a -1 dBFS limiter), and outputs universally decodable 24 kHz mono MP3s directly to audio/v1/ for instant web integration.",
+      "tags": [
+        "audio-synthesis",
+        "chatterbox",
+        "neural-audio",
+        "text-to-speech",
+        "tts",
+        "voice-clone"
+      ],
+      "tech": [
+        "Python",
+        "Chatterbox TTS",
+        "PyTorch",
+        "MPS/Metal",
+        "ffmpeg",
+        "GitHub Pages",
+        "HTML/CSS"
+      ],
+      "category": "Language Tools",
+      "live_url": "https://chtbx.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/chtbx-livive-net",
+      "has_live_demo": true,
+      "featured": true,
+      "status": "active",
+      "confidence": "high",
+      "notes": "Zero-shot voice cloning pipeline powering portfolio speech audio at chtbx.livive.net/audio/v1/. The v1 directory now has a browsable index page so the CDN URL resolves directly.",
+      "demos": [
+        {
+          "label": "Live Audio CDN",
+          "url": "https://chtbx.livive.net/audio/v1/index.html"
+        },
+        {
+          "label": "GitHub Repo",
+          "url": "https://github.com/jpeckenpaugh/chtbx-livive-net"
+        }
+      ],
+      "how_to_play": [
+        {
+          "title": "🎙️ 1. Reference Voice Conditioning",
+          "body": "Record or prep a ~10-second clean speech sample (ref.wav). The pipeline checks active RMS levels and feeds conditioning latents into the Chatterbox speech encoder."
+        },
+        {
+          "title": "📜 2. Batch Phrase Synthesis",
+          "body": "Edit phrases.txt and run 'make web'. The neural model loads once on Apple Silicon MPS, synthesizing all target portfolio sentences in a single optimized pass."
+        },
+        {
+          "title": "🔊 3. Speech-Level Normalization & Web Delivery",
+          "body": "Clips are normalized to active RMS (-25 dBFS) with a safety limiter and saved as 24 kHz mono MP3s to audio/v1/, served via GitHub Pages with full CORS enabled."
+        }
+      ],
+      "thumb": "thumbnails/chtbx-livive-net.webp",
+      "updated_at": "2026-10-21T05:24:03Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 106,
+      "live_final_url": "https://chtbx.livive.net/",
       "live_error": null
     },
     {
@@ -1278,14 +1343,6 @@
       "status": "experiment",
       "confidence": "high",
       "notes": "Published to GitHub Pages at https://jpeckenpaugh.github.io/hebrew-language-tutor/ (HTTP 200); previously repo-only. GitHub Pages is static, so the live demo serves the static SPA proof-of-concept (hardcoded vocab) rather than the full FastAPI + SQLite client/server app. Repo frames itself as two experiments; 0 stars. Frontend verified by static review rather than browser automation.",
-      "thumb": "thumbnails/hebrew-language-tutor.webp",
-      "updated_at": "2026-10-18T11:37:21Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 164,
-      "live_final_url": "https://hebrew.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "📖 1. Dual Flashcard Study Mode",
@@ -1299,7 +1356,15 @@
           "title": "🏆 3. Scored Evaluation & Exam Mastery",
           "body": "Engage Exam mode for timed question sets, tracking active progress (e.g. 7 / 10) through to a final performance scorecard with score percentages and study restart recommendations."
         }
-      ]
+      ],
+      "thumb": "thumbnails/hebrew-language-tutor.webp",
+      "updated_at": "2026-10-18T11:37:21Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 106,
+      "live_final_url": "https://hebrew.livive.net/",
+      "live_error": null
     },
     {
       "key": "vibe-hindi-language-tutor",
@@ -1338,14 +1403,6 @@
           "url": "https://hindi.livive.net/"
         }
       ],
-      "thumb": "thumbnails/vibe-hindi-language-tutor.webp",
-      "updated_at": "2026-11-09T08:07:14Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 152,
-      "live_final_url": "https://hindi.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🎴 1. Dual-Script Flashcards & Audio Pronunciation",
@@ -1363,7 +1420,15 @@
           "title": "📊 4. Learner Dashboard & Topic Mastery Grid",
           "body": "Monitor day streaks, all-time quiz scores, average performance trends, and an interactive 20-word lesson mastery matrix with localized retention tracking in localStorage."
         }
-      ]
+      ],
+      "thumb": "thumbnails/vibe-hindi-language-tutor.webp",
+      "updated_at": "2026-11-09T08:07:14Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 49,
+      "live_final_url": "https://hindi.livive.net/",
+      "live_error": null
     },
     {
       "key": "nexttext",
@@ -1399,14 +1464,6 @@
       "status": "active",
       "confidence": "high",
       "notes": "Published to GitHub Pages at https://jpeckenpaugh.github.io/nexttext/ (HTTP 200); previously repo-only. Also a reusable pip-installable library (pyproject name=nexttext, v0.1.0) with MIT license.",
-      "thumb": "thumbnails/nexttext.webp",
-      "updated_at": "2026-10-20T01:50:11Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 216,
-      "live_final_url": "https://nexttext.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🧹 1. Multi-Sentence Debiasing & Neutralization",
@@ -1424,7 +1481,15 @@
           "title": "📊 4. In-Browser Pyodide WASM Runtime & Diagnostics",
           "body": "Inspect real-time token frequency distributions and gender detection diagnostics executed entirely in your browser with zero server roundtrips via WebAssembly."
         }
-      ]
+      ],
+      "thumb": "thumbnails/nexttext.webp",
+      "updated_at": "2026-10-20T01:50:11Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 91,
+      "live_final_url": "https://nexttext.livive.net/",
+      "live_error": null
     },
     {
       "key": "yds-livive-net",
@@ -1487,8 +1552,8 @@
       "updated_at": "2026-10-20T21:54:59Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 165,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 170,
       "live_final_url": "https://yds.livive.net/",
       "live_error": null
     },
@@ -1576,6 +1641,79 @@
       "live_error": null
     },
     {
+      "key": "snow-cuad",
+      "repo": "snow-cuad",
+      "display_title": "Snow CUAD",
+      "tagline": "Automated first POC build of the Snowflake contract intelligence platform over 510 CUAD contracts.",
+      "short_description": "The clean, automated first POC build of the Snowflake legal contract compliance and intelligence idea. Loads the 510-contract CUAD corpus into Snowflake with full-text clause search, related-contract scoring, RBAC roles (lawyer, auditor, admin), and an append-only access audit log.",
+      "long_description": "Snow CUAD implements the clean, automated first POC build of the Snowflake legal-compliance platform idea (paired with the snow-compliance-demo board-review architecture). Using the public Contract Understanding Atticus Dataset (CUAD v1 — 510 commercial M&A contracts annotated across 41 legal clause categories), this repository delivers an end-to-end reproducible pipeline from 'make pipeline' through a self-hosted Streamlit legal exploration console.\\n\\nFeatures include:\\n• Fast clause search with query highlighting and surrounding contract context spans\\n• Structured filtering by 41 clause categories, agreement types, jurisdictions, and counterparties\\n• Related contract recommendations scored by shared counterparties, clause overlap, and agreement types\\n• Least-privilege multi-role RBAC (Lawyer, Auditor, Admin) powered by Snowflake service credentials rather than ACCOUNTADMIN\\n• Append-only access audit logging capturing all search queries, contract inspections, and user sessions.",
+      "tags": [
+        "audit",
+        "cuad",
+        "data-governance",
+        "legal-tech",
+        "proof-of-concept",
+        "rbac",
+        "snowflake",
+        "sql",
+        "streamlit"
+      ],
+      "tech": [
+        "Python",
+        "Snowflake",
+        "Streamlit",
+        "SQL",
+        "NDJSON",
+        "GitHub Pages",
+        "GitHub Actions",
+        "Docker"
+      ],
+      "category": "Dev Tools",
+      "live_url": "https://snow-cuad.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/snow-cuad",
+      "has_live_demo": true,
+      "featured": true,
+      "status": "live",
+      "confidence": "high",
+      "notes": "Clean, automated first working POC build of the snow-compliance-demo idea. Automated end-to-end Snowflake pipeline and self-hosted Streamlit UI with 510 contracts from CUAD v1. Live site at snow-cuad.livive.net.",
+      "demos": [
+        {
+          "label": "Live Documentation & Demo",
+          "url": "https://snow-cuad.livive.net/"
+        },
+        {
+          "label": "Full 720p Video Walkthrough",
+          "url": "https://snow-cuad.livive.net/docs/assets/demo-720p.mp4"
+        },
+        {
+          "label": "Architecture & Schema",
+          "url": "https://github.com/jpeckenpaugh/snow-cuad/blob/main/docs/architecture.md"
+        }
+      ],
+      "how_to_play": [
+        {
+          "title": "🔍 Clause Search & Highlighting",
+          "body": "Search clause text across all 510 contracts with query term hits highlighted in amber and full context spans preserved for legal diligence review."
+        },
+        {
+          "title": "📑 Multi-Dimensional Browsing & Related Contracts",
+          "body": "Filter by 41 legal clause categories, agreement types, jurisdictions, and counterparties, and view automatically scored related contracts based on clause overlap."
+        },
+        {
+          "title": "🛡️ Least-Privilege RBAC & Append-Only Audit Logging",
+          "body": "Authenticate as Lawyer, Auditor, or Admin under dedicated service credentials (never ACCOUNTADMIN) while all logins, clause searches, and document views stream to Snowflake audit tables."
+        }
+      ],
+      "thumb": "thumbnails/snow-cuad.webp",
+      "updated_at": "2026-10-18T11:34:31Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 97,
+      "live_final_url": "https://snow-cuad.livive.net/",
+      "live_error": null
+    },
+    {
       "key": "snow-compliance-demo",
       "repo": "snow-compliance-demo",
       "display_title": "Snowflake Compliance Demo",
@@ -1620,83 +1758,10 @@
       "updated_at": "2026-10-20T09:45:55Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 153,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 72,
       "live_final_url": "https://compliance.livive.net/",
       "live_error": null
-    },
-    {
-      "key": "snow-cuad",
-      "repo": "snow-cuad",
-      "category": "Dev Tools",
-      "display_title": "Snow CUAD",
-      "tagline": "Automated first POC build of the Snowflake contract intelligence platform over 510 CUAD contracts.",
-      "short_description": "The clean, automated first POC build of the Snowflake legal contract compliance and intelligence idea. Loads the 510-contract CUAD corpus into Snowflake with full-text clause search, related-contract scoring, RBAC roles (lawyer, auditor, admin), and an append-only access audit log.",
-      "long_description": "Snow CUAD implements the clean, automated first POC build of the Snowflake legal-compliance platform idea (paired with the snow-compliance-demo board-review architecture). Using the public Contract Understanding Atticus Dataset (CUAD v1 — 510 commercial M&A contracts annotated across 41 legal clause categories), this repository delivers an end-to-end reproducible pipeline from 'make pipeline' through a self-hosted Streamlit legal exploration console.\\n\\nFeatures include:\\n• Fast clause search with query highlighting and surrounding contract context spans\\n• Structured filtering by 41 clause categories, agreement types, jurisdictions, and counterparties\\n• Related contract recommendations scored by shared counterparties, clause overlap, and agreement types\\n• Least-privilege multi-role RBAC (Lawyer, Auditor, Admin) powered by Snowflake service credentials rather than ACCOUNTADMIN\\n• Append-only access audit logging capturing all search queries, contract inspections, and user sessions.",
-      "tags": [
-        "cuad",
-        "snowflake",
-        "legal-tech",
-        "streamlit",
-        "data-governance",
-        "rbac",
-        "audit",
-        "sql",
-        "proof-of-concept"
-      ],
-      "tech": [
-        "Python",
-        "Snowflake",
-        "Streamlit",
-        "SQL",
-        "NDJSON",
-        "GitHub Pages",
-        "GitHub Actions",
-        "Docker"
-      ],
-      "live_url": "https://snow-cuad.livive.net/",
-      "demos": [
-        {
-          "label": "Live Documentation & Demo",
-          "url": "https://snow-cuad.livive.net/"
-        },
-        {
-          "label": "Full 720p Video Walkthrough",
-          "url": "https://snow-cuad.livive.net/docs/assets/demo-720p.mp4"
-        },
-        {
-          "label": "Architecture & Schema",
-          "url": "https://github.com/jpeckenpaugh/snow-cuad/blob/main/docs/architecture.md"
-        }
-      ],
-      "repo_url": "https://github.com/jpeckenpaugh/snow-cuad",
-      "has_live_demo": true,
-      "featured": true,
-      "status": "live",
-      "confidence": "high",
-      "notes": "Clean, automated first working POC build of the snow-compliance-demo idea. Automated end-to-end Snowflake pipeline and self-hosted Streamlit UI with 510 contracts from CUAD v1. Live site at snow-cuad.livive.net.",
-      "thumb": "thumbnails/snow-cuad.webp",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 60,
-      "live_final_url": "https://snow-cuad.livive.net/",
-      "live_error": null,
-      "updated_at": "2026-10-18T11:34:31Z",
-      "how_to_play": [
-        {
-          "title": "🔍 Clause Search & Highlighting",
-          "body": "Search clause text across all 510 contracts with query term hits highlighted in amber and full context spans preserved for legal diligence review."
-        },
-        {
-          "title": "📑 Multi-Dimensional Browsing & Related Contracts",
-          "body": "Filter by 41 legal clause categories, agreement types, jurisdictions, and counterparties, and view automatically scored related contracts based on clause overlap."
-        },
-        {
-          "title": "🛡️ Least-Privilege RBAC & Append-Only Audit Logging",
-          "body": "Authenticate as Lawyer, Auditor, or Admin under dedicated service credentials (never ACCOUNTADMIN) while all logins, clause searches, and document views stream to Snowflake audit tables."
-        }
-      ]
     },
     {
       "key": "sprites-livive-net",
@@ -1707,13 +1772,13 @@
       "long_description": "Sprites is a static, browser-based 3D-to-sprite workshop companion tool for the Oblique 2.5D engine. Load GLB/glTF models with Three.js, preview turntable multi-angle views and animated walk cycles, configure camera pitch (0° to 80°), view count, and output dimensions, and inspect live 16-direction matrices with runtime shear/rotational warping. Export row-major PNG or adaptive-palette WebP sprite sheets with embedded XMP metadata, or capture single angles cropped to pixel bounding boxes.",
       "tags": [
         "3d-models",
+        "dev-tools",
         "game-assets",
         "glb",
         "gltf",
         "sprite-sheets",
         "threejs",
-        "webgl",
-        "dev-tools"
+        "webgl"
       ],
       "tech": [
         "JavaScript",
@@ -1741,14 +1806,6 @@
       "status": "live",
       "confidence": "high",
       "notes": "Static browser-based 3D-to-sprite workshop loading Three.js from jsDelivr. Companion asset-preparation tool for Oblique 2.5D scene sandbox.",
-      "thumb": "thumbnails/sprites-livive-net.webp",
-      "updated_at": "2026-10-23T13:15:10Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 180,
-      "live_final_url": "https://sprites.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🧊 1. Select Model & Multi-Directional Mode",
@@ -1762,7 +1819,15 @@
           "title": "📦 3. Crop Bounding Box & Export Sprite Atlas",
           "body": "Isolate single angles with tight alpha-channel auto-cropping, or export full row-major sprite sheets with adaptive 256-color palette quantization to WebP (lossless with XMP) or 32-bit PNG."
         }
-      ]
+      ],
+      "thumb": "thumbnails/sprites-livive-net.webp",
+      "updated_at": "2026-10-23T13:15:10Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 258,
+      "live_final_url": "https://sprites.livive.net/",
+      "live_error": null
     },
     {
       "key": "roblox-api-database",
@@ -1918,14 +1983,6 @@
           "url": "https://tc.livive.net/"
         }
       ],
-      "thumb": "thumbnails/tc-livive-org.webp",
-      "updated_at": "2026-11-09T08:07:14Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 163,
-      "live_final_url": "https://tc.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "💾 1. Disk Storage vs. Active RAM",
@@ -1943,7 +2000,76 @@
           "title": "🔬 4. Inspect Live Laplace Smoothing Math",
           "body": "Type your own sentences in View 4 and watch the processor calculate confidence in real time using inspectable Laplace smoothing: Score = (P + 1) / (P + N + 2)."
         }
-      ]
+      ],
+      "thumb": "thumbnails/tc-livive-org.webp",
+      "updated_at": "2026-11-09T08:07:14Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 85,
+      "live_final_url": "https://tc.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "wasm-livive-net",
+      "repo": "wasm-livive-net",
+      "display_title": "WebAssembly Architectural Realities",
+      "tagline": "Empirical technical reality check on WebAssembly vs. Node.js & plain JavaScript with verified project implementations and live browser benchmarks.",
+      "short_description": "An architectural deep-dive and interactive lab analyzing what WebAssembly is, where it shines, where it is overkill vs. Node.js, and verified benchmarks across real-world runtimes.",
+      "long_description": "WebAssembly in Practice cuts through hype to deliver an empirical architectural decision framework for modern web engineering. Through interactive benchmarks, memory layout models, and payload size audits across seven production repositories (including Pyodide, Pygbag, sql.js WASM SQLite, and ONNX Runtime Web), it explores the exact boundary crossings, serialization overheads, and sandboxed memory trade-offs between linear WASM execution, V8 JavaScript JIT, Web Workers, and WebGPU.",
+      "tags": [
+        "architecture",
+        "benchmarks",
+        "education",
+        "pyodide",
+        "sqlite",
+        "wasm",
+        "webassembly"
+      ],
+      "tech": [
+        "WebAssembly",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "GitHub Pages",
+        "WASM Runtimes"
+      ],
+      "category": "Education & Teaching",
+      "live_url": "https://wasm.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/wasm-livive-net",
+      "has_live_demo": true,
+      "featured": true,
+      "status": "active",
+      "confidence": "high",
+      "notes": "Custom domain wasm.livive.net configured via CNAME. Comprehensive architectural guide and in-browser benchmark suite. Includes verified payload footprints and runtime routes across Livive portfolio projects.",
+      "demos": [
+        {
+          "label": "Explore Lab",
+          "url": "https://wasm.livive.net/"
+        }
+      ],
+      "how_to_play": [
+        {
+          "title": "⚡ 1. The 90-Second Reality Check",
+          "body": "Examine the technical boundaries of WebAssembly: why it is a compilation target for native/managed runtimes rather than a DOM replacement, and where naive boundary crossing slows execution."
+        },
+        {
+          "title": "📊 2. Architectural Decision Matrix",
+          "body": "Navigate the 4-step routing framework: compare state residency (Node.js backend vs. client), legacy logic reuse, Web Worker UI thread isolation, and WebGPU tensor parallelism."
+        },
+        {
+          "title": "⏱️ 3. Live Side-by-Side Benchmark",
+          "body": "Run identical recursive Fibonacci algorithms side-by-side in your live browser session to compare raw 61-byte WebAssembly execution against V8 JIT-optimized JavaScript."
+        }
+      ],
+      "thumb": "thumbnails/wasm-livive-net.webp",
+      "updated_at": "2026-10-18T13:36:48Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 118,
+      "live_final_url": "https://wasm.livive.net/",
+      "live_error": null
     },
     {
       "key": "docker-sql-lessons",
@@ -2021,14 +2147,6 @@
       "confidence": "high",
       "notes": "No GitHub Pages and no CNAME, so live_url is null. Positioned by the README as a teaching tool for client/server concepts rather than a standalone game, hence Education & Teaching. Local-only server at 0.0.0.0:8000.",
       "demos": [],
-      "thumb": "thumbnails/fast-ttt.webp",
-      "updated_at": "2026-10-18T11:45:03Z",
-      "live_ok": null,
-      "live_status": null,
-      "live_checked_at": null,
-      "live_latency_ms": null,
-      "live_final_url": null,
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🚀 1. Boot the Server (./install.sh && ./run.sh)",
@@ -2042,7 +2160,15 @@
           "title": "🛡️ 3. Atomic SQLite State & Plain-Text Errors",
           "body": "Every request returns pure text/plain ASCII grids. Out-of-turn or occupied-square moves return HTTP 409 Conflict with the current board and error message; completed games highlight the winning line ([X]|[X]|[X])."
         }
-      ]
+      ],
+      "thumb": "thumbnails/fast-ttt.webp",
+      "updated_at": "2026-10-18T11:45:03Z",
+      "live_ok": null,
+      "live_status": null,
+      "live_checked_at": null,
+      "live_latency_ms": null,
+      "live_final_url": null,
+      "live_error": null
     },
     {
       "key": "python_classes",
@@ -2119,14 +2245,6 @@
           "url": "https://c3pa.livive.net/"
         }
       ],
-      "thumb": "thumbnails/c3pa-explorer.webp",
-      "updated_at": "2026-11-09T08:13:06Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 171,
-      "live_final_url": "https://c3pa.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "📊 1. Corpus Metrics & Cryptographic Audit",
@@ -2140,7 +2258,15 @@
           "title": "⚙️ 3. Downstream Slicing & Partition Export",
           "body": "Filter extracted samples by legal category, sentence vs fragment type, and annotator consensus. Export filtered subsets as timestamped training, evaluation, and test splits with complete metadata."
         }
-      ]
+      ],
+      "thumb": "thumbnails/c3pa-explorer.webp",
+      "updated_at": "2026-11-09T08:13:06Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 159,
+      "live_final_url": "https://c3pa.livive.net/",
+      "live_error": null
     },
     {
       "key": "company-hub",
@@ -2184,24 +2310,12 @@
       "status": "prototype",
       "confidence": "high",
       "notes": "No homepage, no GitHub Pages, no CNAME, and no live URL in the dossier, so live_url is null. Self-hosted app run via ./run.sh (uvicorn on 127.0.0.1:8000); login required. No license specified. Actively developed through sprints 01-03 as of the last push (2026-09-06). | ch: Live probe returned 200 with title 'Company Hub — Personal workspace'. Written in JavaScript by language stat but is primarily a Python/FastAPI app with a Bootstrap SPA frontend. No license or stars (0).",
-      "repos": [
-        "company-hub",
-        "ch"
-      ],
       "demos": [
         {
           "label": "Play",
           "url": "https://ch.livive.net/"
         }
       ],
-      "thumb": "thumbnails/company-hub.webp",
-      "updated_at": "2026-10-18T11:29:48Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 167,
-      "live_final_url": "https://ch.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🏢 1. Global Directory & Multi-Facet Filters",
@@ -2215,7 +2329,19 @@
           "title": "🤖 3. On-Device AI News Ranking & SQLite Workspace",
           "body": "Evaluate financial and industry news articles using deterministic baseline scoring and local WebGPU Gemma models. Backup or export the SQLite database directly from the workspace view."
         }
-      ]
+      ],
+      "repos": [
+        "company-hub",
+        "ch"
+      ],
+      "thumb": "thumbnails/company-hub.webp",
+      "updated_at": "2026-10-18T11:29:48Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 149,
+      "live_final_url": "https://ch.livive.net/",
+      "live_error": null
     },
     {
       "key": "driver-hub-prototype",
@@ -2259,14 +2385,6 @@
           "url": "https://driver.livive.net/"
         }
       ],
-      "thumb": "thumbnails/driver-hub-prototype.webp",
-      "updated_at": "2026-10-20T09:49:53Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 159,
-      "live_final_url": "https://driver.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "📱 1. Side-by-Side Dual Device Demo",
@@ -2280,7 +2398,15 @@
           "title": "🗺️ 3. Animated Telemetry & Trip Completion",
           "body": "Simulate turn-by-turn vehicle motion along Madrid streets with heading rotation. Walk through pickup arrival, passenger boarding, en-route transit, and trip completion with earnings settlement."
         }
-      ]
+      ],
+      "thumb": "thumbnails/driver-hub-prototype.webp",
+      "updated_at": "2026-10-20T09:49:53Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 71,
+      "live_final_url": "https://driver.livive.net/",
+      "live_error": null
     },
     {
       "key": "executive-assistant",
@@ -2322,14 +2448,6 @@
           "url": "https://ea.livive.net/"
         }
       ],
-      "thumb": "thumbnails/executive-assistant.webp",
-      "updated_at": "2026-10-18T11:29:50Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 169,
-      "live_final_url": "https://ea.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "📊 1. Daily Cockpit & Executive Briefing",
@@ -2347,7 +2465,15 @@
           "title": "✨ 4. Natural Language AI Command Bar",
           "body": "Type natural instructions (e.g., 'Schedule Board Strategy Sync tomorrow 10am and prep review dossier') into the global AI bar. Preview multi-action structured JSON actions in an interactive modal before committing them to the local SQLite database."
         }
-      ]
+      ],
+      "thumb": "thumbnails/executive-assistant.webp",
+      "updated_at": "2026-10-18T11:29:50Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 97,
+      "live_final_url": "https://ea.livive.net/",
+      "live_error": null
     },
     {
       "key": "herons-fountain",
@@ -2382,14 +2508,6 @@
           "url": "https://fountain.livive.net/"
         }
       ],
-      "thumb": "thumbnails/herons-fountain.webp",
-      "updated_at": "2026-10-18T11:30:03Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 513,
-      "live_final_url": "https://fountain.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "💧 1. Gravitational Head & Pneumatic Compression",
@@ -2407,7 +2525,15 @@
           "title": "⚙️ 4. Automated Triggers & Multi-Speed Time Scaling",
           "body": "Tune auto-inversion thresholds based on jet speed, flow rate, or lower chamber capacity with customizable dwell times. Toggle speed from 1× to 16× to observe fluid conservation cycles over extended runtimes."
         }
-      ]
+      ],
+      "thumb": "thumbnails/herons-fountain.webp",
+      "updated_at": "2026-10-18T11:30:03Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 66,
+      "live_final_url": "https://fountain.livive.net/",
+      "live_error": null
     },
     {
       "key": "oblique-livive-net",
@@ -2459,14 +2585,6 @@
       "status": "active experiments",
       "confidence": "high",
       "notes": "Repository README describes a browser-based 2.5D game-world workbench with four featured live pages: the model sandbox, the Playground scene builder (playground.html), Terrain Layers, and Beach Camp. Static HTML, CSS, and vanilla JavaScript; GitHub Pages deploys the repository root. The related Sprites model-to-sprite workshop is hosted at sprites.livive.net.",
-      "thumb": "thumbnails/oblique-livive-net.webp",
-      "updated_at": "2026-10-20T17:46:43Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 51,
-      "live_final_url": "https://oblique.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🕹️ 1. Dynamic Y-Sorting & Obstacle Collision",
@@ -2484,7 +2602,15 @@
           "title": "🎨 4. Playground Scene Builder & Event Sequencer",
           "body": "Craft 16×16 scenes with terrain brushes, place NPCs with custom orientations and scaling, toggle autonomous wandering, and choreograph story sequences with camera transitions and dialogue boxes."
         }
-      ]
+      ],
+      "thumb": "thumbnails/oblique-livive-net.webp",
+      "updated_at": "2026-10-20T17:46:43Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 13,
+      "live_final_url": "https://oblique.livive.net/",
+      "live_error": null
     },
     {
       "key": "robot-motion-studio",
@@ -2524,14 +2650,6 @@
           "url": "https://motion.livive.net/"
         }
       ],
-      "thumb": "thumbnails/robot-motion-studio.webp",
-      "updated_at": "2026-10-18T11:29:53Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 159,
-      "live_final_url": "https://motion.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🦾 1. Multi-Robot Kinematic Architectures",
@@ -2545,7 +2663,15 @@
           "title": "🕹️ 3. Interactive 2D Canvas Simulator & Firmware Export",
           "body": "Simulate and scrub motion trajectories in real time with forward kinematics and interactive environmental geometry. Inspect resolved keyframe telemetry and download Schema Version 2 JSON payloads ready for embedded Arduino firmware control."
         }
-      ]
+      ],
+      "thumb": "thumbnails/robot-motion-studio.webp",
+      "updated_at": "2026-10-18T11:29:53Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 138,
+      "live_final_url": "https://motion.livive.net/",
+      "live_error": null
     },
     {
       "key": "vid-factory",
@@ -2589,14 +2715,6 @@
           "url": "https://vid.livive.net/"
         }
       ],
-      "thumb": "thumbnails/vid-factory.webp",
-      "updated_at": "2026-11-09T08:13:01Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 147,
-      "live_final_url": "https://vid.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "🎬 1. Content Projects & Catalog Management",
@@ -2610,7 +2728,15 @@
           "title": "🎙️ 3. Neural Kokoro TTS Studio & Audio Archive",
           "body": "Synthesize script dialogue in real time using browser-native Kokoro neural voices (af_heart, am_michael) with speed controls, inline waveform audio preview, and SQLite track history."
         }
-      ]
+      ],
+      "thumb": "thumbnails/vid-factory.webp",
+      "updated_at": "2026-11-09T08:13:01Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 142,
+      "live_final_url": "https://vid.livive.net/",
+      "live_error": null
     },
     {
       "key": "tech-livive-net",
@@ -2660,14 +2786,6 @@
           "url": "https://tech.livive.net/#/about"
         }
       ],
-      "thumb": "thumbnails/tech-livive-net.webp",
-      "updated_at": "2026-10-18T11:31:56Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 256,
-      "live_final_url": "https://tech.livive.net/",
-      "live_error": null,
       "how_to_play": [
         {
           "title": "📑 1. Handcrafted Zero-Build Architecture",
@@ -2685,133 +2803,15 @@
           "title": "📚 4. Verified Primary Source Registry",
           "body": "Every claim links back to open hardware certifications (OSHWA), component datasheets, and reverse-engineered schematic PDFs."
         }
-      ]
-    },
-    {
-      "key": "wasm-livive-net",
-      "repo": "wasm-livive-net",
-      "display_title": "WebAssembly Architectural Realities",
-      "tagline": "Empirical technical reality check on WebAssembly vs. Node.js & plain JavaScript with verified project implementations and live browser benchmarks.",
-      "short_description": "An architectural deep-dive and interactive lab analyzing what WebAssembly is, where it shines, where it is overkill vs. Node.js, and verified benchmarks across real-world runtimes.",
-      "long_description": "WebAssembly in Practice cuts through hype to deliver an empirical architectural decision framework for modern web engineering. Through interactive benchmarks, memory layout models, and payload size audits across seven production repositories (including Pyodide, Pygbag, sql.js WASM SQLite, and ONNX Runtime Web), it explores the exact boundary crossings, serialization overheads, and sandboxed memory trade-offs between linear WASM execution, V8 JavaScript JIT, Web Workers, and WebGPU.",
-      "tags": [
-        "webassembly",
-        "wasm",
-        "architecture",
-        "education",
-        "benchmarks",
-        "pyodide",
-        "sqlite"
       ],
-      "tech": [
-        "WebAssembly",
-        "JavaScript",
-        "HTML5",
-        "CSS3",
-        "GitHub Pages",
-        "WASM Runtimes"
-      ],
-      "category": "Education & Teaching",
-      "live_url": "https://wasm.livive.net/",
-      "repo_url": "https://github.com/jpeckenpaugh/wasm-livive-net",
-      "has_live_demo": true,
-      "featured": true,
-      "status": "active",
-      "confidence": "high",
-      "notes": "Custom domain wasm.livive.net configured via CNAME. Comprehensive architectural guide and in-browser benchmark suite. Includes verified payload footprints and runtime routes across Livive portfolio projects.",
-      "demos": [
-        {
-          "label": "Explore Lab",
-          "url": "https://wasm.livive.net/"
-        }
-      ],
-      "thumb": "thumbnails/wasm-livive-net.webp",
-      "updated_at": "2026-10-18T13:36:48Z",
+      "thumb": "thumbnails/tech-livive-net.webp",
+      "updated_at": "2026-10-18T11:31:56Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 205,
-      "live_final_url": "https://wasm.livive.net/",
-      "live_error": null,
-      "how_to_play": [
-        {
-          "title": "⚡ 1. The 90-Second Reality Check",
-          "body": "Examine the technical boundaries of WebAssembly: why it is a compilation target for native/managed runtimes rather than a DOM replacement, and where naive boundary crossing slows execution."
-        },
-        {
-          "title": "📊 2. Architectural Decision Matrix",
-          "body": "Navigate the 4-step routing framework: compare state residency (Node.js backend vs. client), legacy logic reuse, Web Worker UI thread isolation, and WebGPU tensor parallelism."
-        },
-        {
-          "title": "⏱️ 3. Live Side-by-Side Benchmark",
-          "body": "Run identical recursive Fibonacci algorithms side-by-side in your live browser session to compare raw 61-byte WebAssembly execution against V8 JIT-optimized JavaScript."
-        }
-      ]
-    },
-    {
-      "key": "chtbx-livive-net",
-      "repo": "chtbx-livive-net",
-      "display_title": "Chatterbox · Voice-Clone Studio",
-      "tagline": "Zero-shot neural voice cloning workbench for speech synthesis and web audio deployment.",
-      "short_description": "A zero-shot voice-cloning pipeline built on Chatterbox TTS to clone voice prints from short reference audio and batch synthesize normalized web MP3s.",
-      "long_description": "Chatterbox Voice-Clone Studio (chtbx-livive-net) is a reproducible pipeline and workbench for zero-shot neural voice cloning powered by resemble-ai's Chatterbox TTS architecture. Taking a clean 10-second reference recording, the system conditions neural generative diffusion speech models on Apple Silicon MPS or CUDA to clone expressiveness, cadence, and timbre. A batch synthesis runner processes phrase manifests, applies active RMS speech-level normalization (-25 dBFS with a -1 dBFS limiter), and outputs universally decodable 24 kHz mono MP3s directly to audio/v1/ for instant web integration.",
-      "tags": [
-        "voice-clone",
-        "text-to-speech",
-        "audio-synthesis",
-        "neural-audio",
-        "tts",
-        "chatterbox"
-      ],
-      "tech": [
-        "Python",
-        "Chatterbox TTS",
-        "PyTorch",
-        "MPS/Metal",
-        "ffmpeg",
-        "GitHub Pages",
-        "HTML/CSS"
-      ],
-      "category": "Language Tools",
-      "live_url": "https://chtbx.livive.net/",
-      "repo_url": "https://github.com/jpeckenpaugh/chtbx-livive-net",
-      "has_live_demo": true,
-      "featured": true,
-      "status": "active",
-      "confidence": "high",
-      "notes": "Zero-shot voice cloning pipeline powering portfolio speech audio at chtbx.livive.net/audio/v1/. The v1 directory now has a browsable index page so the CDN URL resolves directly.",
-      "demos": [
-        {
-          "label": "Live Audio CDN",
-          "url": "https://chtbx.livive.net/audio/v1/index.html"
-        },
-        {
-          "label": "GitHub Repo",
-          "url": "https://github.com/jpeckenpaugh/chtbx-livive-net"
-        }
-      ],
-      "thumb": "thumbnails/chtbx-livive-net.webp",
-      "updated_at": "2026-10-21T05:24:03Z",
-      "live_ok": true,
-      "live_status": 200,
-      "live_checked_at": "2026-11-09T08:13:33Z",
-      "live_latency_ms": 149,
-      "live_final_url": "https://chtbx.livive.net/",
-      "live_error": null,
-      "how_to_play": [
-        {
-          "title": "🎙️ 1. Reference Voice Conditioning",
-          "body": "Record or prep a ~10-second clean speech sample (ref.wav). The pipeline checks active RMS levels and feeds conditioning latents into the Chatterbox speech encoder."
-        },
-        {
-          "title": "📜 2. Batch Phrase Synthesis",
-          "body": "Edit phrases.txt and run 'make web'. The neural model loads once on Apple Silicon MPS, synthesizing all target portfolio sentences in a single optimized pass."
-        },
-        {
-          "title": "🔊 3. Speech-Level Normalization & Web Delivery",
-          "body": "Clips are normalized to active RMS (-25 dBFS) with a safety limiter and saved as 24 kHz mono MP3s to audio/v1/, served via GitHub Pages with full CORS enabled."
-        }
-      ]
+      "live_checked_at": "2026-11-09T08:48:09Z",
+      "live_latency_ms": 109,
+      "live_final_url": "https://tech.livive.net/",
+      "live_error": null
     }
   ],
   "groups": [
@@ -2853,14 +2853,6 @@
               "url": "https://aom.livive.net/?fb=high"
             }
           ],
-          "thumb": "thumbnails/aom.webp",
-          "updated_at": "2026-10-18T11:17:40Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 272,
-          "live_final_url": "https://aom.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🍄 1. Awaken & Gather Lumens",
@@ -2874,7 +2866,15 @@
               "title": "⚙️ 3. Manage Economy & Auto-Guide",
               "body": "Click resource icons in the bottom stone dock to slide up the 3D Item Inspection Drawer and track multi-resource stockpiles. Press Enter or Esc to toggle Options, switch Framebuffer modes, or enable Auto-Guide for autonomous mycelial exploration."
             }
-          ]
+          ],
+          "thumb": "thumbnails/aom.webp",
+          "updated_at": "2026-10-18T11:17:40Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 145,
+          "live_final_url": "https://aom.livive.net/",
+          "live_error": null
         },
         {
           "key": "chk-livive-net",
@@ -2918,14 +2918,6 @@
               "url": "https://chk.livive.net/godot/"
             }
           ],
-          "thumb": "thumbnails/chk-livive-net.webp",
-          "updated_at": "2026-10-18T11:17:41Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 233,
-          "live_final_url": "https://chk.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "♟️ 1. Pick Your Match Mode",
@@ -2939,7 +2931,15 @@
               "title": "🧠 3. Live Banter, Prompt Inspector & 3D Mode",
               "body": "Watch in-character taunts stream in the Arena Live Banter feed, click Debug or LLM in the top bar to inspect raw prompts and WebGPU token throughput, or click Play 3D to switch to the Godot 4 3D board."
             }
-          ]
+          ],
+          "thumb": "thumbnails/chk-livive-net.webp",
+          "updated_at": "2026-10-18T11:17:41Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 137,
+          "live_final_url": "https://chk.livive.net/",
+          "live_error": null
         },
         {
           "key": "EuchreGame",
@@ -2980,14 +2980,6 @@
           "status": "active",
           "confidence": "high",
           "notes": "Custom domain euchre.livive.net from CNAME; GitHub Pages serves the Pyodide browser sandbox at https://euchre.livive.net/ (HTTP 200). The bundled html/vendor/pyodide/package.json belongs to the vendored Pyodide runtime, not this project. No license declared.",
-          "thumb": "thumbnails/EuchreGame.webp",
-          "updated_at": "2026-10-18T11:17:43Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 245,
-          "live_final_url": "https://euchre.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🃏 1. Seeded Pyodide Match & Step Controls",
@@ -3001,7 +2993,15 @@
               "title": "🏭 3. In-Browser Gemma & Synthetic Data Factory",
               "body": "Switch Play Mode from Random to Local Gemma AI to test client-side LLM card play, or run the repository's Python factory/ pipeline to distill validated teacher trajectories into JSONL training sets."
             }
-          ]
+          ],
+          "thumb": "thumbnails/EuchreGame.webp",
+          "updated_at": "2026-10-18T11:17:43Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 142,
+          "live_final_url": "https://euchre.livive.net/",
+          "live_error": null
         },
         {
           "key": "game-pending",
@@ -3039,14 +3039,6 @@
           "status": "prototype",
           "confidence": "high",
           "notes": "Published to GitHub Pages at https://jpeckenpaugh.github.io/game-pending/ (HTTP 200); previously repo-only. Described as a gaming prototype designed to be extended via AI/ML tooling. Also runs locally via python3 -m http.server 8000 -d html or docker-compose.",
-          "thumb": "thumbnails/game-pending.webp",
-          "updated_at": "2026-10-18T11:17:44Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 236,
-          "live_final_url": "https://gp.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🎯 The Objective",
@@ -3060,7 +3052,15 @@
               "title": "⚡ 'G' Key Sandbox Mode",
               "body": "Press G anytime while playing to open the Power-Up Picker on demand. Keep pressing G inside the picker to auto-grant and reroll unlimited Tier-10 power-ups immediately!"
             }
-          ]
+          ],
+          "thumb": "thumbnails/game-pending.webp",
+          "updated_at": "2026-10-18T11:17:44Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 124,
+          "live_final_url": "https://gp.livive.net/",
+          "live_error": null
         },
         {
           "key": "lokarta",
@@ -3112,14 +3112,6 @@
           "status": "active development",
           "confidence": "high",
           "notes": "Four-repo lineage of one game. lokarta (Python, created 2026-01-26) is the original local terminal/BBS-style ASCII RPG proof of concept, no GitHub Pages, no live demo. lokarta-v2 (TypeScript browser edition, created 2026-09-08) splits a Vite frontend from a FastAPI+SQLite backend and has a live GitHub Pages demo. lokarta-v3 (JavaScript, created 2026-09-27) drops the backend for a fully client-side edition using Web Workers/IndexedDB/Web Audio, adding vocations and a tower ascent. lokarta-v4 (JavaScript, created 2026-10-06, pushed 2026-10-11) is the primary repo: the largest and most complete (528 files, ~16.9 MB, most recent commits), with an overworld, quest chain, NPCs, and expanded sprite/data catalogs. All of v2/v3/v4 have Pages enabled and probed HTTP 200; v4's probe redirected to the custom domain https://lk.livive.net/, used as the best working live URL. Repos have no license and 0 stars.",
-          "thumb": "thumbnails/lokarta.webp",
-          "updated_at": "2026-10-18T11:17:46Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 200,
-          "live_final_url": "https://lk.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🕯️ 1. Choose Vocation & Draft Fate Grants",
@@ -3133,7 +3125,15 @@
               "title": "🛡️ 3. Companion Recruitment & Party Hot-Swap",
               "body": "Clear tower boss floors to unlock new vocations into your active party. Press A or S anytime to switch which hero you control directly while your companions fight autonomously alongside you."
             }
-          ]
+          ],
+          "thumb": "thumbnails/lokarta.webp",
+          "updated_at": "2026-10-18T11:17:46Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 136,
+          "live_final_url": "https://lk.livive.net/",
+          "live_error": null
         },
         {
           "key": "rl-livive-net",
@@ -3177,14 +3177,6 @@
               "url": "https://lunar.livive.net/"
             }
           ],
-          "thumb": "thumbnails/rl-livive-net.webp",
-          "updated_at": "2026-10-18T11:17:47Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 232,
-          "live_final_url": "https://lunar.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🚀 1. Solo Flight, Co-Piloting & AI Pilot",
@@ -3198,7 +3190,15 @@
               "title": "🏆 3. 4-Pilot Tournament & House Rules Hazards",
               "body": "Select MULTIPLAYER to launch 1v1 Versus, 2v2 Co-Op Doubles, or the 4-Pilot Cup across 10 seeded rounds—and toggle House Rules hazards like Sensor Fault, Thruster Fault, Wind Gusts, and High Gravity."
             }
-          ]
+          ],
+          "thumb": "thumbnails/rl-livive-net.webp",
+          "updated_at": "2026-10-18T11:17:47Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 189,
+          "live_final_url": "https://lunar.livive.net/",
+          "live_error": null
         },
         {
           "key": "mines-livive-net",
@@ -3239,14 +3239,6 @@
           "status": "active",
           "confidence": "high",
           "notes": "Repo mines-livive-net uses the GitHub Pages legacy build from main (`/`) with CNAME mines.livive.net. Live probe returns HTTP 200, title 'mines.livive.net — RL Minesweeper arcade cabinet'. The v2 manifest (version 2) ships nine ONNX checkpoints documented in docs/checkpoints.md and the in-app MODELS tab. Built by the Paperclip team across AIA-10 through AIA-19; deterministic boards support a `?seed=` query string.",
-          "thumb": "thumbnails/mines-livive-net.webp",
-          "updated_at": "2026-10-18T11:17:48Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 238,
-          "live_final_url": "https://mines.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "💣 1. PLAY & RACE Modes (Human vs. Seed)",
@@ -3260,7 +3252,15 @@
               "title": "⚡ 3. CONCURRENT 9-Model Lockstep Arena",
               "body": "Open the CONCURRENT tab and click START ALL to watch all 9 neural checkpoints (DQN, PPO, ConvResNet, and Teacher-Distilled policies) solve the exact same board simultaneously."
             }
-          ]
+          ],
+          "thumb": "thumbnails/mines-livive-net.webp",
+          "updated_at": "2026-10-18T11:17:48Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 288,
+          "live_final_url": "https://mines.livive.net/",
+          "live_error": null
         },
         {
           "key": "p2p-ttt",
@@ -3301,14 +3301,6 @@
               "url": "https://p2p-ttt.livive.net/"
             }
           ],
-          "thumb": "thumbnails/p2p-ttt.webp",
-          "updated_at": "2026-10-18T11:17:50Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 221,
-          "live_final_url": "https://p2p-ttt.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "📲 1. Create Invite & QR Code (Host)",
@@ -3322,7 +3314,15 @@
               "title": "🗄️ 3. Live P2P Series & OPFS SQLite History",
               "body": "Play live with zero server in the middle! Click Rematch? after any game to alternate starting turns across the series, or click any match under Completed matches to inspect the local WASM SQLite move log."
             }
-          ]
+          ],
+          "thumb": "thumbnails/p2p-ttt.webp",
+          "updated_at": "2026-10-18T11:17:50Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 205,
+          "live_final_url": "https://p2p-ttt.livive.net/",
+          "live_error": null
         },
         {
           "key": "threat-sweep",
@@ -3365,14 +3365,6 @@
               "url": "https://t-sweep.livive.net/"
             }
           ],
-          "thumb": "thumbnails/threat-sweep.webp",
-          "updated_at": "2026-10-18T11:17:51Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 208,
-          "live_final_url": "https://t-sweep.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "📡 1. SCAN to Probe Signal Strength",
@@ -3386,7 +3378,15 @@
               "title": "✅ 3. CLEAR Safe Sectors to Secure the Node",
               "body": "Switch to ＋ CLEAR and tap verified safe sectors until all clean nodes are secured to complete the operation and unlock the next mission in the campaign queue."
             }
-          ]
+          ],
+          "thumb": "thumbnails/threat-sweep.webp",
+          "updated_at": "2026-10-18T11:17:51Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 98,
+          "live_final_url": "https://t-sweep.livive.net/",
+          "live_error": null
         },
         {
           "key": "vibe-tic-tac-toe",
@@ -3422,14 +3422,6 @@
           "status": "prototype",
           "confidence": "high",
           "notes": "Published to GitHub Pages at https://jpeckenpaugh.github.io/vibe-tic-tac-toe/ (HTTP 200); previously repo-only. run.sh still launches a local Python HTTP server. README reports the project was built in one OpenCode session with DeepSeek V4 Flash.",
-          "thumb": "thumbnails/vibe-tic-tac-toe.webp",
-          "updated_at": "2026-10-18T11:17:53Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 178,
-          "live_final_url": "https://v-ttt.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🕹️ How to Play (Right Hand vs. Left Hand)",
@@ -3443,7 +3435,15 @@
               "title": "🧪 Act I of the Tic-Tac-Toe Trilogy",
               "body": "Holding the game rules constant isolates three radically different software architectures: Act I (Vibe TTT: $0.15 client-side DOM baseline), Act II (Fast TTT: zero-frontend curl + ASCII server), and Act III (P2P TTT: zero-backend WebRTC + WASM SQLite)."
             }
-          ]
+          ],
+          "thumb": "thumbnails/vibe-tic-tac-toe.webp",
+          "updated_at": "2026-10-18T11:17:53Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 189,
+          "live_final_url": "https://v-ttt.livive.net/",
+          "live_error": null
         }
       ]
     },
@@ -3489,14 +3489,6 @@
               "url": "https://rag.livive.net/"
             }
           ],
-          "thumb": "thumbnails/rag-poc.webp",
-          "updated_at": "2026-10-29T02:48:52Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 193,
-          "live_final_url": "https://rag.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🔍 1. Interactive Corpus & Benchmark Evaluation",
@@ -3510,7 +3502,15 @@
               "title": "📄 3. Grounded PDF Viewer & Guardrail Abstention",
               "body": "Click any grounded citation badge (e.g., NU-OPS-002) to inspect chunk metadata and jump directly to the exact source page in the built-in PDF viewer. Verify that out-of-scope clinical queries safely trigger strict guardrail abstentions."
             }
-          ]
+          ],
+          "thumb": "thumbnails/rag-poc.webp",
+          "updated_at": "2026-10-29T02:48:52Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 207,
+          "live_final_url": "https://rag.livive.net/",
+          "live_error": null
         },
         {
           "key": "sm3",
@@ -3548,14 +3548,6 @@
               "url": "https://seekdepth.net/"
             }
           ],
-          "thumb": "thumbnails/sm3.webp",
-          "updated_at": "2026-10-18T11:24:51Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 187,
-          "live_final_url": "https://seekdepth.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🦢 1. Metalevel Archetype Alignment",
@@ -3569,7 +3561,15 @@
               "title": "🖥️ 3. Operator Telemetry Dashboard",
               "body": "Launch the local FastAPI operator dashboard (./start.sh or uvicorn) on port 8001 to monitor real-time phase runs, inspect agent dispatch prompts and completions, and verify file contract diffs."
             }
-          ]
+          ],
+          "thumb": "thumbnails/sm3.webp",
+          "updated_at": "2026-10-18T11:24:51Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 82,
+          "live_final_url": "https://seekdepth.net/",
+          "live_error": null
         },
         {
           "key": "trot-livive-net",
@@ -3632,8 +3632,8 @@
           "updated_at": "2026-10-20T21:54:51Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 199,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 135,
           "live_final_url": "https://trot.livive.net/",
           "live_error": null
         },
@@ -3696,8 +3696,8 @@
           "updated_at": "2026-10-24T07:12:08Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 151,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 143,
           "live_final_url": "https://mines-sm.livive.net/",
           "live_error": null
         },
@@ -3738,8 +3738,8 @@
           "updated_at": "2026-10-18T11:25:01Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 589,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 157,
           "live_final_url": "https://seekdepth.org/",
           "live_error": null
         },
@@ -3981,8 +3981,8 @@
           "updated_at": "2026-10-20T21:54:53Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 220,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 89,
           "live_final_url": "https://fourcast.livive.net/",
           "live_error": null
         },
@@ -4049,8 +4049,8 @@
           "updated_at": "2026-10-20T21:54:55Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 175,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 61,
           "live_final_url": "https://ocr.livive.net/",
           "live_error": null
         }
@@ -4059,6 +4059,71 @@
     {
       "category": "Language Tools",
       "projects": [
+        {
+          "key": "chtbx-livive-net",
+          "repo": "chtbx-livive-net",
+          "display_title": "Chatterbox · Voice-Clone Studio",
+          "tagline": "Zero-shot neural voice cloning workbench for speech synthesis and web audio deployment.",
+          "short_description": "A zero-shot voice-cloning pipeline built on Chatterbox TTS to clone voice prints from short reference audio and batch synthesize normalized web MP3s.",
+          "long_description": "Chatterbox Voice-Clone Studio (chtbx-livive-net) is a reproducible pipeline and workbench for zero-shot neural voice cloning powered by resemble-ai's Chatterbox TTS architecture. Taking a clean 10-second reference recording, the system conditions neural generative diffusion speech models on Apple Silicon MPS or CUDA to clone expressiveness, cadence, and timbre. A batch synthesis runner processes phrase manifests, applies active RMS speech-level normalization (-25 dBFS with a -1 dBFS limiter), and outputs universally decodable 24 kHz mono MP3s directly to audio/v1/ for instant web integration.",
+          "tags": [
+            "audio-synthesis",
+            "chatterbox",
+            "neural-audio",
+            "text-to-speech",
+            "tts",
+            "voice-clone"
+          ],
+          "tech": [
+            "Python",
+            "Chatterbox TTS",
+            "PyTorch",
+            "MPS/Metal",
+            "ffmpeg",
+            "GitHub Pages",
+            "HTML/CSS"
+          ],
+          "category": "Language Tools",
+          "live_url": "https://chtbx.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/chtbx-livive-net",
+          "has_live_demo": true,
+          "featured": true,
+          "status": "active",
+          "confidence": "high",
+          "notes": "Zero-shot voice cloning pipeline powering portfolio speech audio at chtbx.livive.net/audio/v1/. The v1 directory now has a browsable index page so the CDN URL resolves directly.",
+          "demos": [
+            {
+              "label": "Live Audio CDN",
+              "url": "https://chtbx.livive.net/audio/v1/index.html"
+            },
+            {
+              "label": "GitHub Repo",
+              "url": "https://github.com/jpeckenpaugh/chtbx-livive-net"
+            }
+          ],
+          "how_to_play": [
+            {
+              "title": "🎙️ 1. Reference Voice Conditioning",
+              "body": "Record or prep a ~10-second clean speech sample (ref.wav). The pipeline checks active RMS levels and feeds conditioning latents into the Chatterbox speech encoder."
+            },
+            {
+              "title": "📜 2. Batch Phrase Synthesis",
+              "body": "Edit phrases.txt and run 'make web'. The neural model loads once on Apple Silicon MPS, synthesizing all target portfolio sentences in a single optimized pass."
+            },
+            {
+              "title": "🔊 3. Speech-Level Normalization & Web Delivery",
+              "body": "Clips are normalized to active RMS (-25 dBFS) with a safety limiter and saved as 24 kHz mono MP3s to audio/v1/, served via GitHub Pages with full CORS enabled."
+            }
+          ],
+          "thumb": "thumbnails/chtbx-livive-net.webp",
+          "updated_at": "2026-10-21T05:24:03Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 106,
+          "live_final_url": "https://chtbx.livive.net/",
+          "live_error": null
+        },
         {
           "key": "hebrew-language-tutor",
           "repo": "hebrew-language-tutor",
@@ -4098,14 +4163,6 @@
           "status": "experiment",
           "confidence": "high",
           "notes": "Published to GitHub Pages at https://jpeckenpaugh.github.io/hebrew-language-tutor/ (HTTP 200); previously repo-only. GitHub Pages is static, so the live demo serves the static SPA proof-of-concept (hardcoded vocab) rather than the full FastAPI + SQLite client/server app. Repo frames itself as two experiments; 0 stars. Frontend verified by static review rather than browser automation.",
-          "thumb": "thumbnails/hebrew-language-tutor.webp",
-          "updated_at": "2026-10-18T11:37:21Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 164,
-          "live_final_url": "https://hebrew.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "📖 1. Dual Flashcard Study Mode",
@@ -4119,7 +4176,15 @@
               "title": "🏆 3. Scored Evaluation & Exam Mastery",
               "body": "Engage Exam mode for timed question sets, tracking active progress (e.g. 7 / 10) through to a final performance scorecard with score percentages and study restart recommendations."
             }
-          ]
+          ],
+          "thumb": "thumbnails/hebrew-language-tutor.webp",
+          "updated_at": "2026-10-18T11:37:21Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 106,
+          "live_final_url": "https://hebrew.livive.net/",
+          "live_error": null
         },
         {
           "key": "vibe-hindi-language-tutor",
@@ -4158,14 +4223,6 @@
               "url": "https://hindi.livive.net/"
             }
           ],
-          "thumb": "thumbnails/vibe-hindi-language-tutor.webp",
-          "updated_at": "2026-11-09T08:07:14Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 152,
-          "live_final_url": "https://hindi.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🎴 1. Dual-Script Flashcards & Audio Pronunciation",
@@ -4183,7 +4240,15 @@
               "title": "📊 4. Learner Dashboard & Topic Mastery Grid",
               "body": "Monitor day streaks, all-time quiz scores, average performance trends, and an interactive 20-word lesson mastery matrix with localized retention tracking in localStorage."
             }
-          ]
+          ],
+          "thumb": "thumbnails/vibe-hindi-language-tutor.webp",
+          "updated_at": "2026-11-09T08:07:14Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 49,
+          "live_final_url": "https://hindi.livive.net/",
+          "live_error": null
         },
         {
           "key": "nexttext",
@@ -4219,14 +4284,6 @@
           "status": "active",
           "confidence": "high",
           "notes": "Published to GitHub Pages at https://jpeckenpaugh.github.io/nexttext/ (HTTP 200); previously repo-only. Also a reusable pip-installable library (pyproject name=nexttext, v0.1.0) with MIT license.",
-          "thumb": "thumbnails/nexttext.webp",
-          "updated_at": "2026-10-20T01:50:11Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 216,
-          "live_final_url": "https://nexttext.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🧹 1. Multi-Sentence Debiasing & Neutralization",
@@ -4244,7 +4301,15 @@
               "title": "📊 4. In-Browser Pyodide WASM Runtime & Diagnostics",
               "body": "Inspect real-time token frequency distributions and gender detection diagnostics executed entirely in your browser with zero server roundtrips via WebAssembly."
             }
-          ]
+          ],
+          "thumb": "thumbnails/nexttext.webp",
+          "updated_at": "2026-10-20T01:50:11Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 91,
+          "live_final_url": "https://nexttext.livive.net/",
+          "live_error": null
         },
         {
           "key": "yds-livive-net",
@@ -4307,8 +4372,8 @@
           "updated_at": "2026-10-20T21:54:59Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 165,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 170,
           "live_final_url": "https://yds.livive.net/",
           "live_error": null
         },
@@ -4394,77 +4459,85 @@
           "live_latency_ms": null,
           "live_final_url": null,
           "live_error": null
-        },
-        {
-          "key": "chtbx-livive-net",
-          "repo": "chtbx-livive-net",
-          "display_title": "Chatterbox · Voice-Clone Studio",
-          "tagline": "Zero-shot neural voice cloning workbench for speech synthesis and web audio deployment.",
-          "short_description": "A zero-shot voice-cloning pipeline built on Chatterbox TTS to clone voice prints from short reference audio and batch synthesize normalized web MP3s.",
-          "long_description": "Chatterbox Voice-Clone Studio (chtbx-livive-net) is a reproducible pipeline and workbench for zero-shot neural voice cloning powered by resemble-ai's Chatterbox TTS architecture. Taking a clean 10-second reference recording, the system conditions neural generative diffusion speech models on Apple Silicon MPS or CUDA to clone expressiveness, cadence, and timbre. A batch synthesis runner processes phrase manifests, applies active RMS speech-level normalization (-25 dBFS with a -1 dBFS limiter), and outputs universally decodable 24 kHz mono MP3s directly to audio/v1/ for instant web integration.",
-          "tags": [
-            "voice-clone",
-            "text-to-speech",
-            "audio-synthesis",
-            "neural-audio",
-            "tts",
-            "chatterbox"
-          ],
-          "tech": [
-            "Python",
-            "Chatterbox TTS",
-            "PyTorch",
-            "MPS/Metal",
-            "ffmpeg",
-            "GitHub Pages",
-            "HTML/CSS"
-          ],
-          "category": "Language Tools",
-          "live_url": "https://chtbx.livive.net/",
-          "repo_url": "https://github.com/jpeckenpaugh/chtbx-livive-net",
-          "has_live_demo": true,
-          "featured": true,
-          "status": "active",
-          "confidence": "high",
-          "notes": "Zero-shot voice cloning pipeline powering portfolio speech audio at chtbx.livive.net/audio/v1/. The v1 directory now has a browsable index page so the CDN URL resolves directly.",
-          "demos": [
-            {
-              "label": "Live Audio CDN",
-              "url": "https://chtbx.livive.net/audio/v1/index.html"
-            },
-            {
-              "label": "GitHub Repo",
-              "url": "https://github.com/jpeckenpaugh/chtbx-livive-net"
-            }
-          ],
-          "thumb": "thumbnails/chtbx-livive-net.webp",
-          "updated_at": "2026-10-21T05:24:03Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 149,
-          "live_final_url": "https://chtbx.livive.net/",
-          "live_error": null,
-          "how_to_play": [
-            {
-              "title": "🎙️ 1. Reference Voice Conditioning",
-              "body": "Record or prep a ~10-second clean speech sample (ref.wav). The pipeline checks active RMS levels and feeds conditioning latents into the Chatterbox speech encoder."
-            },
-            {
-              "title": "📜 2. Batch Phrase Synthesis",
-              "body": "Edit phrases.txt and run 'make web'. The neural model loads once on Apple Silicon MPS, synthesizing all target portfolio sentences in a single optimized pass."
-            },
-            {
-              "title": "🔊 3. Speech-Level Normalization & Web Delivery",
-              "body": "Clips are normalized to active RMS (-25 dBFS) with a safety limiter and saved as 24 kHz mono MP3s to audio/v1/, served via GitHub Pages with full CORS enabled."
-            }
-          ]
         }
       ]
     },
     {
       "category": "Dev Tools",
       "projects": [
+        {
+          "key": "snow-cuad",
+          "repo": "snow-cuad",
+          "display_title": "Snow CUAD",
+          "tagline": "Automated first POC build of the Snowflake contract intelligence platform over 510 CUAD contracts.",
+          "short_description": "The clean, automated first POC build of the Snowflake legal contract compliance and intelligence idea. Loads the 510-contract CUAD corpus into Snowflake with full-text clause search, related-contract scoring, RBAC roles (lawyer, auditor, admin), and an append-only access audit log.",
+          "long_description": "Snow CUAD implements the clean, automated first POC build of the Snowflake legal-compliance platform idea (paired with the snow-compliance-demo board-review architecture). Using the public Contract Understanding Atticus Dataset (CUAD v1 — 510 commercial M&A contracts annotated across 41 legal clause categories), this repository delivers an end-to-end reproducible pipeline from 'make pipeline' through a self-hosted Streamlit legal exploration console.\\n\\nFeatures include:\\n• Fast clause search with query highlighting and surrounding contract context spans\\n• Structured filtering by 41 clause categories, agreement types, jurisdictions, and counterparties\\n• Related contract recommendations scored by shared counterparties, clause overlap, and agreement types\\n• Least-privilege multi-role RBAC (Lawyer, Auditor, Admin) powered by Snowflake service credentials rather than ACCOUNTADMIN\\n• Append-only access audit logging capturing all search queries, contract inspections, and user sessions.",
+          "tags": [
+            "audit",
+            "cuad",
+            "data-governance",
+            "legal-tech",
+            "proof-of-concept",
+            "rbac",
+            "snowflake",
+            "sql",
+            "streamlit"
+          ],
+          "tech": [
+            "Python",
+            "Snowflake",
+            "Streamlit",
+            "SQL",
+            "NDJSON",
+            "GitHub Pages",
+            "GitHub Actions",
+            "Docker"
+          ],
+          "category": "Dev Tools",
+          "live_url": "https://snow-cuad.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/snow-cuad",
+          "has_live_demo": true,
+          "featured": true,
+          "status": "live",
+          "confidence": "high",
+          "notes": "Clean, automated first working POC build of the snow-compliance-demo idea. Automated end-to-end Snowflake pipeline and self-hosted Streamlit UI with 510 contracts from CUAD v1. Live site at snow-cuad.livive.net.",
+          "demos": [
+            {
+              "label": "Live Documentation & Demo",
+              "url": "https://snow-cuad.livive.net/"
+            },
+            {
+              "label": "Full 720p Video Walkthrough",
+              "url": "https://snow-cuad.livive.net/docs/assets/demo-720p.mp4"
+            },
+            {
+              "label": "Architecture & Schema",
+              "url": "https://github.com/jpeckenpaugh/snow-cuad/blob/main/docs/architecture.md"
+            }
+          ],
+          "how_to_play": [
+            {
+              "title": "🔍 Clause Search & Highlighting",
+              "body": "Search clause text across all 510 contracts with query term hits highlighted in amber and full context spans preserved for legal diligence review."
+            },
+            {
+              "title": "📑 Multi-Dimensional Browsing & Related Contracts",
+              "body": "Filter by 41 legal clause categories, agreement types, jurisdictions, and counterparties, and view automatically scored related contracts based on clause overlap."
+            },
+            {
+              "title": "🛡️ Least-Privilege RBAC & Append-Only Audit Logging",
+              "body": "Authenticate as Lawyer, Auditor, or Admin under dedicated service credentials (never ACCOUNTADMIN) while all logins, clause searches, and document views stream to Snowflake audit tables."
+            }
+          ],
+          "thumb": "thumbnails/snow-cuad.webp",
+          "updated_at": "2026-10-18T11:34:31Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 97,
+          "live_final_url": "https://snow-cuad.livive.net/",
+          "live_error": null
+        },
         {
           "key": "snow-compliance-demo",
           "repo": "snow-compliance-demo",
@@ -4510,83 +4583,10 @@
           "updated_at": "2026-10-20T09:45:55Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 153,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 72,
           "live_final_url": "https://compliance.livive.net/",
           "live_error": null
-        },
-        {
-          "key": "snow-cuad",
-          "repo": "snow-cuad",
-          "category": "Dev Tools",
-          "display_title": "Snow CUAD",
-          "tagline": "Automated first POC build of the Snowflake contract intelligence platform over 510 CUAD contracts.",
-          "short_description": "The clean, automated first POC build of the Snowflake legal contract compliance and intelligence idea. Loads the 510-contract CUAD corpus into Snowflake with full-text clause search, related-contract scoring, RBAC roles (lawyer, auditor, admin), and an append-only access audit log.",
-          "long_description": "Snow CUAD implements the clean, automated first POC build of the Snowflake legal-compliance platform idea (paired with the snow-compliance-demo board-review architecture). Using the public Contract Understanding Atticus Dataset (CUAD v1 — 510 commercial M&A contracts annotated across 41 legal clause categories), this repository delivers an end-to-end reproducible pipeline from 'make pipeline' through a self-hosted Streamlit legal exploration console.\\n\\nFeatures include:\\n• Fast clause search with query highlighting and surrounding contract context spans\\n• Structured filtering by 41 clause categories, agreement types, jurisdictions, and counterparties\\n• Related contract recommendations scored by shared counterparties, clause overlap, and agreement types\\n• Least-privilege multi-role RBAC (Lawyer, Auditor, Admin) powered by Snowflake service credentials rather than ACCOUNTADMIN\\n• Append-only access audit logging capturing all search queries, contract inspections, and user sessions.",
-          "tags": [
-            "cuad",
-            "snowflake",
-            "legal-tech",
-            "streamlit",
-            "data-governance",
-            "rbac",
-            "audit",
-            "sql",
-            "proof-of-concept"
-          ],
-          "tech": [
-            "Python",
-            "Snowflake",
-            "Streamlit",
-            "SQL",
-            "NDJSON",
-            "GitHub Pages",
-            "GitHub Actions",
-            "Docker"
-          ],
-          "live_url": "https://snow-cuad.livive.net/",
-          "demos": [
-            {
-              "label": "Live Documentation & Demo",
-              "url": "https://snow-cuad.livive.net/"
-            },
-            {
-              "label": "Full 720p Video Walkthrough",
-              "url": "https://snow-cuad.livive.net/docs/assets/demo-720p.mp4"
-            },
-            {
-              "label": "Architecture & Schema",
-              "url": "https://github.com/jpeckenpaugh/snow-cuad/blob/main/docs/architecture.md"
-            }
-          ],
-          "repo_url": "https://github.com/jpeckenpaugh/snow-cuad",
-          "has_live_demo": true,
-          "featured": true,
-          "status": "live",
-          "confidence": "high",
-          "notes": "Clean, automated first working POC build of the snow-compliance-demo idea. Automated end-to-end Snowflake pipeline and self-hosted Streamlit UI with 510 contracts from CUAD v1. Live site at snow-cuad.livive.net.",
-          "thumb": "thumbnails/snow-cuad.webp",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 60,
-          "live_final_url": "https://snow-cuad.livive.net/",
-          "live_error": null,
-          "updated_at": "2026-10-18T11:34:31Z",
-          "how_to_play": [
-            {
-              "title": "🔍 Clause Search & Highlighting",
-              "body": "Search clause text across all 510 contracts with query term hits highlighted in amber and full context spans preserved for legal diligence review."
-            },
-            {
-              "title": "📑 Multi-Dimensional Browsing & Related Contracts",
-              "body": "Filter by 41 legal clause categories, agreement types, jurisdictions, and counterparties, and view automatically scored related contracts based on clause overlap."
-            },
-            {
-              "title": "🛡️ Least-Privilege RBAC & Append-Only Audit Logging",
-              "body": "Authenticate as Lawyer, Auditor, or Admin under dedicated service credentials (never ACCOUNTADMIN) while all logins, clause searches, and document views stream to Snowflake audit tables."
-            }
-          ]
         },
         {
           "key": "sprites-livive-net",
@@ -4597,13 +4597,13 @@
           "long_description": "Sprites is a static, browser-based 3D-to-sprite workshop companion tool for the Oblique 2.5D engine. Load GLB/glTF models with Three.js, preview turntable multi-angle views and animated walk cycles, configure camera pitch (0° to 80°), view count, and output dimensions, and inspect live 16-direction matrices with runtime shear/rotational warping. Export row-major PNG or adaptive-palette WebP sprite sheets with embedded XMP metadata, or capture single angles cropped to pixel bounding boxes.",
           "tags": [
             "3d-models",
+            "dev-tools",
             "game-assets",
             "glb",
             "gltf",
             "sprite-sheets",
             "threejs",
-            "webgl",
-            "dev-tools"
+            "webgl"
           ],
           "tech": [
             "JavaScript",
@@ -4631,14 +4631,6 @@
           "status": "live",
           "confidence": "high",
           "notes": "Static browser-based 3D-to-sprite workshop loading Three.js from jsDelivr. Companion asset-preparation tool for Oblique 2.5D scene sandbox.",
-          "thumb": "thumbnails/sprites-livive-net.webp",
-          "updated_at": "2026-10-23T13:15:10Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 180,
-          "live_final_url": "https://sprites.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🧊 1. Select Model & Multi-Directional Mode",
@@ -4652,7 +4644,15 @@
               "title": "📦 3. Crop Bounding Box & Export Sprite Atlas",
               "body": "Isolate single angles with tight alpha-channel auto-cropping, or export full row-major sprite sheets with adaptive 256-color palette quantization to WebP (lossless with XMP) or 32-bit PNG."
             }
-          ]
+          ],
+          "thumb": "thumbnails/sprites-livive-net.webp",
+          "updated_at": "2026-10-23T13:15:10Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 258,
+          "live_final_url": "https://sprites.livive.net/",
+          "live_error": null
         },
         {
           "key": "roblox-api-database",
@@ -4813,14 +4813,6 @@
               "url": "https://tc.livive.net/"
             }
           ],
-          "thumb": "thumbnails/tc-livive-org.webp",
-          "updated_at": "2026-11-09T08:07:14Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 163,
-          "live_final_url": "https://tc.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "💾 1. Disk Storage vs. Active RAM",
@@ -4838,7 +4830,76 @@
               "title": "🔬 4. Inspect Live Laplace Smoothing Math",
               "body": "Type your own sentences in View 4 and watch the processor calculate confidence in real time using inspectable Laplace smoothing: Score = (P + 1) / (P + N + 2)."
             }
-          ]
+          ],
+          "thumb": "thumbnails/tc-livive-org.webp",
+          "updated_at": "2026-11-09T08:07:14Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 85,
+          "live_final_url": "https://tc.livive.net/",
+          "live_error": null
+        },
+        {
+          "key": "wasm-livive-net",
+          "repo": "wasm-livive-net",
+          "display_title": "WebAssembly Architectural Realities",
+          "tagline": "Empirical technical reality check on WebAssembly vs. Node.js & plain JavaScript with verified project implementations and live browser benchmarks.",
+          "short_description": "An architectural deep-dive and interactive lab analyzing what WebAssembly is, where it shines, where it is overkill vs. Node.js, and verified benchmarks across real-world runtimes.",
+          "long_description": "WebAssembly in Practice cuts through hype to deliver an empirical architectural decision framework for modern web engineering. Through interactive benchmarks, memory layout models, and payload size audits across seven production repositories (including Pyodide, Pygbag, sql.js WASM SQLite, and ONNX Runtime Web), it explores the exact boundary crossings, serialization overheads, and sandboxed memory trade-offs between linear WASM execution, V8 JavaScript JIT, Web Workers, and WebGPU.",
+          "tags": [
+            "architecture",
+            "benchmarks",
+            "education",
+            "pyodide",
+            "sqlite",
+            "wasm",
+            "webassembly"
+          ],
+          "tech": [
+            "WebAssembly",
+            "JavaScript",
+            "HTML5",
+            "CSS3",
+            "GitHub Pages",
+            "WASM Runtimes"
+          ],
+          "category": "Education & Teaching",
+          "live_url": "https://wasm.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/wasm-livive-net",
+          "has_live_demo": true,
+          "featured": true,
+          "status": "active",
+          "confidence": "high",
+          "notes": "Custom domain wasm.livive.net configured via CNAME. Comprehensive architectural guide and in-browser benchmark suite. Includes verified payload footprints and runtime routes across Livive portfolio projects.",
+          "demos": [
+            {
+              "label": "Explore Lab",
+              "url": "https://wasm.livive.net/"
+            }
+          ],
+          "how_to_play": [
+            {
+              "title": "⚡ 1. The 90-Second Reality Check",
+              "body": "Examine the technical boundaries of WebAssembly: why it is a compilation target for native/managed runtimes rather than a DOM replacement, and where naive boundary crossing slows execution."
+            },
+            {
+              "title": "📊 2. Architectural Decision Matrix",
+              "body": "Navigate the 4-step routing framework: compare state residency (Node.js backend vs. client), legacy logic reuse, Web Worker UI thread isolation, and WebGPU tensor parallelism."
+            },
+            {
+              "title": "⏱️ 3. Live Side-by-Side Benchmark",
+              "body": "Run identical recursive Fibonacci algorithms side-by-side in your live browser session to compare raw 61-byte WebAssembly execution against V8 JIT-optimized JavaScript."
+            }
+          ],
+          "thumb": "thumbnails/wasm-livive-net.webp",
+          "updated_at": "2026-10-18T13:36:48Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 118,
+          "live_final_url": "https://wasm.livive.net/",
+          "live_error": null
         },
         {
           "key": "docker-sql-lessons",
@@ -4916,14 +4977,6 @@
           "confidence": "high",
           "notes": "No GitHub Pages and no CNAME, so live_url is null. Positioned by the README as a teaching tool for client/server concepts rather than a standalone game, hence Education & Teaching. Local-only server at 0.0.0.0:8000.",
           "demos": [],
-          "thumb": "thumbnails/fast-ttt.webp",
-          "updated_at": "2026-10-18T11:45:03Z",
-          "live_ok": null,
-          "live_status": null,
-          "live_checked_at": null,
-          "live_latency_ms": null,
-          "live_final_url": null,
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🚀 1. Boot the Server (./install.sh && ./run.sh)",
@@ -4937,7 +4990,15 @@
               "title": "🛡️ 3. Atomic SQLite State & Plain-Text Errors",
               "body": "Every request returns pure text/plain ASCII grids. Out-of-turn or occupied-square moves return HTTP 409 Conflict with the current board and error message; completed games highlight the winning line ([X]|[X]|[X])."
             }
-          ]
+          ],
+          "thumb": "thumbnails/fast-ttt.webp",
+          "updated_at": "2026-10-18T11:45:03Z",
+          "live_ok": null,
+          "live_status": null,
+          "live_checked_at": null,
+          "live_latency_ms": null,
+          "live_final_url": null,
+          "live_error": null
         },
         {
           "key": "python_classes",
@@ -4974,67 +5035,6 @@
           "live_latency_ms": null,
           "live_final_url": null,
           "live_error": null
-        },
-        {
-          "key": "wasm-livive-net",
-          "repo": "wasm-livive-net",
-          "display_title": "WebAssembly Architectural Realities",
-          "tagline": "Empirical technical reality check on WebAssembly vs. Node.js & plain JavaScript with verified project implementations and live browser benchmarks.",
-          "short_description": "An architectural deep-dive and interactive lab analyzing what WebAssembly is, where it shines, where it is overkill vs. Node.js, and verified benchmarks across real-world runtimes.",
-          "long_description": "WebAssembly in Practice cuts through hype to deliver an empirical architectural decision framework for modern web engineering. Through interactive benchmarks, memory layout models, and payload size audits across seven production repositories (including Pyodide, Pygbag, sql.js WASM SQLite, and ONNX Runtime Web), it explores the exact boundary crossings, serialization overheads, and sandboxed memory trade-offs between linear WASM execution, V8 JavaScript JIT, Web Workers, and WebGPU.",
-          "tags": [
-            "webassembly",
-            "wasm",
-            "architecture",
-            "education",
-            "benchmarks",
-            "pyodide",
-            "sqlite"
-          ],
-          "tech": [
-            "WebAssembly",
-            "JavaScript",
-            "HTML5",
-            "CSS3",
-            "GitHub Pages",
-            "WASM Runtimes"
-          ],
-          "category": "Education & Teaching",
-          "live_url": "https://wasm.livive.net/",
-          "repo_url": "https://github.com/jpeckenpaugh/wasm-livive-net",
-          "has_live_demo": true,
-          "featured": true,
-          "status": "active",
-          "confidence": "high",
-          "notes": "Custom domain wasm.livive.net configured via CNAME. Comprehensive architectural guide and in-browser benchmark suite. Includes verified payload footprints and runtime routes across Livive portfolio projects.",
-          "demos": [
-            {
-              "label": "Explore Lab",
-              "url": "https://wasm.livive.net/"
-            }
-          ],
-          "thumb": "thumbnails/wasm-livive-net.webp",
-          "updated_at": "2026-10-18T13:36:48Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 205,
-          "live_final_url": "https://wasm.livive.net/",
-          "live_error": null,
-          "how_to_play": [
-            {
-              "title": "⚡ 1. The 90-Second Reality Check",
-              "body": "Examine the technical boundaries of WebAssembly: why it is a compilation target for native/managed runtimes rather than a DOM replacement, and where naive boundary crossing slows execution."
-            },
-            {
-              "title": "📊 2. Architectural Decision Matrix",
-              "body": "Navigate the 4-step routing framework: compare state residency (Node.js backend vs. client), legacy logic reuse, Web Worker UI thread isolation, and WebGPU tensor parallelism."
-            },
-            {
-              "title": "⏱️ 3. Live Side-by-Side Benchmark",
-              "body": "Run identical recursive Fibonacci algorithms side-by-side in your live browser session to compare raw 61-byte WebAssembly execution against V8 JIT-optimized JavaScript."
-            }
-          ]
         }
       ]
     },
@@ -5080,14 +5080,6 @@
               "url": "https://c3pa.livive.net/"
             }
           ],
-          "thumb": "thumbnails/c3pa-explorer.webp",
-          "updated_at": "2026-11-09T08:13:06Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 171,
-          "live_final_url": "https://c3pa.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "📊 1. Corpus Metrics & Cryptographic Audit",
@@ -5101,7 +5093,15 @@
               "title": "⚙️ 3. Downstream Slicing & Partition Export",
               "body": "Filter extracted samples by legal category, sentence vs fragment type, and annotator consensus. Export filtered subsets as timestamped training, evaluation, and test splits with complete metadata."
             }
-          ]
+          ],
+          "thumb": "thumbnails/c3pa-explorer.webp",
+          "updated_at": "2026-11-09T08:13:06Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 159,
+          "live_final_url": "https://c3pa.livive.net/",
+          "live_error": null
         },
         {
           "key": "company-hub",
@@ -5145,24 +5145,12 @@
           "status": "prototype",
           "confidence": "high",
           "notes": "No homepage, no GitHub Pages, no CNAME, and no live URL in the dossier, so live_url is null. Self-hosted app run via ./run.sh (uvicorn on 127.0.0.1:8000); login required. No license specified. Actively developed through sprints 01-03 as of the last push (2026-09-06). | ch: Live probe returned 200 with title 'Company Hub — Personal workspace'. Written in JavaScript by language stat but is primarily a Python/FastAPI app with a Bootstrap SPA frontend. No license or stars (0).",
-          "repos": [
-            "company-hub",
-            "ch"
-          ],
           "demos": [
             {
               "label": "Play",
               "url": "https://ch.livive.net/"
             }
           ],
-          "thumb": "thumbnails/company-hub.webp",
-          "updated_at": "2026-10-18T11:29:48Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 167,
-          "live_final_url": "https://ch.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🏢 1. Global Directory & Multi-Facet Filters",
@@ -5176,7 +5164,19 @@
               "title": "🤖 3. On-Device AI News Ranking & SQLite Workspace",
               "body": "Evaluate financial and industry news articles using deterministic baseline scoring and local WebGPU Gemma models. Backup or export the SQLite database directly from the workspace view."
             }
-          ]
+          ],
+          "repos": [
+            "company-hub",
+            "ch"
+          ],
+          "thumb": "thumbnails/company-hub.webp",
+          "updated_at": "2026-10-18T11:29:48Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 149,
+          "live_final_url": "https://ch.livive.net/",
+          "live_error": null
         },
         {
           "key": "driver-hub-prototype",
@@ -5220,14 +5220,6 @@
               "url": "https://driver.livive.net/"
             }
           ],
-          "thumb": "thumbnails/driver-hub-prototype.webp",
-          "updated_at": "2026-10-20T09:49:53Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 159,
-          "live_final_url": "https://driver.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "📱 1. Side-by-Side Dual Device Demo",
@@ -5241,7 +5233,15 @@
               "title": "🗺️ 3. Animated Telemetry & Trip Completion",
               "body": "Simulate turn-by-turn vehicle motion along Madrid streets with heading rotation. Walk through pickup arrival, passenger boarding, en-route transit, and trip completion with earnings settlement."
             }
-          ]
+          ],
+          "thumb": "thumbnails/driver-hub-prototype.webp",
+          "updated_at": "2026-10-20T09:49:53Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 71,
+          "live_final_url": "https://driver.livive.net/",
+          "live_error": null
         },
         {
           "key": "executive-assistant",
@@ -5283,14 +5283,6 @@
               "url": "https://ea.livive.net/"
             }
           ],
-          "thumb": "thumbnails/executive-assistant.webp",
-          "updated_at": "2026-10-18T11:29:50Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 169,
-          "live_final_url": "https://ea.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "📊 1. Daily Cockpit & Executive Briefing",
@@ -5308,7 +5300,15 @@
               "title": "✨ 4. Natural Language AI Command Bar",
               "body": "Type natural instructions (e.g., 'Schedule Board Strategy Sync tomorrow 10am and prep review dossier') into the global AI bar. Preview multi-action structured JSON actions in an interactive modal before committing them to the local SQLite database."
             }
-          ]
+          ],
+          "thumb": "thumbnails/executive-assistant.webp",
+          "updated_at": "2026-10-18T11:29:50Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 97,
+          "live_final_url": "https://ea.livive.net/",
+          "live_error": null
         },
         {
           "key": "herons-fountain",
@@ -5343,14 +5343,6 @@
               "url": "https://fountain.livive.net/"
             }
           ],
-          "thumb": "thumbnails/herons-fountain.webp",
-          "updated_at": "2026-10-18T11:30:03Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 513,
-          "live_final_url": "https://fountain.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "💧 1. Gravitational Head & Pneumatic Compression",
@@ -5368,7 +5360,15 @@
               "title": "⚙️ 4. Automated Triggers & Multi-Speed Time Scaling",
               "body": "Tune auto-inversion thresholds based on jet speed, flow rate, or lower chamber capacity with customizable dwell times. Toggle speed from 1× to 16× to observe fluid conservation cycles over extended runtimes."
             }
-          ]
+          ],
+          "thumb": "thumbnails/herons-fountain.webp",
+          "updated_at": "2026-10-18T11:30:03Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 66,
+          "live_final_url": "https://fountain.livive.net/",
+          "live_error": null
         },
         {
           "key": "oblique-livive-net",
@@ -5420,14 +5420,6 @@
           "status": "active experiments",
           "confidence": "high",
           "notes": "Repository README describes a browser-based 2.5D game-world workbench with four featured live pages: the model sandbox, the Playground scene builder (playground.html), Terrain Layers, and Beach Camp. Static HTML, CSS, and vanilla JavaScript; GitHub Pages deploys the repository root. The related Sprites model-to-sprite workshop is hosted at sprites.livive.net.",
-          "thumb": "thumbnails/oblique-livive-net.webp",
-          "updated_at": "2026-10-20T17:46:43Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 51,
-          "live_final_url": "https://oblique.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🕹️ 1. Dynamic Y-Sorting & Obstacle Collision",
@@ -5445,7 +5437,15 @@
               "title": "🎨 4. Playground Scene Builder & Event Sequencer",
               "body": "Craft 16×16 scenes with terrain brushes, place NPCs with custom orientations and scaling, toggle autonomous wandering, and choreograph story sequences with camera transitions and dialogue boxes."
             }
-          ]
+          ],
+          "thumb": "thumbnails/oblique-livive-net.webp",
+          "updated_at": "2026-10-20T17:46:43Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 13,
+          "live_final_url": "https://oblique.livive.net/",
+          "live_error": null
         },
         {
           "key": "robot-motion-studio",
@@ -5485,14 +5485,6 @@
               "url": "https://motion.livive.net/"
             }
           ],
-          "thumb": "thumbnails/robot-motion-studio.webp",
-          "updated_at": "2026-10-18T11:29:53Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 159,
-          "live_final_url": "https://motion.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🦾 1. Multi-Robot Kinematic Architectures",
@@ -5506,7 +5498,15 @@
               "title": "🕹️ 3. Interactive 2D Canvas Simulator & Firmware Export",
               "body": "Simulate and scrub motion trajectories in real time with forward kinematics and interactive environmental geometry. Inspect resolved keyframe telemetry and download Schema Version 2 JSON payloads ready for embedded Arduino firmware control."
             }
-          ]
+          ],
+          "thumb": "thumbnails/robot-motion-studio.webp",
+          "updated_at": "2026-10-18T11:29:53Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 138,
+          "live_final_url": "https://motion.livive.net/",
+          "live_error": null
         },
         {
           "key": "vid-factory",
@@ -5550,14 +5550,6 @@
               "url": "https://vid.livive.net/"
             }
           ],
-          "thumb": "thumbnails/vid-factory.webp",
-          "updated_at": "2026-11-09T08:13:01Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 147,
-          "live_final_url": "https://vid.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "🎬 1. Content Projects & Catalog Management",
@@ -5571,7 +5563,15 @@
               "title": "🎙️ 3. Neural Kokoro TTS Studio & Audio Archive",
               "body": "Synthesize script dialogue in real time using browser-native Kokoro neural voices (af_heart, am_michael) with speed controls, inline waveform audio preview, and SQLite track history."
             }
-          ]
+          ],
+          "thumb": "thumbnails/vid-factory.webp",
+          "updated_at": "2026-11-09T08:13:01Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 142,
+          "live_final_url": "https://vid.livive.net/",
+          "live_error": null
         },
         {
           "key": "tech-livive-net",
@@ -5621,14 +5621,6 @@
               "url": "https://tech.livive.net/#/about"
             }
           ],
-          "thumb": "thumbnails/tech-livive-net.webp",
-          "updated_at": "2026-10-18T11:31:56Z",
-          "live_ok": true,
-          "live_status": 200,
-          "live_checked_at": "2026-11-09T08:13:33Z",
-          "live_latency_ms": 256,
-          "live_final_url": "https://tech.livive.net/",
-          "live_error": null,
           "how_to_play": [
             {
               "title": "📑 1. Handcrafted Zero-Build Architecture",
@@ -5646,14 +5638,22 @@
               "title": "📚 4. Verified Primary Source Registry",
               "body": "Every claim links back to open hardware certifications (OSHWA), component datasheets, and reverse-engineered schematic PDFs."
             }
-          ]
+          ],
+          "thumb": "thumbnails/tech-livive-net.webp",
+          "updated_at": "2026-10-18T11:31:56Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T08:48:09Z",
+          "live_latency_ms": 109,
+          "live_final_url": "https://tech.livive.net/",
+          "live_error": null
         }
       ]
     }
   ],
   "health": {
-    "checked_at": "2026-11-09T08:13:33Z",
-    "status": "degraded",
+    "checked_at": "2026-11-09T08:48:09Z",
+    "status": "ok",
     "live_total": 36,
     "live_ok": 36,
     "live_down": 0,
