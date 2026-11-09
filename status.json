@@ -1,0 +1,554 @@
+{
+  "checked_at": "2026-10-29T02:50:42Z",
+  "status": "ok",
+  "live_total": 36,
+  "live_ok": 36,
+  "live_down": 0,
+  "down_keys": [],
+  "failed": [],
+  "projects": {
+    "aom": {
+      "title": "Age of Mycology",
+      "url": "https://aom.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 263,
+      "final_url": "https://aom.livive.net/",
+      "error": null,
+      "demos": [
+        {
+          "url": "https://aom.livive.net/?fb=high",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://aom.livive.net/?fb=high",
+          "latency_ms": 126,
+          "error": null,
+          "role": "demo"
+        }
+      ]
+    },
+    "chk-livive-net": {
+      "title": "Classic Checkers & AI Arena",
+      "url": "https://chk.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 284,
+      "final_url": "https://chk.livive.net/",
+      "error": null,
+      "demos": [
+        {
+          "url": "https://chk.livive.net/godot/",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://chk.livive.net/godot/",
+          "latency_ms": 94,
+          "error": null,
+          "role": "demo"
+        }
+      ]
+    },
+    "EuchreGame": {
+      "title": "EuchreGame",
+      "url": "https://euchre.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 219,
+      "final_url": "https://euchre.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "game-pending": {
+      "title": "Game Pending",
+      "url": "https://gp.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 733,
+      "final_url": "https://gp.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "lokarta": {
+      "title": "Lokarta",
+      "url": "https://lk.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 192,
+      "final_url": "https://lk.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "rl-livive-net": {
+      "title": "LunarLander Policy Lab",
+      "url": "https://lunar.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 263,
+      "final_url": "https://lunar.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "mines-livive-net": {
+      "title": "Minesweeper RL Arcade",
+      "url": "https://mines.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 257,
+      "final_url": "https://mines.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "p2p-ttt": {
+      "title": "Peer-to-peer Tic-Tac-Toe",
+      "url": "https://p2p-ttt.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 211,
+      "final_url": "https://p2p-ttt.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "threat-sweep": {
+      "title": "Threat Sweep",
+      "url": "https://t-sweep.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 219,
+      "final_url": "https://t-sweep.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "vibe-tic-tac-toe": {
+      "title": "Vibe Tic-Tac-Toe",
+      "url": "https://v-ttt.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 209,
+      "final_url": "https://v-ttt.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "rag-poc": {
+      "title": "Northstar RAG POC",
+      "url": "https://rag.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 187,
+      "final_url": "https://rag.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "sm3": {
+      "title": "State Machine 3",
+      "url": "https://seekdepth.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 186,
+      "final_url": "https://seekdepth.net/",
+      "error": null,
+      "demos": []
+    },
+    "trot-livive-net": {
+      "title": "TROT \u2014 Transparent Rust ONNX Trainer",
+      "url": "https://trot.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 207,
+      "final_url": "https://trot.livive.net/",
+      "error": null,
+      "demos": [
+        {
+          "url": "https://github.com/jpeckenpaugh/trot-livive-net",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://github.com/jpeckenpaugh/trot-livive-net",
+          "latency_ms": 681,
+          "error": null,
+          "role": "demo"
+        }
+      ]
+    },
+    "mines-sm": {
+      "title": "mine-sm \u2014 Minesweeper RL Environment",
+      "url": "https://mines-sm.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 143,
+      "final_url": "https://mines-sm.livive.net/",
+      "error": null,
+      "demos": [
+        {
+          "url": "https://github.com/jpeckenpaugh/mines-sm",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://github.com/jpeckenpaugh/mines-sm",
+          "latency_ms": 661,
+          "error": null,
+          "role": "demo"
+        }
+      ]
+    },
+    "seekdepth.org": {
+      "title": "Seekdepth.org",
+      "url": "https://seekdepth.org/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 616,
+      "final_url": "https://seekdepth.org/",
+      "error": null,
+      "demos": []
+    },
+    "fourcast-livive-net": {
+      "title": "fourcast \u00b7 Four Visual Paradigms",
+      "url": "https://fourcast.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 173,
+      "final_url": "https://fourcast.livive.net/",
+      "error": null,
+      "demos": [
+        {
+          "url": "https://github.com/jpeckenpaugh/fourcast-livive-net",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://github.com/jpeckenpaugh/fourcast-livive-net",
+          "latency_ms": 693,
+          "error": null,
+          "role": "demo"
+        }
+      ]
+    },
+    "ocr-livive-net": {
+      "title": "OCR \u00b7 Four Classifiers from Scratch",
+      "url": "https://ocr.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 196,
+      "final_url": "https://ocr.livive.net/",
+      "error": null,
+      "demos": [
+        {
+          "url": "https://github.com/jpeckenpaugh/ocr-livive-net",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://github.com/jpeckenpaugh/ocr-livive-net",
+          "latency_ms": 601,
+          "error": null,
+          "role": "demo"
+        }
+      ]
+    },
+    "hebrew-language-tutor": {
+      "title": "English / Hebrew Language Tutor",
+      "url": "https://hebrew.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 185,
+      "final_url": "https://hebrew.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "vibe-hindi-language-tutor": {
+      "title": "English \u00b7 Hindi & Kannada Language Tutor",
+      "url": "https://hindi.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 202,
+      "final_url": "https://hindi.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "nexttext": {
+      "title": "nexttext",
+      "url": "https://nexttext.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 225,
+      "final_url": "https://nexttext.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "yds-livive-net": {
+      "title": "You Don't Say",
+      "url": "https://yds.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 203,
+      "final_url": "https://yds.livive.net/",
+      "error": null,
+      "demos": [
+        {
+          "url": "https://github.com/jpeckenpaugh/yds-livive-net",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://github.com/jpeckenpaugh/yds-livive-net",
+          "latency_ms": 736,
+          "error": null,
+          "role": "demo"
+        }
+      ]
+    },
+    "snow-compliance-demo": {
+      "title": "Snowflake Compliance Demo",
+      "url": "https://compliance.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 180,
+      "final_url": "https://compliance.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "snow-cuad": {
+      "title": "Snow CUAD",
+      "url": "https://snow-cuad.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 226,
+      "final_url": "https://snow-cuad.livive.net/",
+      "error": null,
+      "demos": [
+        {
+          "url": "https://snow-cuad.livive.net/docs/assets/demo-720p.mp4",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://snow-cuad.livive.net/docs/assets/demo-720p.mp4",
+          "latency_ms": 479,
+          "error": null,
+          "role": "demo"
+        },
+        {
+          "url": "https://github.com/jpeckenpaugh/snow-cuad/blob/main/docs/architecture.md",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://github.com/jpeckenpaugh/snow-cuad/blob/main/docs/architecture.md",
+          "latency_ms": 627,
+          "error": null,
+          "role": "demo"
+        }
+      ]
+    },
+    "sprites-livive-net": {
+      "title": "Sprites \u00b7 Model-to-Sprite Workshop",
+      "url": "https://sprites.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 244,
+      "final_url": "https://sprites.livive.net/",
+      "error": null,
+      "demos": [
+        {
+          "url": "https://oblique.livive.net/",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://oblique.livive.net/",
+          "latency_ms": 233,
+          "error": null,
+          "role": "demo"
+        }
+      ]
+    },
+    "tc-livive-org": {
+      "title": "Training vs. Inference",
+      "url": "https://tc.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 385,
+      "final_url": "https://tc.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "c3pa-explorer": {
+      "title": "C3PA Explorer",
+      "url": "https://c3pa.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 208,
+      "final_url": "https://c3pa.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "company-hub": {
+      "title": "Company Hub",
+      "url": "https://ch.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 181,
+      "final_url": "https://ch.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "driver-hub-prototype": {
+      "title": "Driver Hub Prototype",
+      "url": "https://driver.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 223,
+      "final_url": "https://driver.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "executive-assistant": {
+      "title": "Executive Assistant",
+      "url": "https://ea.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 329,
+      "final_url": "https://ea.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "herons-fountain": {
+      "title": "Heron's Fountain \u2014 2D Simulation",
+      "url": "https://fountain.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 178,
+      "final_url": "https://fountain.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "oblique-livive-net": {
+      "title": "Oblique \u00b7 2.5D World Sandbox",
+      "url": "https://oblique.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 102,
+      "final_url": "https://oblique.livive.net/",
+      "error": null,
+      "demos": [
+        {
+          "url": "https://oblique.livive.net/sandbox.html",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://oblique.livive.net/sandbox.html",
+          "latency_ms": 74,
+          "error": null,
+          "role": "demo"
+        },
+        {
+          "url": "https://oblique.livive.net/playground.html",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://oblique.livive.net/playground.html",
+          "latency_ms": 108,
+          "error": null,
+          "role": "demo"
+        },
+        {
+          "url": "https://oblique.livive.net/terrain-layers.html",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://oblique.livive.net/terrain-layers.html",
+          "latency_ms": 163,
+          "error": null,
+          "role": "demo"
+        },
+        {
+          "url": "https://oblique.livive.net/beach-camp.html",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://oblique.livive.net/beach-camp.html",
+          "latency_ms": 111,
+          "error": null,
+          "role": "demo"
+        }
+      ]
+    },
+    "robot-motion-studio": {
+      "title": "Robot Motion Studio",
+      "url": "https://motion.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 143,
+      "final_url": "https://motion.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "vid-factory": {
+      "title": "Video Content Factory",
+      "url": "https://vid.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 136,
+      "final_url": "https://vid.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "tech-livive-net": {
+      "title": "tech.livive.net",
+      "url": "https://tech.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 169,
+      "final_url": "https://tech.livive.net/",
+      "error": null,
+      "demos": [
+        {
+          "url": "https://tech.livive.net/#/authors",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://tech.livive.net/#/authors",
+          "latency_ms": 57,
+          "error": null,
+          "role": "demo"
+        },
+        {
+          "url": "https://tech.livive.net/#/post/inside-the-hackberry-pi-cm5-how-open-pcb-design-is-reviving",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://tech.livive.net/#/post/inside-the-hackberry-pi-cm5-how-open-pcb-design-is-reviving",
+          "latency_ms": 158,
+          "error": null,
+          "role": "demo"
+        },
+        {
+          "url": "https://tech.livive.net/#/about",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://tech.livive.net/#/about",
+          "latency_ms": 53,
+          "error": null,
+          "role": "demo"
+        }
+      ]
+    },
+    "wasm-livive-net": {
+      "title": "WebAssembly Architectural Realities",
+      "url": "https://wasm.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 224,
+      "final_url": "https://wasm.livive.net/",
+      "error": null,
+      "demos": []
+    },
+    "chtbx-livive-net": {
+      "title": "Chatterbox \u00b7 Voice-Clone Studio",
+      "url": "https://chtbx.livive.net/",
+      "ok": true,
+      "status": 200,
+      "latency_ms": 185,
+      "final_url": "https://chtbx.livive.net/",
+      "error": null,
+      "demos": [
+        {
+          "url": "https://chtbx.livive.net/audio/v1/index.html",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://chtbx.livive.net/audio/v1/index.html",
+          "latency_ms": 127,
+          "error": null,
+          "role": "demo"
+        },
+        {
+          "url": "https://github.com/jpeckenpaugh/chtbx-livive-net",
+          "status": 200,
+          "ok": true,
+          "final_url": "https://github.com/jpeckenpaugh/chtbx-livive-net",
+          "latency_ms": 633,
+          "error": null,
+          "role": "demo"
+        }
+      ]
+    }
+  }
+}
