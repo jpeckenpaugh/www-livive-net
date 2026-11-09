@@ -32,7 +32,9 @@
   "description": "A federated, cryptographically audited reservoir of sign-language keyframes and kinematic tensors for CKPE.",
   "url": "https://www.livive.net/p/lexd-livive-net/",
   "image": [
-    "https://www.livive.net/thumbnails/lexd-livive-net.webp"
+    "https://www.livive.net/thumbnails/lexd-livive-net.webp",
+    "https://www.livive.net/previews/lexd-livive-net/01-provenance.png",
+    "https://www.livive.net/previews/lexd-livive-net/02-source-notebook.png"
   ],
   "genre": "Language Tools",
   "keywords": "Python, Jupyter Notebook, Colab, SQLite, SHA-256, GitHub Pages, ffmpeg",
@@ -160,7 +162,13 @@
       <span class="ep-body"><strong>Source Notebook</strong><span>https://lexd-sl-src.livive.net/</span></span>
       <span class="ep-go"><a class="btn btn-ghost" href="https://lexd-sl-src.livive.net/" target="_blank" rel="noopener noreferrer">&#9658; Watch<span class="sr-only"> (opens in a new tab)</span></a></span>
     </li></ul></div>
-    
+    <div class="section"><h3>Screenshots</h3><div class="shots"><figure class="shot">
+      <img loading="lazy" src="/previews/lexd-livive-net/01-provenance.png" alt="Federated provenance engine page" width="960" height="720">
+      <figcaption>Federated provenance engine page</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/lexd-livive-net/02-source-notebook.png" alt="Source notebook on lexd-sl-src.livive.net" width="960" height="720">
+      <figcaption>Source notebook on lexd-sl-src.livive.net</figcaption>
+    </figure></div></div>
     <div class="section"><h3>About</h3><p>LEXD is the published distribution layer for verified sign-language keyframes and kinematic training tensors behind CKPE. The primary repository defines a four-coordinate namespace (language / corpus / signer / lemma), a two-tier artifact standard - 480x480 WebP master slices and exact 2x2-decimated 240x240 training tensors - and an ACID-compliant SQLite witness that links each lemma to its upstream video hash, Frame 0 crop box, timing bounds, and per-frame signatures. The companion source notebook is the observable ingestion instrument: it records upstream bytes and SHA-256 hashes, locks the coronal centerline once at resting neutral, takes lossless integer pixel slices, and performs strictly dyadic downsampling. The two live pages are documentation/artifact surfaces rather than an interactive app; the work is the auditable pipeline.</p></div>
     <div class="section"><h3>Summary</h3><p>Two reproducible Colab pipelines turn upstream sign-language video into SHA-256-verified 480x480 master stills, 240x240 dyadic tensors, and an audited SQLite witness.</p></div>
     <div class="section"><h3>Tech</h3><ul class="chips"><li>Python</li><li>Jupyter Notebook</li><li>Colab</li><li>SQLite</li><li>SHA-256</li><li>GitHub Pages</li><li>ffmpeg</li></ul></div>

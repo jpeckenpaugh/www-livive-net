@@ -32,7 +32,12 @@
   "description": "A tiny 64x64 voxel playground: make a character, fill the park with neighbours and companions, and wander through mini-games and glider flights.",
   "url": "https://www.livive.net/p/pp-livive-net/",
   "image": [
-    "https://www.livive.net/thumbnails/pp-livive-net.webp"
+    "https://www.livive.net/thumbnails/pp-livive-net.webp",
+    "https://www.livive.net/previews/pp-livive-net/01-crowd.png",
+    "https://www.livive.net/previews/pp-livive-net/02-park.png",
+    "https://www.livive.net/previews/pp-livive-net/03-inventory.png",
+    "https://www.livive.net/previews/pp-livive-net/04-goals.png",
+    "https://www.livive.net/previews/pp-livive-net/05-companions.png"
   ],
   "genre": "Games",
   "keywords": "HTML5, CSS3, JavaScript, ES Modules, Canvas 2D, DiceBear",
@@ -50,7 +55,13 @@
   "sameAs": [
     "https://pp.livive.net/",
     "https://github.com/jpeckenpaugh/pp-livive-net"
-  ]
+  ],
+  "video": {
+    "@type": "VideoObject",
+    "contentUrl": "https://www.livive.net/previews/pp-livive-net.webm",
+    "thumbnailUrl": "https://www.livive.net/previews/pp-livive-net.webp",
+    "duration": "PT30S"
+  }
 }
 </script>
 <style>
@@ -137,7 +148,33 @@
   </div></header>
   <main id="main">
     <a class="back" href="/">&larr; Browse all</a>
-    <div class="hero"><div class="media"><img src="/thumbnails/pp-livive-net.webp" alt="Play Park — A tiny 64x64 voxel playground: make a character, fill the park with neighbours and companions, and wander through mini-games and glider flights."></div></div>
+    <div class="hero"><div class="carousel is-video" data-carousel style="aspect-ratio:1280 / 800">
+      <div class="slides"><figure class="slide is-active" data-kind="video">
+      <img src="/previews/pp-livive-net.webp" alt="Play Park — A tiny 64x64 voxel playground: make a character, fill the park with neighbours and companions, and wander through mini-games and glider flights.">
+      <video muted playsinline preload="metadata" aria-hidden="true" tabindex="-1" data-src="/previews/pp-livive-net.webm" poster="/previews/pp-livive-net.webp"></video>
+      <button class="video-replay" type="button" aria-label="Replay the live-play demo"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true" focusable="false"><path d="M8 5l12 7-12 7z" fill="currentColor"/></svg></button>
+      <figcaption class="slide-cap"><span class="cap-index">Demo</span><span class="cap-text">Live-play demo · 30s</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/pp-livive-net/01-crowd.png" alt="Neighbour crowd and character creator" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">01 / 05</span><span class="cap-text">Neighbour crowd and character creator</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/pp-livive-net/02-park.png" alt="Play Park world and minimap" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">02 / 05</span><span class="cap-text">Play Park world and minimap</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/pp-livive-net/03-inventory.png" alt="Backpack and starter items" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">03 / 05</span><span class="cap-text">Backpack and starter items</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/pp-livive-net/04-goals.png" alt="Park goals and progress" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">04 / 05</span><span class="cap-text">Park goals and progress</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/pp-livive-net/05-companions.png" alt="Companion buddies" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">05 / 05</span><span class="cap-text">Companion buddies</span></figcaption>
+    </figure></div>
+      <button class="nav-arrow prev" type="button" aria-label="Previous slide"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M15 4 7 12l8 8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button class="nav-arrow next" type="button" aria-label="Next slide"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M9 4l8 8-8 8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button class="video-toggle" type="button" aria-label="Pause demo"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" focusable="false"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor"/></svg></span><span class="lbl">Pause</span></button>
+      <div class="dots" role="group" aria-label="Slide navigation"><button type="button" aria-label="Slide 1 (demo)" class="is-active" aria-current="true"></button><button type="button" aria-label="Slide 2"></button><button type="button" aria-label="Slide 3"></button><button type="button" aria-label="Slide 4"></button><button type="button" aria-label="Slide 5"></button><button type="button" aria-label="Slide 6"></button></div>
+    </div></div>
     <h1 class="title">Play Park</h1>
     <div class="meta">
       <span class="badge new">New this week</span>
@@ -156,7 +193,22 @@
       <span class="ep-body"><strong>Enter Play Park</strong><span>https://pp.livive.net/</span></span>
       <span class="ep-go"><a class="btn btn-ghost" href="https://pp.livive.net/" target="_blank" rel="noopener noreferrer">&#9658; Watch<span class="sr-only"> (opens in a new tab)</span></a></span>
     </li></ul></div>
-    
+    <div class="section"><h3>Screenshots</h3><div class="shots"><figure class="shot">
+      <img loading="lazy" src="/previews/pp-livive-net/01-crowd.png" alt="Neighbour crowd and character creator" width="960" height="720">
+      <figcaption>Neighbour crowd and character creator</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/pp-livive-net/02-park.png" alt="Play Park world and minimap" width="960" height="720">
+      <figcaption>Play Park world and minimap</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/pp-livive-net/03-inventory.png" alt="Backpack and starter items" width="960" height="720">
+      <figcaption>Backpack and starter items</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/pp-livive-net/04-goals.png" alt="Park goals and progress" width="960" height="720">
+      <figcaption>Park goals and progress</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/pp-livive-net/05-companions.png" alt="Companion buddies" width="960" height="720">
+      <figcaption>Companion buddies</figcaption>
+    </figure></div></div>
     <div class="section"><h3>About</h3><p>Play Park is a small open-ended world rather than a single game. A seeded 64x64 tile park holds grass, paths, sand, ponds, flowers, and a crowd of wandering neighbours. Create a voxel character locally with DiceBear, then explore with WASD/arrows or click-to-pathfind. Each character carries a backpack with starter items: throw a ball for a companion to fetch, unfurl a giant Tic-Tac-Toe mat on the tiles, equip glider wings to cross water, or try the park&#39;s other activities. Companions, homes, goals, friends, stats, sound, and voice options live in a five-tab HUD; progress saves to localStorage. Plain HTML/CSS/ES modules, with no build step to serve.</p></div>
     <div class="section"><h3>Summary</h3><p>A browser playground with a seeded 64x64 park, local DiceBear Voxel characters, companion pets, inventory, mini-games, minimap, and localStorage saves.</p></div>
     <div class="section"><h3>Tech</h3><ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>ES Modules</li><li>Canvas 2D</li><li>DiceBear</li></ul></div>

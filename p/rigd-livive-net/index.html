@@ -32,7 +32,12 @@
   "description": "A zero-dependency browser rig for inspecting the CKPE skeleton in 2.5D and four 3D views, with joint limits, sequences, and ASL keyframe overlays.",
   "url": "https://www.livive.net/p/rigd-livive-net/",
   "image": [
-    "https://www.livive.net/thumbnails/rigd-livive-net.webp"
+    "https://www.livive.net/thumbnails/rigd-livive-net.webp",
+    "https://www.livive.net/previews/rigd-livive-net/01-rig-3d.png",
+    "https://www.livive.net/previews/rigd-livive-net/02-rotated.png",
+    "https://www.livive.net/previews/rigd-livive-net/03-sequence.png",
+    "https://www.livive.net/previews/rigd-livive-net/04-asl-mother.png",
+    "https://www.livive.net/previews/rigd-livive-net/05-scrubber.png"
   ],
   "genre": "Computer Vision",
   "keywords": "HTML5, CSS3, JavaScript, ES Modules, Canvas 2D, JSON, Python",
@@ -50,7 +55,13 @@
   "sameAs": [
     "https://rigd.livive.net/",
     "https://github.com/jpeckenpaugh/rigd-livive-net"
-  ]
+  ],
+  "video": {
+    "@type": "VideoObject",
+    "contentUrl": "https://www.livive.net/previews/rigd-livive-net.webm",
+    "thumbnailUrl": "https://www.livive.net/previews/rigd-livive-net.webp",
+    "duration": "PT30S"
+  }
 }
 </script>
 <style>
@@ -137,7 +148,33 @@
   </div></header>
   <main id="main">
     <a class="back" href="/">&larr; Browse all</a>
-    <div class="hero"><div class="media"><img src="/thumbnails/rigd-livive-net.webp" alt="RIGD — Articulated Rig &amp; CKPE Testbed — A zero-dependency browser rig for inspecting the CKPE skeleton in 2.5D and four 3D views, with joint limits, sequences, and ASL keyframe overlays."></div></div>
+    <div class="hero"><div class="carousel is-video" data-carousel style="aspect-ratio:1280 / 800">
+      <div class="slides"><figure class="slide is-active" data-kind="video">
+      <img src="/previews/rigd-livive-net.webp" alt="RIGD — Articulated Rig &amp; CKPE Testbed — A zero-dependency browser rig for inspecting the CKPE skeleton in 2.5D and four 3D views, with joint limits, sequences, and ASL keyframe overlays.">
+      <video muted playsinline preload="metadata" aria-hidden="true" tabindex="-1" data-src="/previews/rigd-livive-net.webm" poster="/previews/rigd-livive-net.webp"></video>
+      <button class="video-replay" type="button" aria-label="Replay the live-play demo"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true" focusable="false"><path d="M8 5l12 7-12 7z" fill="currentColor"/></svg></button>
+      <figcaption class="slide-cap"><span class="cap-index">Demo</span><span class="cap-text">Live-play demo · 30s</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/rigd-livive-net/01-rig-3d.png" alt="Upper-body 3D rig and four cameras" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">01 / 05</span><span class="cap-text">Upper-body 3D rig and four cameras</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/rigd-livive-net/02-rotated.png" alt="Rotated 3D skeleton" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">02 / 05</span><span class="cap-text">Rotated 3D skeleton</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/rigd-livive-net/03-sequence.png" alt="Sequence playback" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">03 / 05</span><span class="cap-text">Sequence playback</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/rigd-livive-net/04-asl-mother.png" alt="ASL keyframe overlay" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">04 / 05</span><span class="cap-text">ASL keyframe overlay</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/rigd-livive-net/05-scrubber.png" alt="Frame scrubber and reward" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">05 / 05</span><span class="cap-text">Frame scrubber and reward</span></figcaption>
+    </figure></div>
+      <button class="nav-arrow prev" type="button" aria-label="Previous slide"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M15 4 7 12l8 8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button class="nav-arrow next" type="button" aria-label="Next slide"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M9 4l8 8-8 8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button class="video-toggle" type="button" aria-label="Pause demo"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" focusable="false"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor"/></svg></span><span class="lbl">Pause</span></button>
+      <div class="dots" role="group" aria-label="Slide navigation"><button type="button" aria-label="Slide 1 (demo)" class="is-active" aria-current="true"></button><button type="button" aria-label="Slide 2"></button><button type="button" aria-label="Slide 3"></button><button type="button" aria-label="Slide 4"></button><button type="button" aria-label="Slide 5"></button><button type="button" aria-label="Slide 6"></button></div>
+    </div></div>
     <h1 class="title">RIGD — Articulated Rig &amp; CKPE Testbed</h1>
     <div class="meta">
       
@@ -160,7 +197,22 @@
       <span class="ep-body"><strong>3D Rig &amp; ASL Gestures</strong><span>https://rigd.livive.net/3d/</span></span>
       <span class="ep-go"><a class="btn btn-ghost" href="https://rigd.livive.net/3d/" target="_blank" rel="noopener noreferrer">&#9658; Watch<span class="sr-only"> (opens in a new tab)</span></a></span>
     </li></ul></div>
-    
+    <div class="section"><h3>Screenshots</h3><div class="shots"><figure class="shot">
+      <img loading="lazy" src="/previews/rigd-livive-net/01-rig-3d.png" alt="Upper-body 3D rig and four cameras" width="960" height="720">
+      <figcaption>Upper-body 3D rig and four cameras</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/rigd-livive-net/02-rotated.png" alt="Rotated 3D skeleton" width="960" height="720">
+      <figcaption>Rotated 3D skeleton</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/rigd-livive-net/03-sequence.png" alt="Sequence playback" width="960" height="720">
+      <figcaption>Sequence playback</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/rigd-livive-net/04-asl-mother.png" alt="ASL keyframe overlay" width="960" height="720">
+      <figcaption>ASL keyframe overlay</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/rigd-livive-net/05-scrubber.png" alt="Frame scrubber and reward" width="960" height="720">
+      <figcaption>Frame scrubber and reward</figcaption>
+    </figure></div></div>
     <div class="section"><h3>About</h3><p>RIGD is the visible skeletal testbed for the Constrained Kinematic Pose Estimator. The landing hub links a hand-projected 2.5D front view and a 3D spatial rig that renders the same skeleton from front, side, top, and isometric cameras. A single rig-spec JSON defines body proportions in head units, joint limits, defaults, and bilateral symmetry; a separate sequences file drives sine/tween/pulse/keyframe animation tracks. The sidebars expose per-joint controls, Auto Explore, symmetry/anti-symmetry alignment, reset easing, shadows, and sequence scrubbing, while the Level 1 ASL review adds photo keyframe underlays, sign presets, and a reward badge. Everything is static ES modules and Canvas 2D with no runtime frameworks; the repo also contains the Python/ASL-LEX training and trajectory-solving scripts.</p></div>
     <div class="section"><h3>Summary</h3><p>An articulated upper-body rig and Level 1 kinematic testbed: 2.5D projection, 3D front/side/top/isometric cameras, forward kinematics, sequence playback, and ASL gesture review.</p></div>
     <div class="section"><h3>Tech</h3><ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>ES Modules</li><li>Canvas 2D</li><li>JSON</li><li>Python</li></ul></div>

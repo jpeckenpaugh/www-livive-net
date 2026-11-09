@@ -32,7 +32,10 @@
   "description": "A self-hosted reference implementation of the full MLOps lifecycle - dataset to training, registry, serving, monitoring, drift, retraining, and rollback.",
   "url": "https://www.livive.net/p/mo-lab-livive-net/",
   "image": [
-    "https://www.livive.net/thumbnails/mo-lab-livive-net.webp"
+    "https://www.livive.net/thumbnails/mo-lab-livive-net.webp",
+    "https://www.livive.net/previews/mo-lab-livive-net/01-lifecycle.png",
+    "https://www.livive.net/previews/mo-lab-livive-net/02-quickstart.png",
+    "https://www.livive.net/previews/mo-lab-livive-net/03-docs.png"
   ],
   "genre": "Dev Tools",
   "keywords": "Python 3.12, FastAPI, MLflow, PostgreSQL, scikit-learn, Docker Compose, Prometheus, SQLAlchemy",
@@ -156,7 +159,16 @@
       <span class="ep-body"><strong>Read the Lifecycle</strong><span>https://mo-lab.livive.net/</span></span>
       <span class="ep-go"><a class="btn btn-ghost" href="https://mo-lab.livive.net/" target="_blank" rel="noopener noreferrer">&#9658; Watch<span class="sr-only"> (opens in a new tab)</span></a></span>
     </li></ul></div>
-    
+    <div class="section"><h3>Screenshots</h3><div class="shots"><figure class="shot">
+      <img loading="lazy" src="/previews/mo-lab-livive-net/01-lifecycle.png" alt="Lifecycle overview" width="960" height="720">
+      <figcaption>Lifecycle overview</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/mo-lab-livive-net/02-quickstart.png" alt="Quick start commands" width="960" height="720">
+      <figcaption>Quick start commands</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/mo-lab-livive-net/03-docs.png" alt="Documentation and repository layout" width="960" height="720">
+      <figcaption>Documentation and repository layout</figcaption>
+    </figure></div></div>
     <div class="section"><h3>About</h3><p>ModelOps Lab is a working reference for the operational path around a model, not the model itself. It starts with a seeded synthetic dataset generator and schema-validated, fingerprintable artifacts; trains a deterministic scikit-learn pipeline that records a complete MLflow run; applies a policy-checked promotion gate with a transactional PostgreSQL active-model pointer; and serves predictions through FastAPI with Prometheus metrics and prediction-event logging. From there it replays labeled traffic to compare data and performance drift, generates JSON/HTML drift reports, and closes the loop by training and evaluating a retraining candidate without auto-promoting it. Docker Compose wires PostgreSQL, MLflow, and the API together; the static lifecycle page documents the whole path.</p></div>
     <div class="section"><h3>Summary</h3><p>A reproducible Python/MLflow/PostgreSQL lab that moves a model through versioned data, training, promotion gates, FastAPI serving, drift detection, retraining, and rollback.</p></div>
     <div class="section"><h3>Tech</h3><ul class="chips"><li>Python 3.12</li><li>FastAPI</li><li>MLflow</li><li>PostgreSQL</li><li>scikit-learn</li><li>Docker Compose</li><li>Prometheus</li><li>SQLAlchemy</li></ul></div>

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T21:02:23.326Z",
+  "generated_at": "2026-11-09T10:36:24.973Z",
   "previews": {
     "lokarta": {
       "video": "https://raw.githubusercontent.com/jpeckenpaugh/lokarta-v4/main/demos/latest/demo.webm",
@@ -1282,6 +1282,345 @@
       ],
       "video": "previews/yds-livive-net.webm",
       "poster": "previews/yds-livive-net.webp"
+    },
+    "kor-livive-net": {
+      "mode": "demo",
+      "duration_ms": 30000,
+      "width": 1280,
+      "height": 800,
+      "bytes": 647283,
+      "captured_at": "2026-11-09T10:36:24.956Z",
+      "video": "previews/kor-livive-net.webm",
+      "poster": "previews/kor-livive-net.webp",
+      "source": "https://kor.livive.net/",
+      "gallery": [
+        {
+          "label": "Answer a polite school greeting",
+          "src": "previews/kor-livive-net/01-scenario-prompt.png"
+        },
+        {
+          "label": "Etiquette feedback and stars",
+          "src": "previews/kor-livive-net/02-etiquette-feedback.png"
+        },
+        {
+          "label": "Korean flashcards with audio and phonetics",
+          "src": "previews/kor-livive-net/03-flashcards.png"
+        },
+        {
+          "label": "Vocabulary quiz",
+          "src": "previews/kor-livive-net/04-quiz.png"
+        },
+        {
+          "label": "Ten-lesson curriculum drawer",
+          "src": "previews/kor-livive-net/05-curriculum.png"
+        }
+      ]
+    },
+    "lexd-livive-net": {
+      "mode": "preview",
+      "poster": "previews/lexd-livive-net.webp",
+      "captured_at": "2026-11-09T10:11:45.516Z",
+      "source": "https://lexd.livive.net/",
+      "gallery": [
+        {
+          "label": "Federated provenance engine page",
+          "src": "previews/lexd-livive-net/01-provenance.png"
+        },
+        {
+          "label": "Source notebook on lexd-sl-src.livive.net",
+          "src": "previews/lexd-livive-net/02-source-notebook.png"
+        }
+      ]
+    },
+    "pp-livive-net": {
+      "mode": "demo",
+      "duration_ms": 30000,
+      "width": 1280,
+      "height": 800,
+      "bytes": 963920,
+      "captured_at": "2026-11-09T10:27:13.969Z",
+      "video": "previews/pp-livive-net.webm",
+      "poster": "previews/pp-livive-net.webp",
+      "source": "https://pp.livive.net/",
+      "gallery": [
+        {
+          "label": "Neighbour crowd and character creator",
+          "src": "previews/pp-livive-net/01-crowd.png"
+        },
+        {
+          "label": "Play Park world and minimap",
+          "src": "previews/pp-livive-net/02-park.png"
+        },
+        {
+          "label": "Backpack and starter items",
+          "src": "previews/pp-livive-net/03-inventory.png"
+        },
+        {
+          "label": "Park goals and progress",
+          "src": "previews/pp-livive-net/04-goals.png"
+        },
+        {
+          "label": "Companion buddies",
+          "src": "previews/pp-livive-net/05-companions.png"
+        }
+      ]
+    },
+    "chs-livive-net": {
+      "mode": "demo",
+      "duration_ms": 30000,
+      "width": 1280,
+      "height": 800,
+      "bytes": 270579,
+      "captured_at": "2026-11-09T10:27:18.494Z",
+      "video": "previews/chs-livive-net.webm",
+      "poster": "previews/chs-livive-net.webp",
+      "source": "https://chs.livive.net/",
+      "gallery": [
+        {
+          "label": "Minimax opening position",
+          "src": "previews/chs-livive-net/01-opening.png"
+        },
+        {
+          "label": "Midgame board and evaluation",
+          "src": "previews/chs-livive-net/02-midgame.png"
+        },
+        {
+          "label": "Flipped board",
+          "src": "previews/chs-livive-net/03-flipped.png"
+        },
+        {
+          "label": "Move history",
+          "src": "previews/chs-livive-net/04-history.png"
+        }
+      ]
+    },
+    "cc-livive-net": {
+      "mode": "demo",
+      "duration_ms": 30000,
+      "width": 1280,
+      "height": 800,
+      "bytes": 504549,
+      "captured_at": "2026-11-09T10:28:06.002Z",
+      "video": "previews/cc-livive-net.webm",
+      "poster": "previews/cc-livive-net.webp",
+      "source": "https://cc.livive.net/",
+      "gallery": [
+        {
+          "label": "Scrambled colour cube",
+          "src": "previews/cc-livive-net/01-scrambled.png"
+        },
+        {
+          "label": "Thistlethwaite solution and move count",
+          "src": "previews/cc-livive-net/02-solved.png"
+        },
+        {
+          "label": "Live cubie and coordinate state",
+          "src": "previews/cc-livive-net/03-live-state.png"
+        },
+        {
+          "label": "Inspector and move sequence",
+          "src": "previews/cc-livive-net/04-inspector.png"
+        },
+        {
+          "label": "Conformance checks and types",
+          "src": "previews/cc-livive-net/05-conformance.png"
+        }
+      ]
+    },
+    "ckpe-livive-net": {
+      "mode": "demo",
+      "duration_ms": 30000,
+      "width": 1280,
+      "height": 800,
+      "bytes": 1197495,
+      "captured_at": "2026-11-09T10:28:08.806Z",
+      "video": "previews/ckpe-livive-net.webm",
+      "poster": "previews/ckpe-livive-net.webp",
+      "source": "https://ckpe.livive.net/",
+      "gallery": [
+        {
+          "label": "Compiled kinematic sequence index",
+          "src": "previews/ckpe-livive-net/01-index.png"
+        },
+        {
+          "label": "Term detail with canvas overlay",
+          "src": "previews/ckpe-livive-net/02-detail.png"
+        },
+        {
+          "label": "Frame playback and velocity readout",
+          "src": "previews/ckpe-livive-net/03-playback.png"
+        },
+        {
+          "label": "Corner views and overlay modes",
+          "src": "previews/ckpe-livive-net/04-corner-views.png"
+        },
+        {
+          "label": "Next compiled sign",
+          "src": "previews/ckpe-livive-net/05-next-term.png"
+        }
+      ]
+    },
+    "gm-livive-net": {
+      "mode": "preview",
+      "poster": "previews/gm-livive-net.webp",
+      "captured_at": "2026-11-09T10:28:48.705Z",
+      "source": "https://gm.livive.net/",
+      "gallery": [
+        {
+          "label": "Gem Miner title and HUD",
+          "src": "previews/gm-livive-net/01-title.png"
+        },
+        {
+          "label": "Geode face and scanner numbers",
+          "src": "previews/gm-livive-net/02-board.png"
+        }
+      ]
+    },
+    "rigd-livive-net": {
+      "mode": "demo",
+      "duration_ms": 30000,
+      "width": 1280,
+      "height": 800,
+      "bytes": 497586,
+      "captured_at": "2026-11-09T10:32:41.703Z",
+      "video": "previews/rigd-livive-net.webm",
+      "poster": "previews/rigd-livive-net.webp",
+      "source": "https://rigd.livive.net/3d/",
+      "gallery": [
+        {
+          "label": "Upper-body 3D rig and four cameras",
+          "src": "previews/rigd-livive-net/01-rig-3d.png"
+        },
+        {
+          "label": "Rotated 3D skeleton",
+          "src": "previews/rigd-livive-net/02-rotated.png"
+        },
+        {
+          "label": "Sequence playback",
+          "src": "previews/rigd-livive-net/03-sequence.png"
+        },
+        {
+          "label": "ASL keyframe overlay",
+          "src": "previews/rigd-livive-net/04-asl-mother.png"
+        },
+        {
+          "label": "Frame scrubber and reward",
+          "src": "previews/rigd-livive-net/05-scrubber.png"
+        }
+      ]
+    },
+    "wasm-fb-livive-net": {
+      "mode": "demo",
+      "duration_ms": 30000,
+      "width": 1280,
+      "height": 800,
+      "bytes": 1197271,
+      "captured_at": "2026-11-09T10:29:32.858Z",
+      "video": "previews/wasm-fb-livive-net.webm",
+      "poster": "previews/wasm-fb-livive-net.webp",
+      "source": "https://wasm-fb.livive.net/",
+      "gallery": [
+        {
+          "label": "Hypervisor launchpad and build registry",
+          "src": "previews/wasm-fb-livive-net/01-launchpad.png"
+        },
+        {
+          "label": "Deployed guest VM and inspector",
+          "src": "previews/wasm-fb-livive-net/02-vm.png"
+        },
+        {
+          "label": "2-player checkers match",
+          "src": "previews/wasm-fb-livive-net/03-checkers.png"
+        },
+        {
+          "label": "AutoPilot mission control",
+          "src": "previews/wasm-fb-livive-net/04-autopilot.png"
+        },
+        {
+          "label": "A/B build comparison",
+          "src": "previews/wasm-fb-livive-net/05-ab-builds.png"
+        },
+        {
+          "label": "Split view",
+          "src": "previews/wasm-fb-livive-net/06-split-view.png"
+        }
+      ]
+    },
+    "dgen-livive-net": {
+      "mode": "preview",
+      "poster": "previews/dgen-livive-net.webp",
+      "captured_at": "2026-11-09T10:30:10.237Z",
+      "source": "https://dg-pp.livive.net/",
+      "gallery": [
+        {
+          "label": "Voice filters and registry count",
+          "src": "previews/dgen-livive-net/01-filters.png"
+        },
+        {
+          "label": "Seeded voice lab and A/B",
+          "src": "previews/dgen-livive-net/02-voice-lab.png"
+        },
+        {
+          "label": "NPC cast generator",
+          "src": "previews/dgen-livive-net/03-npc-cast.png"
+        }
+      ]
+    },
+    "rasp-livive-net": {
+      "mode": "preview",
+      "poster": "previews/rasp-livive-net.webp",
+      "captured_at": "2026-11-09T10:30:10.262Z",
+      "source": "https://rasp.livive.net/",
+      "gallery": [
+        {
+          "label": "Voice and line picker",
+          "src": "previews/rasp-livive-net/01-voice-line.png"
+        },
+        {
+          "label": "A/B controls and engine status",
+          "src": "previews/rasp-livive-net/02-ab-controls.png"
+        },
+        {
+          "label": "Pitch, formant, tilt, and seed controls",
+          "src": "previews/rasp-livive-net/03-knobs.png"
+        }
+      ]
+    },
+    "snap-cite-livive-net": {
+      "mode": "preview",
+      "poster": "previews/snap-cite-livive-net.webp",
+      "captured_at": "2026-11-09T10:30:40.991Z",
+      "source": "https://sc.livive.net/",
+      "gallery": [
+        {
+          "label": "Claim, evidence, citation hero",
+          "src": "previews/snap-cite-livive-net/01-hero.png"
+        },
+        {
+          "label": "Explicit claim and deterministic result",
+          "src": "previews/snap-cite-livive-net/02-claim.png"
+        }
+      ]
+    },
+    "mo-lab-livive-net": {
+      "mode": "preview",
+      "poster": "previews/mo-lab-livive-net.webp",
+      "captured_at": "2026-11-09T10:30:41.023Z",
+      "source": "https://mo-lab.livive.net/",
+      "gallery": [
+        {
+          "label": "Lifecycle overview",
+          "src": "previews/mo-lab-livive-net/01-lifecycle.png"
+        },
+        {
+          "label": "Quick start commands",
+          "src": "previews/mo-lab-livive-net/02-quickstart.png"
+        },
+        {
+          "label": "Documentation and repository layout",
+          "src": "previews/mo-lab-livive-net/03-docs.png"
+        }
+      ]
     }
   }
 }

@@ -32,7 +32,10 @@
   "description": "Turn one seed into one stable browser voice: a base Kokoro voice plus independent pitch, formant, and tilt shaping, with a Robotize stage for game avatars.",
   "url": "https://www.livive.net/p/rasp-livive-net/",
   "image": [
-    "https://www.livive.net/thumbnails/rasp-livive-net.webp"
+    "https://www.livive.net/thumbnails/rasp-livive-net.webp",
+    "https://www.livive.net/previews/rasp-livive-net/01-voice-line.png",
+    "https://www.livive.net/previews/rasp-livive-net/02-ab-controls.png",
+    "https://www.livive.net/previews/rasp-livive-net/03-knobs.png"
   ],
   "genre": "AI/ML Experiments",
   "keywords": "Rust, WebAssembly, AudioWorklet, Web Audio API, JavaScript, HTML5, CSS3",
@@ -156,7 +159,16 @@
       <span class="ep-body"><strong>Shape a Voice</strong><span>https://rasp.livive.net/</span></span>
       <span class="ep-go"><a class="btn btn-ghost" href="https://rasp.livive.net/" target="_blank" rel="noopener noreferrer">&#9658; Watch<span class="sr-only"> (opens in a new tab)</span></a></span>
     </li></ul></div>
-    
+    <div class="section"><h3>Screenshots</h3><div class="shots"><figure class="shot">
+      <img loading="lazy" src="/previews/rasp-livive-net/01-voice-line.png" alt="Voice and line picker" width="960" height="720">
+      <figcaption>Voice and line picker</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/rasp-livive-net/02-ab-controls.png" alt="A/B controls and engine status" width="960" height="720">
+      <figcaption>A/B controls and engine status</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/rasp-livive-net/03-knobs.png" alt="Pitch, formant, tilt, and seed controls" width="960" height="720">
+      <figcaption>Pitch, formant, tilt, and seed controls</figcaption>
+    </figure></div></div>
     <div class="section"><h3>About</h3><p>RASP is a static, client-side voice transformer for game dialogue. It decodes Opus-in-WebM corpus clips in Rust/WASM, runs a formant-preserving phase-vocoder inside an AudioWorklet, and exposes independent pitch, formant, and tilt controls plus a headroom axis. A seed deterministically selects one of 54 Kokoro voices and a stable variant, so the same seed always produces the same NPC voice. Natural mode covers age/gender-style shifts; Robot mode adds a post-shift vocoder/ring-mod/comb chain for robot avatars. The demo includes A/B playback against the original, language/gender/voice/line filters, and a cast generator; everything is static GitHub Pages with no server or neural model at runtime.</p></div>
     <div class="section"><h3>Summary</h3><p>A Rust-to-WASM voice transformer running in an AudioWorklet: Opus decode, formant-preserving phase-vocoder shifting, A/B playback, and seed-stable NPC voice generation.</p></div>
     <div class="section"><h3>Tech</h3><ul class="chips"><li>Rust</li><li>WebAssembly</li><li>AudioWorklet</li><li>Web Audio API</li><li>JavaScript</li><li>HTML5</li><li>CSS3</li></ul></div>

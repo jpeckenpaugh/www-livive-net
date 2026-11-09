@@ -32,7 +32,12 @@
   "description": "An inspectable browser studio for compiled human kinematics: 109 pose/sign sequences, Canvas overlays, frame scrubbing, and velocity-bound validation.",
   "url": "https://www.livive.net/p/ckpe-livive-net/",
   "image": [
-    "https://www.livive.net/thumbnails/ckpe-livive-net.webp"
+    "https://www.livive.net/thumbnails/ckpe-livive-net.webp",
+    "https://www.livive.net/previews/ckpe-livive-net/01-index.png",
+    "https://www.livive.net/previews/ckpe-livive-net/02-detail.png",
+    "https://www.livive.net/previews/ckpe-livive-net/03-playback.png",
+    "https://www.livive.net/previews/ckpe-livive-net/04-corner-views.png",
+    "https://www.livive.net/previews/ckpe-livive-net/05-next-term.png"
   ],
   "genre": "Computer Vision",
   "keywords": "HTML5, CSS3, JavaScript, ES Modules, Canvas 2D",
@@ -50,7 +55,13 @@
   "sameAs": [
     "https://ckpe.livive.net/",
     "https://github.com/jpeckenpaugh/ckpe-livive-net"
-  ]
+  ],
+  "video": {
+    "@type": "VideoObject",
+    "contentUrl": "https://www.livive.net/previews/ckpe-livive-net.webm",
+    "thumbnailUrl": "https://www.livive.net/previews/ckpe-livive-net.webp",
+    "duration": "PT30S"
+  }
 }
 </script>
 <style>
@@ -137,7 +148,33 @@
   </div></header>
   <main id="main">
     <a class="back" href="/">&larr; Browse all</a>
-    <div class="hero"><div class="media"><img src="/thumbnails/ckpe-livive-net.webp" alt="CKPE - Constrained Kinematic Pose Estimator — An inspectable browser studio for compiled human kinematics: 109 pose/sign sequences, Canvas overlays, frame scrubbing, and velocity-bound validation."></div></div>
+    <div class="hero"><div class="carousel is-video" data-carousel style="aspect-ratio:1280 / 800">
+      <div class="slides"><figure class="slide is-active" data-kind="video">
+      <img src="/previews/ckpe-livive-net.webp" alt="CKPE - Constrained Kinematic Pose Estimator — An inspectable browser studio for compiled human kinematics: 109 pose/sign sequences, Canvas overlays, frame scrubbing, and velocity-bound validation.">
+      <video muted playsinline preload="metadata" aria-hidden="true" tabindex="-1" data-src="/previews/ckpe-livive-net.webm" poster="/previews/ckpe-livive-net.webp"></video>
+      <button class="video-replay" type="button" aria-label="Replay the live-play demo"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true" focusable="false"><path d="M8 5l12 7-12 7z" fill="currentColor"/></svg></button>
+      <figcaption class="slide-cap"><span class="cap-index">Demo</span><span class="cap-text">Live-play demo · 30s</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/ckpe-livive-net/01-index.png" alt="Compiled kinematic sequence index" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">01 / 05</span><span class="cap-text">Compiled kinematic sequence index</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/ckpe-livive-net/02-detail.png" alt="Term detail with canvas overlay" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">02 / 05</span><span class="cap-text">Term detail with canvas overlay</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/ckpe-livive-net/03-playback.png" alt="Frame playback and velocity readout" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">03 / 05</span><span class="cap-text">Frame playback and velocity readout</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/ckpe-livive-net/04-corner-views.png" alt="Corner views and overlay modes" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">04 / 05</span><span class="cap-text">Corner views and overlay modes</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/ckpe-livive-net/05-next-term.png" alt="Next compiled sign" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">05 / 05</span><span class="cap-text">Next compiled sign</span></figcaption>
+    </figure></div>
+      <button class="nav-arrow prev" type="button" aria-label="Previous slide"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M15 4 7 12l8 8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button class="nav-arrow next" type="button" aria-label="Next slide"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M9 4l8 8-8 8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button class="video-toggle" type="button" aria-label="Pause demo"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" focusable="false"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor"/></svg></span><span class="lbl">Pause</span></button>
+      <div class="dots" role="group" aria-label="Slide navigation"><button type="button" aria-label="Slide 1 (demo)" class="is-active" aria-current="true"></button><button type="button" aria-label="Slide 2"></button><button type="button" aria-label="Slide 3"></button><button type="button" aria-label="Slide 4"></button><button type="button" aria-label="Slide 5"></button><button type="button" aria-label="Slide 6"></button></div>
+    </div></div>
     <h1 class="title">CKPE - Constrained Kinematic Pose Estimator</h1>
     <div class="meta">
       
@@ -156,7 +193,22 @@
       <span class="ep-body"><strong>Open CKPE</strong><span>https://ckpe.livive.net/</span></span>
       <span class="ep-go"><a class="btn btn-ghost" href="https://ckpe.livive.net/" target="_blank" rel="noopener noreferrer">&#9658; Watch<span class="sr-only"> (opens in a new tab)</span></a></span>
     </li></ul></div>
-    
+    <div class="section"><h3>Screenshots</h3><div class="shots"><figure class="shot">
+      <img loading="lazy" src="/previews/ckpe-livive-net/01-index.png" alt="Compiled kinematic sequence index" width="960" height="720">
+      <figcaption>Compiled kinematic sequence index</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/ckpe-livive-net/02-detail.png" alt="Term detail with canvas overlay" width="960" height="720">
+      <figcaption>Term detail with canvas overlay</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/ckpe-livive-net/03-playback.png" alt="Frame playback and velocity readout" width="960" height="720">
+      <figcaption>Frame playback and velocity readout</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/ckpe-livive-net/04-corner-views.png" alt="Corner views and overlay modes" width="960" height="720">
+      <figcaption>Corner views and overlay modes</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/ckpe-livive-net/05-next-term.png" alt="Next compiled sign" width="960" height="720">
+      <figcaption>Next compiled sign</figcaption>
+    </figure></div></div>
     <div class="section"><h3>About</h3><p>CKPE (Constrained Kinematic Pose Estimator) is the visible surface of a Level 1 kinematic foundation. Expressive human motion is compiled from studio keyframes into a Domain Instruction Set (DIS); the browser runtime executes that grammar with vanilla forward kinematics and Canvas 2D, with no ML dependencies in production. The index view offers instant search and filters across 109 sequences (100 learned from native signers, 9 authored specifications), grouped by cranial, thoracic, and neutral space. Detail views align a live 2D projection against source keyframes, toggle Rig Only / 50% Overlay / Sample Only, scrub frame by frame, and report joint angles plus velocity deltas against the 12-degrees-per-frame &#39;no bamfing&#39; bound. A speech view and provenance notes complete the studio.</p></div>
     <div class="section"><h3>Summary</h3><p>A zero-dependency SPA that compiles studio keyframes into a deterministic kinematic instruction set and lets you inspect 109 learned/authored pose sequences with overlay modes and per-frame velocity readouts.</p></div>
     <div class="section"><h3>Tech</h3><ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript</li><li>ES Modules</li><li>Canvas 2D</li></ul></div>

@@ -32,7 +32,12 @@
   "description": "A deterministic no_std Rust colour-cube environment with a WASM browser demo, RL action masks, and Thistlethwaite/Kociemba solvers.",
   "url": "https://www.livive.net/p/cc-livive-net/",
   "image": [
-    "https://www.livive.net/thumbnails/cc-livive-net.webp"
+    "https://www.livive.net/thumbnails/cc-livive-net.webp",
+    "https://www.livive.net/previews/cc-livive-net/01-scrambled.png",
+    "https://www.livive.net/previews/cc-livive-net/02-solved.png",
+    "https://www.livive.net/previews/cc-livive-net/03-live-state.png",
+    "https://www.livive.net/previews/cc-livive-net/04-inspector.png",
+    "https://www.livive.net/previews/cc-livive-net/05-conformance.png"
   ],
   "genre": "AI/ML Experiments",
   "keywords": "Rust, WebAssembly, JavaScript, HTML5, CSS3",
@@ -50,7 +55,13 @@
   "sameAs": [
     "https://cc.livive.net/",
     "https://github.com/jpeckenpaugh/cc-livive-net"
-  ]
+  ],
+  "video": {
+    "@type": "VideoObject",
+    "contentUrl": "https://www.livive.net/previews/cc-livive-net.webm",
+    "thumbnailUrl": "https://www.livive.net/previews/cc-livive-net.webp",
+    "duration": "PT30S"
+  }
 }
 </script>
 <style>
@@ -137,7 +148,33 @@
   </div></header>
   <main id="main">
     <a class="back" href="/">&larr; Browse all</a>
-    <div class="hero"><div class="media"><img src="/thumbnails/cc-livive-net.webp" alt="Colour Cube — A deterministic no_std Rust colour-cube environment with a WASM browser demo, RL action masks, and Thistlethwaite/Kociemba solvers."></div></div>
+    <div class="hero"><div class="carousel is-video" data-carousel style="aspect-ratio:1280 / 800">
+      <div class="slides"><figure class="slide is-active" data-kind="video">
+      <img src="/previews/cc-livive-net.webp" alt="Colour Cube — A deterministic no_std Rust colour-cube environment with a WASM browser demo, RL action masks, and Thistlethwaite/Kociemba solvers.">
+      <video muted playsinline preload="metadata" aria-hidden="true" tabindex="-1" data-src="/previews/cc-livive-net.webm" poster="/previews/cc-livive-net.webp"></video>
+      <button class="video-replay" type="button" aria-label="Replay the live-play demo"><svg viewBox="0 0 24 24" width="32" height="32" aria-hidden="true" focusable="false"><path d="M8 5l12 7-12 7z" fill="currentColor"/></svg></button>
+      <figcaption class="slide-cap"><span class="cap-index">Demo</span><span class="cap-text">Live-play demo · 30s</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/cc-livive-net/01-scrambled.png" alt="Scrambled colour cube" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">01 / 05</span><span class="cap-text">Scrambled colour cube</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/cc-livive-net/02-solved.png" alt="Thistlethwaite solution and move count" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">02 / 05</span><span class="cap-text">Thistlethwaite solution and move count</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/cc-livive-net/03-live-state.png" alt="Live cubie and coordinate state" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">03 / 05</span><span class="cap-text">Live cubie and coordinate state</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/cc-livive-net/04-inspector.png" alt="Inspector and move sequence" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">04 / 05</span><span class="cap-text">Inspector and move sequence</span></figcaption>
+    </figure><figure class="slide" data-kind="image">
+      <img loading="lazy" src="/previews/cc-livive-net/05-conformance.png" alt="Conformance checks and types" width="960" height="720">
+      <figcaption class="slide-cap"><span class="cap-index">05 / 05</span><span class="cap-text">Conformance checks and types</span></figcaption>
+    </figure></div>
+      <button class="nav-arrow prev" type="button" aria-label="Previous slide"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M15 4 7 12l8 8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button class="nav-arrow next" type="button" aria-label="Next slide"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M9 4l8 8-8 8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      <button class="video-toggle" type="button" aria-label="Pause demo"><span class="ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true" focusable="false"><path d="M7 5h4v14H7zM13 5h4v14h-4z" fill="currentColor"/></svg></span><span class="lbl">Pause</span></button>
+      <div class="dots" role="group" aria-label="Slide navigation"><button type="button" aria-label="Slide 1 (demo)" class="is-active" aria-current="true"></button><button type="button" aria-label="Slide 2"></button><button type="button" aria-label="Slide 3"></button><button type="button" aria-label="Slide 4"></button><button type="button" aria-label="Slide 5"></button><button type="button" aria-label="Slide 6"></button></div>
+    </div></div>
     <h1 class="title">Colour Cube</h1>
     <div class="meta">
       
@@ -156,7 +193,22 @@
       <span class="ep-body"><strong>Open Colour Cube</strong><span>https://cc.livive.net/</span></span>
       <span class="ep-go"><a class="btn btn-ghost" href="https://cc.livive.net/" target="_blank" rel="noopener noreferrer">&#9658; Watch<span class="sr-only"> (opens in a new tab)</span></a></span>
     </li></ul></div>
-    
+    <div class="section"><h3>Screenshots</h3><div class="shots"><figure class="shot">
+      <img loading="lazy" src="/previews/cc-livive-net/01-scrambled.png" alt="Scrambled colour cube" width="960" height="720">
+      <figcaption>Scrambled colour cube</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/cc-livive-net/02-solved.png" alt="Thistlethwaite solution and move count" width="960" height="720">
+      <figcaption>Thistlethwaite solution and move count</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/cc-livive-net/03-live-state.png" alt="Live cubie and coordinate state" width="960" height="720">
+      <figcaption>Live cubie and coordinate state</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/cc-livive-net/04-inspector.png" alt="Inspector and move sequence" width="960" height="720">
+      <figcaption>Inspector and move sequence</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/cc-livive-net/05-conformance.png" alt="Conformance checks and types" width="960" height="720">
+      <figcaption>Conformance checks and types</figcaption>
+    </figure></div></div>
     <div class="section"><h3>About</h3><p>cc-livive-net is a deterministic, dependency-free 3x3x3 colour-cube environment built for reinforcement learning and solver work. The core crate is no_std and exposes an 18-move API, cubie and facelet encodings, seeded uniform scrambles, canonical action masks, observations, and replay-verified Thistlethwaite and Kociemba solvers. The same Rust core backs the native library, CLI, and a browser demo compiled to WebAssembly; there is no second JavaScript cube implementation. The demo lets you scramble, solve, step through the solution, inspect live cubie/coordinate state, and run conformance checks. User-facing copy says &#39;colour cube&#39; for trademark reasons.</p></div>
     <div class="section"><h3>Summary</h3><p>An 18-move 3x3x3 colour-cube state machine for RL and solver research, with cubie/facelet encodings, seeded scrambles, action masks, and two solvers - shared by CLI, native library, and WASM demo.</p></div>
     <div class="section"><h3>Tech</h3><ul class="chips"><li>Rust</li><li>WebAssembly</li><li>JavaScript</li><li>HTML5</li><li>CSS3</li></ul></div>

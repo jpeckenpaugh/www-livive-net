@@ -32,7 +32,10 @@
   "description": "Bake every phrase times voice into web-ready Opus clips and a JSON registry, then audition the whole cast in a static voice test bench.",
   "url": "https://www.livive.net/p/dgen-livive-net/",
   "image": [
-    "https://www.livive.net/thumbnails/dgen-livive-net.webp"
+    "https://www.livive.net/thumbnails/dgen-livive-net.webp",
+    "https://www.livive.net/previews/dgen-livive-net/01-filters.png",
+    "https://www.livive.net/previews/dgen-livive-net/02-voice-lab.png",
+    "https://www.livive.net/previews/dgen-livive-net/03-npc-cast.png"
   ],
   "genre": "Dev Tools",
   "keywords": "Python, Kokoro TTS, Docker, GitHub Actions, ffmpeg, Opus/WebM, HTML5, JavaScript",
@@ -156,7 +159,16 @@
       <span class="ep-body"><strong>Open Voice Bench</strong><span>https://dg-pp.livive.net/</span></span>
       <span class="ep-go"><a class="btn btn-ghost" href="https://dg-pp.livive.net/" target="_blank" rel="noopener noreferrer">&#9658; Watch<span class="sr-only"> (opens in a new tab)</span></a></span>
     </li></ul></div>
-    
+    <div class="section"><h3>Screenshots</h3><div class="shots"><figure class="shot">
+      <img loading="lazy" src="/previews/dgen-livive-net/01-filters.png" alt="Voice filters and registry count" width="960" height="720">
+      <figcaption>Voice filters and registry count</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/dgen-livive-net/02-voice-lab.png" alt="Seeded voice lab and A/B" width="960" height="720">
+      <figcaption>Seeded voice lab and A/B</figcaption>
+    </figure><figure class="shot">
+      <img loading="lazy" src="/previews/dgen-livive-net/03-npc-cast.png" alt="NPC cast generator" width="960" height="720">
+      <figcaption>NPC cast generator</figcaption>
+    </figure></div></div>
     <div class="section"><h3>About</h3><p>dgen is the audio bake behind the voice corpus. A pinned Docker image runs Kokoro TTS over 26 authored phrases translated into Spanish, Brazilian Portuguese, Hindi, French, Italian, Japanese, and Mandarin, across 54 voices. The pipeline normalizes and trims audio, encodes 32 kbps mono Opus in WebM containers with a .weba extension so GitHub Pages serves the right MIME type, and generates a JSON registry with language, gender, locale, grade, and training-data metadata. Parallel shard builds and an incremental clip cache keep the 1,404-clip bake practical in GitHub Actions; dist/ is a build artifact, not committed. The published test bench filters the registry, plays originals and seeded variants, and includes NPC-cast and hook-testing views.</p></div>
     <div class="section"><h3>Summary</h3><p>A reproducible Docker/GitHub Actions pipeline that renders 54 Kokoro voices across 26 multilingual phrases into 1,404 normalized .weba clips plus a registry and filterable test page.</p></div>
     <div class="section"><h3>Tech</h3><ul class="chips"><li>Python</li><li>Kokoro TTS</li><li>Docker</li><li>GitHub Actions</li><li>ffmpeg</li><li>Opus/WebM</li><li>HTML5</li><li>JavaScript</li></ul></div>
