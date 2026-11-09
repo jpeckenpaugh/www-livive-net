@@ -1,8 +1,8 @@
 {
   "source_user": "jpeckenpaugh",
-  "count": 56,
-  "live_count": 44,
-  "featured_count": 40,
+  "count": 61,
+  "live_count": 49,
+  "featured_count": 43,
   "category_order": [
     "Games",
     "AI/ML Experiments",
@@ -66,8 +66,8 @@
       "updated_at": "2026-10-18T11:17:40Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 259,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 172,
       "live_final_url": "https://aom.livive.net/",
       "live_error": null
     },
@@ -131,8 +131,8 @@
       "updated_at": "2026-10-18T11:17:41Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 362,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 258,
       "live_final_url": "https://chk.livive.net/",
       "live_error": null
     },
@@ -191,8 +191,8 @@
       "updated_at": "2026-11-02T06:55:09Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 141,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 268,
       "live_final_url": "https://chs.livive.net/",
       "live_error": null
     },
@@ -253,8 +253,8 @@
       "updated_at": "2026-10-18T11:17:43Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 262,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 150,
       "live_final_url": "https://euchre.livive.net/",
       "live_error": null
     },
@@ -312,8 +312,8 @@
       "updated_at": "2026-10-18T11:17:44Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 177,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 151,
       "live_final_url": "https://gp.livive.net/",
       "live_error": null
     },
@@ -370,7 +370,7 @@
       "updated_at": "2026-10-27T08:05:16Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
+      "live_checked_at": "2026-11-09T09:54:48Z",
       "live_latency_ms": 169,
       "live_final_url": "https://gm.livive.net/",
       "live_error": null
@@ -443,8 +443,8 @@
       "updated_at": "2026-10-18T11:17:46Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 227,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 196,
       "live_final_url": "https://lk.livive.net/",
       "live_error": null
     },
@@ -508,8 +508,8 @@
       "updated_at": "2026-10-18T11:17:47Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 252,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 174,
       "live_final_url": "https://lunar.livive.net/",
       "live_error": null
     },
@@ -570,8 +570,8 @@
       "updated_at": "2026-10-18T11:17:48Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 178,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 191,
       "live_final_url": "https://mines.livive.net/",
       "live_error": null
     },
@@ -632,8 +632,8 @@
       "updated_at": "2026-10-18T11:17:50Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 186,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 208,
       "live_final_url": "https://p2p-ttt.livive.net/",
       "live_error": null
     },
@@ -693,8 +693,8 @@
       "updated_at": "2026-11-03T02:39:35Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 89,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 184,
       "live_final_url": "https://pp.livive.net/",
       "live_error": null
     },
@@ -757,8 +757,8 @@
       "updated_at": "2026-10-18T11:17:51Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 173,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 153,
       "live_final_url": "https://t-sweep.livive.net/",
       "live_error": null
     },
@@ -814,8 +814,8 @@
       "updated_at": "2026-10-18T11:17:53Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 200,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 166,
       "live_final_url": "https://v-ttt.livive.net/",
       "live_error": null
     },
@@ -873,8 +873,8 @@
       "updated_at": "2026-10-25T04:25:01Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 97,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 164,
       "live_final_url": "https://cc.livive.net/",
       "live_error": null
     },
@@ -935,9 +935,71 @@
       "updated_at": "2026-10-29T02:48:52Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 170,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 526,
       "live_final_url": "https://rag.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "rasp-livive-net",
+      "repo": "rasp-livive-net",
+      "display_title": "RASP — Rust Audio Shift Processor",
+      "tagline": "Turn one seed into one stable browser voice: a base Kokoro voice plus independent pitch, formant, and tilt shaping, with a Robotize stage for game avatars.",
+      "short_description": "A Rust-to-WASM voice transformer running in an AudioWorklet: Opus decode, formant-preserving phase-vocoder shifting, A/B playback, and seed-stable NPC voice generation.",
+      "long_description": "RASP is a static, client-side voice transformer for game dialogue. It decodes Opus-in-WebM corpus clips in Rust/WASM, runs a formant-preserving phase-vocoder inside an AudioWorklet, and exposes independent pitch, formant, and tilt controls plus a headroom axis. A seed deterministically selects one of 54 Kokoro voices and a stable variant, so the same seed always produces the same NPC voice. Natural mode covers age/gender-style shifts; Robot mode adds a post-shift vocoder/ring-mod/comb chain for robot avatars. The demo includes A/B playback against the original, language/gender/voice/line filters, and a cast generator; everything is static GitHub Pages with no server or neural model at runtime.",
+      "tags": [
+        "audio",
+        "audioworklet",
+        "dsp",
+        "kokoro",
+        "rust",
+        "voice",
+        "wasm"
+      ],
+      "tech": [
+        "Rust",
+        "WebAssembly",
+        "AudioWorklet",
+        "Web Audio API",
+        "JavaScript",
+        "HTML5",
+        "CSS3"
+      ],
+      "category": "AI/ML Experiments",
+      "live_url": "https://rasp.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/rasp-livive-net",
+      "has_live_demo": true,
+      "featured": true,
+      "status": "active",
+      "confidence": "high",
+      "notes": "CNAME rasp.livive.net (HTTP 200); MIT. Rust workspace covers DSP, Opus decode, CLI, and WASM; the live demo boots a static AudioWorklet engine with no server-side processing. Corpus audio covers 54 voices and 26 game lines; the UI is English-only.",
+      "demos": [
+        {
+          "label": "Shape a Voice",
+          "url": "https://rasp.livive.net/"
+        }
+      ],
+      "how_to_play": [
+        {
+          "title": "Pick a voice and line",
+          "body": "Filter the 54-voice corpus by language or gender, then choose one of the 26 game lines to A/B."
+        },
+        {
+          "title": "Shape the voice",
+          "body": "Adjust Pitch, Formant, Tilt, and Headroom independently; compare against the original at any point."
+        },
+        {
+          "title": "Seed and build a cast",
+          "body": "Use a seed for a stable base voice and variant, then generate a cast. Robot mode adds the avatar processing chain on top."
+        }
+      ],
+      "thumb": "thumbnails/rasp-livive-net.webp",
+      "updated_at": "2026-10-29T00:45:03Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 79,
+      "live_final_url": "https://rasp.livive.net/",
       "live_error": null
     },
     {
@@ -994,8 +1056,8 @@
       "updated_at": "2026-10-18T11:24:51Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 265,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 137,
       "live_final_url": "https://seekdepth.net/",
       "live_error": null
     },
@@ -1060,8 +1122,8 @@
       "updated_at": "2026-10-20T21:54:51Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 276,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 125,
       "live_final_url": "https://trot.livive.net/",
       "live_error": null
     },
@@ -1124,8 +1186,8 @@
       "updated_at": "2026-10-24T07:12:08Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 224,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 145,
       "live_final_url": "https://mines-sm.livive.net/",
       "live_error": null
     },
@@ -1166,8 +1228,8 @@
       "updated_at": "2026-10-18T11:25:01Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 195,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 127,
       "live_final_url": "https://seekdepth.org/",
       "live_error": null
     },
@@ -1395,8 +1457,8 @@
       "updated_at": "2026-10-23T07:01:46Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 90,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 405,
       "live_final_url": "https://ckpe.livive.net/",
       "live_error": null
     },
@@ -1463,8 +1525,8 @@
       "updated_at": "2026-10-20T21:54:53Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 175,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 125,
       "live_final_url": "https://fourcast.livive.net/",
       "live_error": null
     },
@@ -1531,9 +1593,75 @@
       "updated_at": "2026-10-20T21:54:55Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 181,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 125,
       "live_final_url": "https://ocr.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "rigd-livive-net",
+      "repo": "rigd-livive-net",
+      "display_title": "RIGD — Articulated Rig & CKPE Testbed",
+      "tagline": "A zero-dependency browser rig for inspecting the CKPE skeleton in 2.5D and four 3D views, with joint limits, sequences, and ASL keyframe overlays.",
+      "short_description": "An articulated upper-body rig and Level 1 kinematic testbed: 2.5D projection, 3D front/side/top/isometric cameras, forward kinematics, sequence playback, and ASL gesture review.",
+      "long_description": "RIGD is the visible skeletal testbed for the Constrained Kinematic Pose Estimator. The landing hub links a hand-projected 2.5D front view and a 3D spatial rig that renders the same skeleton from front, side, top, and isometric cameras. A single rig-spec JSON defines body proportions in head units, joint limits, defaults, and bilateral symmetry; a separate sequences file drives sine/tween/pulse/keyframe animation tracks. The sidebars expose per-joint controls, Auto Explore, symmetry/anti-symmetry alignment, reset easing, shadows, and sequence scrubbing, while the Level 1 ASL review adds photo keyframe underlays, sign presets, and a reward badge. Everything is static ES modules and Canvas 2D with no runtime frameworks; the repo also contains the Python/ASL-LEX training and trajectory-solving scripts.",
+      "tags": [
+        "3d",
+        "asl",
+        "canvas",
+        "ckpe",
+        "kinematics",
+        "rigging",
+        "vanilla-js"
+      ],
+      "tech": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "ES Modules",
+        "Canvas 2D",
+        "JSON",
+        "Python"
+      ],
+      "category": "Computer Vision",
+      "live_url": "https://rigd.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/rigd-livive-net",
+      "has_live_demo": true,
+      "featured": true,
+      "status": "prototype",
+      "confidence": "high",
+      "notes": "Link-only listing: no submodule/gitlink/clone because the repo is about 1.5 GB; monitor uses the GitHub API for recency. CNAME rigd.livive.net (HTTP 200). No license file detected. Root is a landing hub; the visual canvas lives at https://rigd.livive.net/3d/ (also 200).",
+      "demos": [
+        {
+          "label": "Open Rig",
+          "url": "https://rigd.livive.net/"
+        },
+        {
+          "label": "3D Rig & ASL Gestures",
+          "url": "https://rigd.livive.net/3d/"
+        }
+      ],
+      "how_to_play": [
+        {
+          "title": "Choose a view",
+          "body": "Open the 2.5D projected rig or the 3D spatial rig; the 3D page shows front, side, top, and isometric cameras at once."
+        },
+        {
+          "title": "Inspect joints",
+          "body": "Select a joint and adjust its pose or limits; use Auto Explore, symmetry, shadows, and labels to inspect the skeleton."
+        },
+        {
+          "title": "Play sequences",
+          "body": "Pick a preset or ASL sign, scrub frames, and review the keyframe overlay and reward badge."
+        }
+      ],
+      "thumb": "thumbnails/rigd-livive-net.webp",
+      "updated_at": "2026-10-25T11:28:37Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 78,
+      "live_final_url": "https://rigd.livive.net/",
       "live_error": null
     },
     {
@@ -1596,8 +1724,8 @@
       "updated_at": "2026-10-21T05:24:03Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 200,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 118,
       "live_final_url": "https://chtbx.livive.net/",
       "live_error": null
     },
@@ -1658,8 +1786,8 @@
       "updated_at": "2026-10-18T11:37:21Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 186,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 130,
       "live_final_url": "https://hebrew.livive.net/",
       "live_error": null
     },
@@ -1722,8 +1850,8 @@
       "updated_at": "2026-11-09T08:07:14Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 166,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 135,
       "live_final_url": "https://hindi.livive.net/",
       "live_error": null
     },
@@ -1779,11 +1907,11 @@
         }
       ],
       "thumb": "thumbnails/kor-livive-net.webp",
-      "updated_at": "2026-11-09T09:13:49Z",
+      "updated_at": "2026-11-09T09:37:11Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 255,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 161,
       "live_final_url": "https://kor.livive.net/",
       "live_error": null
     },
@@ -1843,8 +1971,8 @@
       "updated_at": "2026-10-20T01:50:11Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 170,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 120,
       "live_final_url": "https://nexttext.livive.net/",
       "live_error": null
     },
@@ -1909,9 +2037,70 @@
       "updated_at": "2026-10-20T21:54:59Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 180,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 142,
       "live_final_url": "https://yds.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "lexd-livive-net",
+      "repo": [
+        "lexd-livive-net",
+        "lexd-sl-src"
+      ],
+      "display_title": "LEXD — Sign Language Provenance Engine",
+      "tagline": "A federated, cryptographically audited reservoir of sign-language keyframes and kinematic tensors for CKPE.",
+      "short_description": "Two reproducible Colab pipelines turn upstream sign-language video into SHA-256-verified 480x480 master stills, 240x240 dyadic tensors, and an audited SQLite witness.",
+      "long_description": "LEXD is the published distribution layer for verified sign-language keyframes and kinematic training tensors behind CKPE. The primary repository defines a four-coordinate namespace (language / corpus / signer / lemma), a two-tier artifact standard - 480x480 WebP master slices and exact 2x2-decimated 240x240 training tensors - and an ACID-compliant SQLite witness that links each lemma to its upstream video hash, Frame 0 crop box, timing bounds, and per-frame signatures. The companion source notebook is the observable ingestion instrument: it records upstream bytes and SHA-256 hashes, locks the coronal centerline once at resting neutral, takes lossless integer pixel slices, and performs strictly dyadic downsampling. The two live pages are documentation/artifact surfaces rather than an interactive app; the work is the auditable pipeline.",
+      "tags": [
+        "artifact-store",
+        "asl-lex",
+        "ckpe",
+        "colab",
+        "provenance",
+        "reproducibility",
+        "sign-language",
+        "sqlite",
+        "training-data"
+      ],
+      "tech": [
+        "Python",
+        "Jupyter Notebook",
+        "Colab",
+        "SQLite",
+        "SHA-256",
+        "GitHub Pages",
+        "ffmpeg"
+      ],
+      "category": "Language Tools",
+      "live_url": "https://lexd.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/lexd-livive-net",
+      "has_live_demo": true,
+      "featured": false,
+      "status": "prototype",
+      "confidence": "high",
+      "notes": "Umbrella listing for lexd-livive-net + lexd-sl-src (MERGES). Both live pages are README-generated static pages and return HTTP 200: https://lexd.livive.net/ and https://lexd-sl-src.livive.net/. Secondary repo: https://github.com/jpeckenpaugh/lexd-sl-src. MIT. No submodule for the notebook; it is source/provenance only. | lexd-sl-src: Secondary/source entry for lexd-livive-net; archived under _excluded and loaded only via MERGES. Live page is README-generated (HTTP 200). MIT. No submodule.",
+      "demos": [
+        {
+          "label": "Provenance Engine",
+          "url": "https://lexd.livive.net/"
+        },
+        {
+          "label": "Source Notebook",
+          "url": "https://lexd-sl-src.livive.net/"
+        }
+      ],
+      "repos": [
+        "lexd-livive-net",
+        "lexd-sl-src"
+      ],
+      "thumb": "thumbnails/lexd-livive-net.webp",
+      "updated_at": "2026-10-25T02:25:26Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 74,
+      "live_final_url": "https://lexd.livive.net/",
       "live_error": null
     },
     {
@@ -2065,8 +2254,8 @@
       "updated_at": "2026-10-18T11:34:31Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 269,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 136,
       "live_final_url": "https://snow-cuad.livive.net/",
       "live_error": null
     },
@@ -2115,8 +2304,8 @@
       "updated_at": "2026-10-20T09:45:55Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 182,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 148,
       "live_final_url": "https://compliance.livive.net/",
       "live_error": null
     },
@@ -2181,9 +2370,134 @@
       "updated_at": "2026-10-23T13:15:10Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 237,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 234,
       "live_final_url": "https://sprites.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "wasm-fb-livive-net",
+      "repo": "wasm-fb-livive-net",
+      "display_title": "Test Appliance Orchestration Console",
+      "tagline": "A WebAssembly hypervisor and deterministic framebuffer console: boot multiple guests, compare builds side-by-side, and drive chess, checkers, and mines through one host.",
+      "short_description": "A C/Rust/Wasm appliance shell where every guest paints an RGBA8888 framebuffer; the host manages multi-VM orchestration, A/B build provenance, match brokering, AutoPilot, and trajectory replay.",
+      "long_description": "Test Appliance Orchestration Console is the host/guest boundary made visible. Each WebAssembly guest owns an RGBA8888 framebuffer in linear memory and knows nothing about the DOM; the HTML/JS host forwards pointer and keyboard input, instantiates multiple VMs, and blits raw bytes into canvas viewports. The v3.1 console adds an immutable build registry, side-by-side split view and A/B build comparison, peer-to-peer/entangled hypervisor experiments, 2P chess/checkers/mines match brokering, an AutoPilot mission runner, and a trajectory recorder that turns sessions into reusable JSON flight plans. The frozen v2 baseline ships a roughly 210 KiB no_std Rust window manager with a software rasterizer, fonts, themes, and test patterns. It is a systems/orchestration project, not a browser app framework.",
+      "tags": [
+        "appliance",
+        "emscripten",
+        "framebuffer",
+        "hypervisor",
+        "orchestration",
+        "wasm",
+        "webassembly"
+      ],
+      "tech": [
+        "C",
+        "Rust",
+        "WebAssembly",
+        "Emscripten",
+        "JavaScript",
+        "HTML5 Canvas",
+        "Docker"
+      ],
+      "category": "Dev Tools",
+      "live_url": "https://wasm-fb.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/wasm-fb-livive-net",
+      "has_live_demo": true,
+      "featured": true,
+      "status": "active",
+      "confidence": "high",
+      "notes": "Served at https://wasm-fb.livive.net/ via the repo Pages workflow (HTTP 200); there is no CNAME file in the repo, so the custom domain is configured in GitHub Pages settings. MIT. The v3 console and frozen v2 baseline share the host; headless capture/QA may be heavy because multiple Wasm VMs and canvases initialize.",
+      "demos": [
+        {
+          "label": "Open Orchestrator",
+          "url": "https://wasm-fb.livive.net/"
+        }
+      ],
+      "how_to_play": [
+        {
+          "title": "Deploy a guest",
+          "body": "Choose a build (v3.1, v2 mines, or v1 baseline) and a resolution target, then click Deploy VM."
+        },
+        {
+          "title": "Compare or play",
+          "body": "Use split view and A/B builds to compare guests, or launch 2P chess, checkers, or mines and share the seats."
+        },
+        {
+          "title": "Automate",
+          "body": "Run an AutoPilot mission, record a trajectory into a reusable JSON flight plan, or inspect hypervisor telemetry."
+        }
+      ],
+      "thumb": "thumbnails/wasm-fb-livive-net.webp",
+      "updated_at": "2026-11-04T06:32:05Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 74,
+      "live_final_url": "https://wasm-fb.livive.net/",
+      "live_error": null
+    },
+    {
+      "key": "dgen-livive-net",
+      "repo": "dgen-livive-net",
+      "display_title": "dgen — Kokoro Voice-Line Baker",
+      "tagline": "Bake every phrase times voice into web-ready Opus clips and a JSON registry, then audition the whole cast in a static voice test bench.",
+      "short_description": "A reproducible Docker/GitHub Actions pipeline that renders 54 Kokoro voices across 26 multilingual phrases into 1,404 normalized .weba clips plus a registry and filterable test page.",
+      "long_description": "dgen is the audio bake behind the voice corpus. A pinned Docker image runs Kokoro TTS over 26 authored phrases translated into Spanish, Brazilian Portuguese, Hindi, French, Italian, Japanese, and Mandarin, across 54 voices. The pipeline normalizes and trims audio, encodes 32 kbps mono Opus in WebM containers with a .weba extension so GitHub Pages serves the right MIME type, and generates a JSON registry with language, gender, locale, grade, and training-data metadata. Parallel shard builds and an incremental clip cache keep the 1,404-clip bake practical in GitHub Actions; dist/ is a build artifact, not committed. The published test bench filters the registry, plays originals and seeded variants, and includes NPC-cast and hook-testing views.",
+      "tags": [
+        "audio",
+        "docker",
+        "github-actions",
+        "kokoro",
+        "opus",
+        "tts",
+        "voice"
+      ],
+      "tech": [
+        "Python",
+        "Kokoro TTS",
+        "Docker",
+        "GitHub Actions",
+        "ffmpeg",
+        "Opus/WebM",
+        "HTML5",
+        "JavaScript"
+      ],
+      "category": "Dev Tools",
+      "live_url": "https://dg-pp.livive.net/",
+      "repo_url": "https://github.com/jpeckenpaugh/dgen-livive-net",
+      "has_live_demo": true,
+      "featured": false,
+      "status": "active",
+      "confidence": "high",
+      "notes": "CNAME dg-pp.livive.net (HTTP 200); MIT. 54 voices x 26 phrases = 1,404 clips; dist/ is generated and not committed. The Docker image carries PyTorch and G2P dictionaries but not the Kokoro model; the first build needs network access for model/voice prefetch.",
+      "demos": [
+        {
+          "label": "Open Voice Bench",
+          "url": "https://dg-pp.livive.net/"
+        }
+      ],
+      "how_to_play": [
+        {
+          "title": "Filter the registry",
+          "body": "Narrow the 54 voices by language, gender, locale/region, or source grade."
+        },
+        {
+          "title": "Audition a voice",
+          "body": "Play a phrase, or use one seed to generate a base voice plus pitch/formant/tilt variant and A/B it against the original."
+        },
+        {
+          "title": "Build a cast",
+          "body": "Generate eight NPCs, or use the hook tester to play a random runtime line."
+        }
+      ],
+      "thumb": "thumbnails/dgen-livive-net.webp",
+      "updated_at": "2026-10-29T04:00:20Z",
+      "live_ok": true,
+      "live_status": 200,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 77,
+      "live_final_url": "https://dg-pp.livive.net/",
       "live_error": null
     },
     {
@@ -2231,8 +2545,8 @@
       "updated_at": "2026-10-24T16:35:12Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 91,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 178,
       "live_final_url": "https://mo-lab.livive.net/",
       "live_error": null
     },
@@ -2277,8 +2591,8 @@
       "updated_at": "2026-10-22T02:53:36Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 101,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 162,
       "live_final_url": "https://sc.livive.net/",
       "live_error": null
     },
@@ -2458,8 +2772,8 @@
       "updated_at": "2026-11-09T08:07:14Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 207,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 125,
       "live_final_url": "https://tc.livive.net/",
       "live_error": null
     },
@@ -2519,8 +2833,8 @@
       "updated_at": "2026-10-18T13:36:48Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 182,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 127,
       "live_final_url": "https://wasm.livive.net/",
       "live_error": null
     },
@@ -2716,8 +3030,8 @@
       "updated_at": "2026-11-09T08:13:06Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 195,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 148,
       "live_final_url": "https://c3pa.livive.net/",
       "live_error": null
     },
@@ -2791,8 +3105,8 @@
       "updated_at": "2026-10-18T11:29:48Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 168,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 116,
       "live_final_url": "https://ch.livive.net/",
       "live_error": null
     },
@@ -2856,8 +3170,8 @@
       "updated_at": "2026-10-20T09:49:53Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 171,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 248,
       "live_final_url": "https://driver.livive.net/",
       "live_error": null
     },
@@ -2923,8 +3237,8 @@
       "updated_at": "2026-10-18T11:29:50Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 183,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 123,
       "live_final_url": "https://ea.livive.net/",
       "live_error": null
     },
@@ -2983,8 +3297,8 @@
       "updated_at": "2026-10-18T11:30:03Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 187,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 119,
       "live_final_url": "https://fountain.livive.net/",
       "live_error": null
     },
@@ -3060,8 +3374,8 @@
       "updated_at": "2026-10-20T17:46:43Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 90,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 226,
       "live_final_url": "https://oblique.livive.net/",
       "live_error": null
     },
@@ -3121,8 +3435,8 @@
       "updated_at": "2026-10-18T11:29:53Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 192,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 128,
       "live_final_url": "https://motion.livive.net/",
       "live_error": null
     },
@@ -3186,8 +3500,8 @@
       "updated_at": "2026-11-09T08:13:01Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 177,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 193,
       "live_final_url": "https://vid.livive.net/",
       "live_error": null
     },
@@ -3261,8 +3575,8 @@
       "updated_at": "2026-10-18T11:31:56Z",
       "live_ok": true,
       "live_status": 200,
-      "live_checked_at": "2026-11-09T09:23:48Z",
-      "live_latency_ms": 188,
+      "live_checked_at": "2026-11-09T09:54:48Z",
+      "live_latency_ms": 126,
       "live_final_url": "https://tech.livive.net/",
       "live_error": null
     }
@@ -3324,8 +3638,8 @@
           "updated_at": "2026-10-18T11:17:40Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 259,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 172,
           "live_final_url": "https://aom.livive.net/",
           "live_error": null
         },
@@ -3389,8 +3703,8 @@
           "updated_at": "2026-10-18T11:17:41Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 362,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 258,
           "live_final_url": "https://chk.livive.net/",
           "live_error": null
         },
@@ -3449,8 +3763,8 @@
           "updated_at": "2026-11-02T06:55:09Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 141,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 268,
           "live_final_url": "https://chs.livive.net/",
           "live_error": null
         },
@@ -3511,8 +3825,8 @@
           "updated_at": "2026-10-18T11:17:43Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 262,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 150,
           "live_final_url": "https://euchre.livive.net/",
           "live_error": null
         },
@@ -3570,8 +3884,8 @@
           "updated_at": "2026-10-18T11:17:44Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 177,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 151,
           "live_final_url": "https://gp.livive.net/",
           "live_error": null
         },
@@ -3628,7 +3942,7 @@
           "updated_at": "2026-10-27T08:05:16Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
+          "live_checked_at": "2026-11-09T09:54:48Z",
           "live_latency_ms": 169,
           "live_final_url": "https://gm.livive.net/",
           "live_error": null
@@ -3701,8 +4015,8 @@
           "updated_at": "2026-10-18T11:17:46Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 227,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 196,
           "live_final_url": "https://lk.livive.net/",
           "live_error": null
         },
@@ -3766,8 +4080,8 @@
           "updated_at": "2026-10-18T11:17:47Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 252,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 174,
           "live_final_url": "https://lunar.livive.net/",
           "live_error": null
         },
@@ -3828,8 +4142,8 @@
           "updated_at": "2026-10-18T11:17:48Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 178,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 191,
           "live_final_url": "https://mines.livive.net/",
           "live_error": null
         },
@@ -3890,8 +4204,8 @@
           "updated_at": "2026-10-18T11:17:50Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 186,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 208,
           "live_final_url": "https://p2p-ttt.livive.net/",
           "live_error": null
         },
@@ -3951,8 +4265,8 @@
           "updated_at": "2026-11-03T02:39:35Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 89,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 184,
           "live_final_url": "https://pp.livive.net/",
           "live_error": null
         },
@@ -4015,8 +4329,8 @@
           "updated_at": "2026-10-18T11:17:51Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 173,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 153,
           "live_final_url": "https://t-sweep.livive.net/",
           "live_error": null
         },
@@ -4072,8 +4386,8 @@
           "updated_at": "2026-10-18T11:17:53Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 200,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 166,
           "live_final_url": "https://v-ttt.livive.net/",
           "live_error": null
         }
@@ -4136,8 +4450,8 @@
           "updated_at": "2026-10-25T04:25:01Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 97,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 164,
           "live_final_url": "https://cc.livive.net/",
           "live_error": null
         },
@@ -4198,9 +4512,71 @@
           "updated_at": "2026-10-29T02:48:52Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 170,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 526,
           "live_final_url": "https://rag.livive.net/",
+          "live_error": null
+        },
+        {
+          "key": "rasp-livive-net",
+          "repo": "rasp-livive-net",
+          "display_title": "RASP — Rust Audio Shift Processor",
+          "tagline": "Turn one seed into one stable browser voice: a base Kokoro voice plus independent pitch, formant, and tilt shaping, with a Robotize stage for game avatars.",
+          "short_description": "A Rust-to-WASM voice transformer running in an AudioWorklet: Opus decode, formant-preserving phase-vocoder shifting, A/B playback, and seed-stable NPC voice generation.",
+          "long_description": "RASP is a static, client-side voice transformer for game dialogue. It decodes Opus-in-WebM corpus clips in Rust/WASM, runs a formant-preserving phase-vocoder inside an AudioWorklet, and exposes independent pitch, formant, and tilt controls plus a headroom axis. A seed deterministically selects one of 54 Kokoro voices and a stable variant, so the same seed always produces the same NPC voice. Natural mode covers age/gender-style shifts; Robot mode adds a post-shift vocoder/ring-mod/comb chain for robot avatars. The demo includes A/B playback against the original, language/gender/voice/line filters, and a cast generator; everything is static GitHub Pages with no server or neural model at runtime.",
+          "tags": [
+            "audio",
+            "audioworklet",
+            "dsp",
+            "kokoro",
+            "rust",
+            "voice",
+            "wasm"
+          ],
+          "tech": [
+            "Rust",
+            "WebAssembly",
+            "AudioWorklet",
+            "Web Audio API",
+            "JavaScript",
+            "HTML5",
+            "CSS3"
+          ],
+          "category": "AI/ML Experiments",
+          "live_url": "https://rasp.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/rasp-livive-net",
+          "has_live_demo": true,
+          "featured": true,
+          "status": "active",
+          "confidence": "high",
+          "notes": "CNAME rasp.livive.net (HTTP 200); MIT. Rust workspace covers DSP, Opus decode, CLI, and WASM; the live demo boots a static AudioWorklet engine with no server-side processing. Corpus audio covers 54 voices and 26 game lines; the UI is English-only.",
+          "demos": [
+            {
+              "label": "Shape a Voice",
+              "url": "https://rasp.livive.net/"
+            }
+          ],
+          "how_to_play": [
+            {
+              "title": "Pick a voice and line",
+              "body": "Filter the 54-voice corpus by language or gender, then choose one of the 26 game lines to A/B."
+            },
+            {
+              "title": "Shape the voice",
+              "body": "Adjust Pitch, Formant, Tilt, and Headroom independently; compare against the original at any point."
+            },
+            {
+              "title": "Seed and build a cast",
+              "body": "Use a seed for a stable base voice and variant, then generate a cast. Robot mode adds the avatar processing chain on top."
+            }
+          ],
+          "thumb": "thumbnails/rasp-livive-net.webp",
+          "updated_at": "2026-10-29T00:45:03Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 79,
+          "live_final_url": "https://rasp.livive.net/",
           "live_error": null
         },
         {
@@ -4257,8 +4633,8 @@
           "updated_at": "2026-10-18T11:24:51Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 265,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 137,
           "live_final_url": "https://seekdepth.net/",
           "live_error": null
         },
@@ -4323,8 +4699,8 @@
           "updated_at": "2026-10-20T21:54:51Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 276,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 125,
           "live_final_url": "https://trot.livive.net/",
           "live_error": null
         },
@@ -4387,8 +4763,8 @@
           "updated_at": "2026-10-24T07:12:08Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 224,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 145,
           "live_final_url": "https://mines-sm.livive.net/",
           "live_error": null
         },
@@ -4429,8 +4805,8 @@
           "updated_at": "2026-10-18T11:25:01Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 195,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 127,
           "live_final_url": "https://seekdepth.org/",
           "live_error": null
         },
@@ -4663,8 +5039,8 @@
           "updated_at": "2026-10-23T07:01:46Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 90,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 405,
           "live_final_url": "https://ckpe.livive.net/",
           "live_error": null
         },
@@ -4731,8 +5107,8 @@
           "updated_at": "2026-10-20T21:54:53Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 175,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 125,
           "live_final_url": "https://fourcast.livive.net/",
           "live_error": null
         },
@@ -4799,9 +5175,75 @@
           "updated_at": "2026-10-20T21:54:55Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 181,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 125,
           "live_final_url": "https://ocr.livive.net/",
+          "live_error": null
+        },
+        {
+          "key": "rigd-livive-net",
+          "repo": "rigd-livive-net",
+          "display_title": "RIGD — Articulated Rig & CKPE Testbed",
+          "tagline": "A zero-dependency browser rig for inspecting the CKPE skeleton in 2.5D and four 3D views, with joint limits, sequences, and ASL keyframe overlays.",
+          "short_description": "An articulated upper-body rig and Level 1 kinematic testbed: 2.5D projection, 3D front/side/top/isometric cameras, forward kinematics, sequence playback, and ASL gesture review.",
+          "long_description": "RIGD is the visible skeletal testbed for the Constrained Kinematic Pose Estimator. The landing hub links a hand-projected 2.5D front view and a 3D spatial rig that renders the same skeleton from front, side, top, and isometric cameras. A single rig-spec JSON defines body proportions in head units, joint limits, defaults, and bilateral symmetry; a separate sequences file drives sine/tween/pulse/keyframe animation tracks. The sidebars expose per-joint controls, Auto Explore, symmetry/anti-symmetry alignment, reset easing, shadows, and sequence scrubbing, while the Level 1 ASL review adds photo keyframe underlays, sign presets, and a reward badge. Everything is static ES modules and Canvas 2D with no runtime frameworks; the repo also contains the Python/ASL-LEX training and trajectory-solving scripts.",
+          "tags": [
+            "3d",
+            "asl",
+            "canvas",
+            "ckpe",
+            "kinematics",
+            "rigging",
+            "vanilla-js"
+          ],
+          "tech": [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "ES Modules",
+            "Canvas 2D",
+            "JSON",
+            "Python"
+          ],
+          "category": "Computer Vision",
+          "live_url": "https://rigd.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/rigd-livive-net",
+          "has_live_demo": true,
+          "featured": true,
+          "status": "prototype",
+          "confidence": "high",
+          "notes": "Link-only listing: no submodule/gitlink/clone because the repo is about 1.5 GB; monitor uses the GitHub API for recency. CNAME rigd.livive.net (HTTP 200). No license file detected. Root is a landing hub; the visual canvas lives at https://rigd.livive.net/3d/ (also 200).",
+          "demos": [
+            {
+              "label": "Open Rig",
+              "url": "https://rigd.livive.net/"
+            },
+            {
+              "label": "3D Rig & ASL Gestures",
+              "url": "https://rigd.livive.net/3d/"
+            }
+          ],
+          "how_to_play": [
+            {
+              "title": "Choose a view",
+              "body": "Open the 2.5D projected rig or the 3D spatial rig; the 3D page shows front, side, top, and isometric cameras at once."
+            },
+            {
+              "title": "Inspect joints",
+              "body": "Select a joint and adjust its pose or limits; use Auto Explore, symmetry, shadows, and labels to inspect the skeleton."
+            },
+            {
+              "title": "Play sequences",
+              "body": "Pick a preset or ASL sign, scrub frames, and review the keyframe overlay and reward badge."
+            }
+          ],
+          "thumb": "thumbnails/rigd-livive-net.webp",
+          "updated_at": "2026-10-25T11:28:37Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 78,
+          "live_final_url": "https://rigd.livive.net/",
           "live_error": null
         }
       ]
@@ -4869,8 +5311,8 @@
           "updated_at": "2026-10-21T05:24:03Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 200,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 118,
           "live_final_url": "https://chtbx.livive.net/",
           "live_error": null
         },
@@ -4931,8 +5373,8 @@
           "updated_at": "2026-10-18T11:37:21Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 186,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 130,
           "live_final_url": "https://hebrew.livive.net/",
           "live_error": null
         },
@@ -4995,8 +5437,8 @@
           "updated_at": "2026-11-09T08:07:14Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 166,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 135,
           "live_final_url": "https://hindi.livive.net/",
           "live_error": null
         },
@@ -5052,11 +5494,11 @@
             }
           ],
           "thumb": "thumbnails/kor-livive-net.webp",
-          "updated_at": "2026-11-09T09:13:49Z",
+          "updated_at": "2026-11-09T09:37:11Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 255,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 161,
           "live_final_url": "https://kor.livive.net/",
           "live_error": null
         },
@@ -5116,8 +5558,8 @@
           "updated_at": "2026-10-20T01:50:11Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 170,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 120,
           "live_final_url": "https://nexttext.livive.net/",
           "live_error": null
         },
@@ -5182,9 +5624,70 @@
           "updated_at": "2026-10-20T21:54:59Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 180,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 142,
           "live_final_url": "https://yds.livive.net/",
+          "live_error": null
+        },
+        {
+          "key": "lexd-livive-net",
+          "repo": [
+            "lexd-livive-net",
+            "lexd-sl-src"
+          ],
+          "display_title": "LEXD — Sign Language Provenance Engine",
+          "tagline": "A federated, cryptographically audited reservoir of sign-language keyframes and kinematic tensors for CKPE.",
+          "short_description": "Two reproducible Colab pipelines turn upstream sign-language video into SHA-256-verified 480x480 master stills, 240x240 dyadic tensors, and an audited SQLite witness.",
+          "long_description": "LEXD is the published distribution layer for verified sign-language keyframes and kinematic training tensors behind CKPE. The primary repository defines a four-coordinate namespace (language / corpus / signer / lemma), a two-tier artifact standard - 480x480 WebP master slices and exact 2x2-decimated 240x240 training tensors - and an ACID-compliant SQLite witness that links each lemma to its upstream video hash, Frame 0 crop box, timing bounds, and per-frame signatures. The companion source notebook is the observable ingestion instrument: it records upstream bytes and SHA-256 hashes, locks the coronal centerline once at resting neutral, takes lossless integer pixel slices, and performs strictly dyadic downsampling. The two live pages are documentation/artifact surfaces rather than an interactive app; the work is the auditable pipeline.",
+          "tags": [
+            "artifact-store",
+            "asl-lex",
+            "ckpe",
+            "colab",
+            "provenance",
+            "reproducibility",
+            "sign-language",
+            "sqlite",
+            "training-data"
+          ],
+          "tech": [
+            "Python",
+            "Jupyter Notebook",
+            "Colab",
+            "SQLite",
+            "SHA-256",
+            "GitHub Pages",
+            "ffmpeg"
+          ],
+          "category": "Language Tools",
+          "live_url": "https://lexd.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/lexd-livive-net",
+          "has_live_demo": true,
+          "featured": false,
+          "status": "prototype",
+          "confidence": "high",
+          "notes": "Umbrella listing for lexd-livive-net + lexd-sl-src (MERGES). Both live pages are README-generated static pages and return HTTP 200: https://lexd.livive.net/ and https://lexd-sl-src.livive.net/. Secondary repo: https://github.com/jpeckenpaugh/lexd-sl-src. MIT. No submodule for the notebook; it is source/provenance only. | lexd-sl-src: Secondary/source entry for lexd-livive-net; archived under _excluded and loaded only via MERGES. Live page is README-generated (HTTP 200). MIT. No submodule.",
+          "demos": [
+            {
+              "label": "Provenance Engine",
+              "url": "https://lexd.livive.net/"
+            },
+            {
+              "label": "Source Notebook",
+              "url": "https://lexd-sl-src.livive.net/"
+            }
+          ],
+          "repos": [
+            "lexd-livive-net",
+            "lexd-sl-src"
+          ],
+          "thumb": "thumbnails/lexd-livive-net.webp",
+          "updated_at": "2026-10-25T02:25:26Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 74,
+          "live_final_url": "https://lexd.livive.net/",
           "live_error": null
         },
         {
@@ -5343,8 +5846,8 @@
           "updated_at": "2026-10-18T11:34:31Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 269,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 136,
           "live_final_url": "https://snow-cuad.livive.net/",
           "live_error": null
         },
@@ -5393,8 +5896,8 @@
           "updated_at": "2026-10-20T09:45:55Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 182,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 148,
           "live_final_url": "https://compliance.livive.net/",
           "live_error": null
         },
@@ -5459,9 +5962,134 @@
           "updated_at": "2026-10-23T13:15:10Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 237,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 234,
           "live_final_url": "https://sprites.livive.net/",
+          "live_error": null
+        },
+        {
+          "key": "wasm-fb-livive-net",
+          "repo": "wasm-fb-livive-net",
+          "display_title": "Test Appliance Orchestration Console",
+          "tagline": "A WebAssembly hypervisor and deterministic framebuffer console: boot multiple guests, compare builds side-by-side, and drive chess, checkers, and mines through one host.",
+          "short_description": "A C/Rust/Wasm appliance shell where every guest paints an RGBA8888 framebuffer; the host manages multi-VM orchestration, A/B build provenance, match brokering, AutoPilot, and trajectory replay.",
+          "long_description": "Test Appliance Orchestration Console is the host/guest boundary made visible. Each WebAssembly guest owns an RGBA8888 framebuffer in linear memory and knows nothing about the DOM; the HTML/JS host forwards pointer and keyboard input, instantiates multiple VMs, and blits raw bytes into canvas viewports. The v3.1 console adds an immutable build registry, side-by-side split view and A/B build comparison, peer-to-peer/entangled hypervisor experiments, 2P chess/checkers/mines match brokering, an AutoPilot mission runner, and a trajectory recorder that turns sessions into reusable JSON flight plans. The frozen v2 baseline ships a roughly 210 KiB no_std Rust window manager with a software rasterizer, fonts, themes, and test patterns. It is a systems/orchestration project, not a browser app framework.",
+          "tags": [
+            "appliance",
+            "emscripten",
+            "framebuffer",
+            "hypervisor",
+            "orchestration",
+            "wasm",
+            "webassembly"
+          ],
+          "tech": [
+            "C",
+            "Rust",
+            "WebAssembly",
+            "Emscripten",
+            "JavaScript",
+            "HTML5 Canvas",
+            "Docker"
+          ],
+          "category": "Dev Tools",
+          "live_url": "https://wasm-fb.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/wasm-fb-livive-net",
+          "has_live_demo": true,
+          "featured": true,
+          "status": "active",
+          "confidence": "high",
+          "notes": "Served at https://wasm-fb.livive.net/ via the repo Pages workflow (HTTP 200); there is no CNAME file in the repo, so the custom domain is configured in GitHub Pages settings. MIT. The v3 console and frozen v2 baseline share the host; headless capture/QA may be heavy because multiple Wasm VMs and canvases initialize.",
+          "demos": [
+            {
+              "label": "Open Orchestrator",
+              "url": "https://wasm-fb.livive.net/"
+            }
+          ],
+          "how_to_play": [
+            {
+              "title": "Deploy a guest",
+              "body": "Choose a build (v3.1, v2 mines, or v1 baseline) and a resolution target, then click Deploy VM."
+            },
+            {
+              "title": "Compare or play",
+              "body": "Use split view and A/B builds to compare guests, or launch 2P chess, checkers, or mines and share the seats."
+            },
+            {
+              "title": "Automate",
+              "body": "Run an AutoPilot mission, record a trajectory into a reusable JSON flight plan, or inspect hypervisor telemetry."
+            }
+          ],
+          "thumb": "thumbnails/wasm-fb-livive-net.webp",
+          "updated_at": "2026-11-04T06:32:05Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 74,
+          "live_final_url": "https://wasm-fb.livive.net/",
+          "live_error": null
+        },
+        {
+          "key": "dgen-livive-net",
+          "repo": "dgen-livive-net",
+          "display_title": "dgen — Kokoro Voice-Line Baker",
+          "tagline": "Bake every phrase times voice into web-ready Opus clips and a JSON registry, then audition the whole cast in a static voice test bench.",
+          "short_description": "A reproducible Docker/GitHub Actions pipeline that renders 54 Kokoro voices across 26 multilingual phrases into 1,404 normalized .weba clips plus a registry and filterable test page.",
+          "long_description": "dgen is the audio bake behind the voice corpus. A pinned Docker image runs Kokoro TTS over 26 authored phrases translated into Spanish, Brazilian Portuguese, Hindi, French, Italian, Japanese, and Mandarin, across 54 voices. The pipeline normalizes and trims audio, encodes 32 kbps mono Opus in WebM containers with a .weba extension so GitHub Pages serves the right MIME type, and generates a JSON registry with language, gender, locale, grade, and training-data metadata. Parallel shard builds and an incremental clip cache keep the 1,404-clip bake practical in GitHub Actions; dist/ is a build artifact, not committed. The published test bench filters the registry, plays originals and seeded variants, and includes NPC-cast and hook-testing views.",
+          "tags": [
+            "audio",
+            "docker",
+            "github-actions",
+            "kokoro",
+            "opus",
+            "tts",
+            "voice"
+          ],
+          "tech": [
+            "Python",
+            "Kokoro TTS",
+            "Docker",
+            "GitHub Actions",
+            "ffmpeg",
+            "Opus/WebM",
+            "HTML5",
+            "JavaScript"
+          ],
+          "category": "Dev Tools",
+          "live_url": "https://dg-pp.livive.net/",
+          "repo_url": "https://github.com/jpeckenpaugh/dgen-livive-net",
+          "has_live_demo": true,
+          "featured": false,
+          "status": "active",
+          "confidence": "high",
+          "notes": "CNAME dg-pp.livive.net (HTTP 200); MIT. 54 voices x 26 phrases = 1,404 clips; dist/ is generated and not committed. The Docker image carries PyTorch and G2P dictionaries but not the Kokoro model; the first build needs network access for model/voice prefetch.",
+          "demos": [
+            {
+              "label": "Open Voice Bench",
+              "url": "https://dg-pp.livive.net/"
+            }
+          ],
+          "how_to_play": [
+            {
+              "title": "Filter the registry",
+              "body": "Narrow the 54 voices by language, gender, locale/region, or source grade."
+            },
+            {
+              "title": "Audition a voice",
+              "body": "Play a phrase, or use one seed to generate a base voice plus pitch/formant/tilt variant and A/B it against the original."
+            },
+            {
+              "title": "Build a cast",
+              "body": "Generate eight NPCs, or use the hook tester to play a random runtime line."
+            }
+          ],
+          "thumb": "thumbnails/dgen-livive-net.webp",
+          "updated_at": "2026-10-29T04:00:20Z",
+          "live_ok": true,
+          "live_status": 200,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 77,
+          "live_final_url": "https://dg-pp.livive.net/",
           "live_error": null
         },
         {
@@ -5509,8 +6137,8 @@
           "updated_at": "2026-10-24T16:35:12Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 91,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 178,
           "live_final_url": "https://mo-lab.livive.net/",
           "live_error": null
         },
@@ -5555,8 +6183,8 @@
           "updated_at": "2026-10-22T02:53:36Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 101,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 162,
           "live_final_url": "https://sc.livive.net/",
           "live_error": null
         },
@@ -5741,8 +6369,8 @@
           "updated_at": "2026-11-09T08:07:14Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 207,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 125,
           "live_final_url": "https://tc.livive.net/",
           "live_error": null
         },
@@ -5802,8 +6430,8 @@
           "updated_at": "2026-10-18T13:36:48Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 182,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 127,
           "live_final_url": "https://wasm.livive.net/",
           "live_error": null
         },
@@ -6004,8 +6632,8 @@
           "updated_at": "2026-11-09T08:13:06Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 195,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 148,
           "live_final_url": "https://c3pa.livive.net/",
           "live_error": null
         },
@@ -6079,8 +6707,8 @@
           "updated_at": "2026-10-18T11:29:48Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 168,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 116,
           "live_final_url": "https://ch.livive.net/",
           "live_error": null
         },
@@ -6144,8 +6772,8 @@
           "updated_at": "2026-10-20T09:49:53Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 171,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 248,
           "live_final_url": "https://driver.livive.net/",
           "live_error": null
         },
@@ -6211,8 +6839,8 @@
           "updated_at": "2026-10-18T11:29:50Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 183,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 123,
           "live_final_url": "https://ea.livive.net/",
           "live_error": null
         },
@@ -6271,8 +6899,8 @@
           "updated_at": "2026-10-18T11:30:03Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 187,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 119,
           "live_final_url": "https://fountain.livive.net/",
           "live_error": null
         },
@@ -6348,8 +6976,8 @@
           "updated_at": "2026-10-20T17:46:43Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 90,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 226,
           "live_final_url": "https://oblique.livive.net/",
           "live_error": null
         },
@@ -6409,8 +7037,8 @@
           "updated_at": "2026-10-18T11:29:53Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 192,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 128,
           "live_final_url": "https://motion.livive.net/",
           "live_error": null
         },
@@ -6474,8 +7102,8 @@
           "updated_at": "2026-11-09T08:13:01Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 177,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 193,
           "live_final_url": "https://vid.livive.net/",
           "live_error": null
         },
@@ -6549,8 +7177,8 @@
           "updated_at": "2026-10-18T11:31:56Z",
           "live_ok": true,
           "live_status": 200,
-          "live_checked_at": "2026-11-09T09:23:48Z",
-          "live_latency_ms": 188,
+          "live_checked_at": "2026-11-09T09:54:48Z",
+          "live_latency_ms": 126,
           "live_final_url": "https://tech.livive.net/",
           "live_error": null
         }
@@ -6558,10 +7186,10 @@
     }
   ],
   "health": {
-    "checked_at": "2026-11-09T09:23:48Z",
+    "checked_at": "2026-11-09T09:54:48Z",
     "status": "ok",
-    "live_total": 44,
-    "live_ok": 44,
+    "live_total": 49,
+    "live_ok": 49,
     "live_down": 0,
     "down_keys": []
   }
