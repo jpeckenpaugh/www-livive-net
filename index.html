@@ -2607,7 +2607,7 @@
     </div>
 
     <!-- Mobile Collapsible Accordion Drawer -->
-    <div class="nav-accordion" id="nav-accordion" aria-hidden="true">
+    <div class="nav-accordion" id="nav-accordion" inert>
       <div class="nav-accordion-inner">
         <!-- Search bar inside Accordion -->
         <div class="nav-accordion-search">
@@ -3746,7 +3746,7 @@
           </div>
           <div class="carousel-viewport">
             <button class="carousel-nav prev" type="button" aria-label="Scroll Left">&#10094;</button>
-            <div class="carousel-track"></div>
+            <div class="carousel-track" tabindex="0"></div>
             <button class="carousel-nav next" type="button" aria-label="Scroll Right">&#10095;</button>
           </div>
         `;
@@ -3899,7 +3899,7 @@
         navAccordion.classList.add("is-open");
         navToggleBtn.classList.add("is-active");
         navToggleBtn.setAttribute("aria-expanded", "true");
-        navAccordion.setAttribute("aria-hidden", "false");
+        navAccordion.removeAttribute("inert");
         if (iconHamburger) iconHamburger.style.display = "none";
         if (iconClose) iconClose.style.display = "block";
         if (accordionSearchInput && mainSearchInput) {
@@ -3909,7 +3909,7 @@
         navAccordion.classList.remove("is-open");
         navToggleBtn.classList.remove("is-active");
         navToggleBtn.setAttribute("aria-expanded", "false");
-        navAccordion.setAttribute("aria-hidden", "true");
+        navAccordion.setAttribute("inert", "");
         if (iconHamburger) iconHamburger.style.display = "block";
         if (iconClose) iconClose.style.display = "none";
       }
