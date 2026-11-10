@@ -3496,22 +3496,8 @@
       return copy;
     }
 
-    const FEATURED_KEYS = [
-      "game-pending",
-      "lokarta",
-      "rag-poc",
-      "sm3",
-      "vibe-hindi-language-tutor",
-      "nexttext",
-      "snow-cuad",
-      "sprites-livive-net",
-      "tc-livive-org",
-      "fast-ttt",
-      "c3pa-explorer",
-      "driver-hub-prototype",
-      "herons-fountain",
-      "oblique-livive-net"
-    ];
+    // Derived from the catalog featured flag so entries remain the source of truth.
+    const FEATURED_KEYS = projects.filter(p => p.featured).map(p => p.key);
 
     let sessionFeatured = null;
     function getFeaturedRailItems(forceReshuffle = false) {
@@ -3684,7 +3670,7 @@
         {
           title: "Featured",
           category: "Featured Showcase",
-          sub: "14 visual showcases across all categories · shuffled",
+          sub: FEATURED_KEYS.length + " recent listings · shuffled",
           items: getFeaturedRailItems()
         }
       ];
