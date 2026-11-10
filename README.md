@@ -11,7 +11,7 @@ Public GitHub Pages artifact for **https://www.livive.net/**.
 | Path | Source |
 | --- | --- |
 | `index.html` | `build_site.mjs` (interactive catalogue template) |
-| `projects.json`, `previews.json` | backend catalogs (patched for publication) |
+| `projects.json`, `previews.json` | backend catalogs (generated for publication) |
 | `p/` | `_bootstrap/render.mjs` static project pages |
 | `sitemap.xml`, `robots.txt` | `_bootstrap/render.mjs` |
 | `404.html`, `status.html`, `status.json` | backend static assets + `monitor.py` output |
@@ -37,7 +37,9 @@ git -C www-livive-net commit -m "chore(publish): rebuild site"
 git -C www-livive-net push origin main
 ```
 
-CI can do the same via the `publish-www` workflow once `WWW_DEPLOY_TOKEN` is set.
+CI publishing is optional and not currently configured (manual publish is the
+chosen path). If enabled, the `publish-www` workflow does the same once
+`WWW_DEPLOY_TOKEN` is set.
 
 ## Rollback
 
